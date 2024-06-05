@@ -1,0 +1,447 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "ml": "http://mlcommons.org/schema/",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "MObyGaze",
+  "creator":"review-redacted",
+  "dateCreated":"1 May 2024",
+  "datePublished":"7 June 2024",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "description": "The MObyGaze dataset concerns the identification of multimodal objectification in films: speech, cinematography, and narrative elements. The dataset encompasses 20 films selected from the MovieGraphs dataset, maintaining the genre proportions from MovieGraphs. Each of the selected films was annotated by two expert annotators trained in gender media studies following a 3-step procedure of (1) delimiting scenes of interest, (2) attributing level of objectifcation (easy negative, hard negative, not sure, sure), and (3) indicating concepts of objectification from a thesaurus as well as optional qualitative textual observations. These annotations are then rigorously synchronized with the annotations of the original MovieGraphs dataset and character subtitles.",
+  "keywords": "film, objectification, ....[update]",
+  "licence": "CC-BY [update]",
+  "publisher": "review-redacted",
+  "version": "1.0",
+  "url": "[update]",
+  "distribution": [
+    {
+      "@type": "cr:FileSet",
+      "@id": "annotations-20-csv",
+      "name": "csv-files",
+      "containedIn": "https://[update]/csv",
+      "encodingFormat": "text/csv",
+      "includes": "annotations_20_movies_*.csv"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "annotations-json",
+      "name": "raw-json-annotation",
+      "containedIn": "https://[update]/raw-json",
+      "encodingFormat": "text/json",
+      "includes": "*_annotation.json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "sequences-json",
+      "name": "raw-json-sequence",
+      "containedIn": "https://[update]/raw-json",
+      "encodingFormat": "text/json",
+      "includes": "*_sequence.json"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "srts",
+      "name": "srts",
+      "containedIn": "https://[update]/srts",
+      "encodingFormat": "text/txt",
+      "includes": "*.srt"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "MObyGaze-sql-db",
+      "name": "MObyGaze-sql-db",
+      "contentUrl": "https://[update]/MObyGaze_DB.sql",
+      "encodingFormat": "application/sql",
+      "sha256": "[update]"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "objectification-thesaurus",
+      "name": "objectification-thesaurus",
+      "contentUrl": "https://[update]/objectification-thesaurus.json",
+      "encodingFormat": "text/json",
+      "sha256": "[update]"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "movies",
+      "name": "movies",
+      "key": "movie_id",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "movies/movie_id",
+          "name": "movie_id",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "movies-table"
+            },
+            "extract": {
+              "column": "movieId"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "movies/title",
+          "name": "title",
+          "description": "The title of the  movie with the release year in parentheses.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "movies-table"
+            },
+            "extract": {
+              "column": "title"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "movies/genre",
+          "name": "genre",
+          "description": "A sequence of genres to which the rated movie belongs.",
+          "dataType": "sc:Text",
+          "repeated": true,
+          "source": {
+            "fileObject": {
+              "@id": "movies-table"
+            },
+            "extract": {
+              "column": "genres"
+            },
+            "transform": {
+              "separator": "|"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "ratings",
+      "name": "ratings",
+      "key": [
+        "user_id",
+        "movie_id"
+      ],
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "ratings/user_id",
+          "name": "user_id",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "ratings-table"
+            },
+            "extract": {
+              "column": "userId"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ratings/movie_id",
+          "name": "movie_id",
+          "dataType": "sc:Integer",
+          "references": {
+            "field": {
+              "@id": "movies/movie_id"
+            }
+          },
+          "source": {
+            "fileObject": {
+              "@id": "ratings-table"
+            },
+            "extract": {
+              "column": "movieId"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ratings/rating",
+          "name": "rating",
+          "description": "The score of the rating on a five-star scale.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "ratings-table"
+            },
+            "extract": {
+              "column": "rating"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "ratings/timestamp",
+          "name": "timestamp",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "ratings-table"
+            },
+            "extract": {
+              "column": "timestamp"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "tags",
+      "name": "tags",
+      "key": [
+        "user_id",
+        "movie_id",
+        "timestamp"
+      ],
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "tags/user_id",
+          "name": "user_id",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "tags-table"
+            },
+            "extract": {
+              "column": "userId"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tags/movie_id",
+          "name": "movie_id",
+          "dataType": "sc:Integer",
+          "references": {
+            "field": {
+              "@id": "movies/movie_id"
+            }
+          },
+          "source": {
+            "fileObject": {
+              "@id": "tags-table"
+            },
+            "extract": {
+              "column": "movieId"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tags/tag",
+          "name": "tag",
+          "description": "Tags assigned to the movie.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "tags-table"
+            },
+            "extract": {
+              "column": "tag"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "tags/timestamp",
+          "name": "timestamp",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "tags-table"
+            },
+            "extract": {
+              "column": "timestamp"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "movies_with_ratings_with_tags",
+      "name": "movies_with_ratings_with_tags",
+      "key": "movie_id",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "movies_with_ratings_with_tags/movie_id",
+          "name": "movie_id",
+          "source": {
+            "field": {
+              "@id": "movies/movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "movies_with_ratings_with_tags/movie_title",
+          "name": "movie_title",
+          "source": {
+            "field": {
+              "@id": "movies/title"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "movies_with_ratings_with_tags/movie_genres",
+          "name": "movie_genres",
+          "source": {
+            "field": {
+              "@id": "movies/genre"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "movies_with_ratings_with_tags/ratings",
+          "name": "ratings",
+          "dataType": "cr:RecordSet",
+          "parentField": {
+            "references": {
+              "field": {
+                "@id": "movies/movie_id"
+              }
+            },
+            "source": {
+              "field": {
+                "@id": "ratings/movie_id"
+              }
+            }
+          },
+          "subField": [
+            {
+              "@type": "cr:Field",
+              "@id": "movies_with_ratings_with_tags/ratings/user_id",
+              "name": "user_id",
+              "source": {
+                "field": {
+                  "@id": "ratings/user_id"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "movies_with_ratings_with_tags/ratings/rating",
+              "name": "rating",
+              "source": {
+                "field": {
+                  "@id": "ratings/rating"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "movies_with_ratings_with_tags/ratings/timestamp",
+              "name": "timestamp",
+              "source": {
+                "field": {
+                  "@id": "ratings/timestamp"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "movies_with_ratings_with_tags/tags",
+          "name": "tags",
+          "dataType": "cr:RecordSet",
+          "parentField": {
+            "references": {
+              "field": {
+                "@id": "movies/movie_id"
+              }
+            },
+            "source": {
+              "field": {
+                "@id": "tags/movie_id"
+              }
+            }
+          },
+          "subField": [
+            {
+              "@type": "cr:Field",
+              "@id": "movies_with_ratings_with_tags/tags/user_id",
+              "name": "user_id",
+              "source": {
+                "field": {
+                  "@id": "tags/user_id"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "movies_with_ratings_with_tags/tags/tag",
+              "name": "tag",
+              "source": {
+                "field": {
+                  "@id": "tags/tag"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "movies_with_ratings_with_tags/tags/timestamp",
+              "name": "timestamp",
+              "source": {
+                "field": {
+                  "@id": "tags/timestamp"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
