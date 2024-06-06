@@ -27,6 +27,10 @@ To install this project, follow these steps:
 ## Usage
 
 ### Label Diversity 
+0. From the MobyGaze folder go to the LabelDiversity folder:
+```sh
+    cd LabelDiversity
+```
 **TODO : rename disagreement to LabelDiversity**
 Here's a quick example of how to use the project:
 
@@ -43,8 +47,10 @@ Here's a quick example of how to use the project:
 
 
 ### WSL
-
-Here's a quick example of how to use the project:
+0. From the MobyGaze folder go to the WSL folder:
+```sh
+    cd WSL
+```
 
 1. Change the arguments in the `WSL/option.py` file 
 2. Train and Test the model (you can also give the appropriate args here)
