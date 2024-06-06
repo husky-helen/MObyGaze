@@ -53,12 +53,20 @@
   "url": "[update]",
   "distribution": [
     {
-      "@type": "cr:FileSet",
-      "@id": "annotations-20-csv",
-      "name": "csv-files",
-      "containedIn": "https://[update]/csv",
+      "@type": "cr:FileObject",
+      "@id": "mobygaze-csv",
+      "name": "mobygaze-csv",
+      "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/neurips_dataframe.csv",
       "encodingFormat": "text/csv",
-      "includes": "annotations_20_movies_*.csv"
+      "sha256": "[update]"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "MObyGaze-sql-db",
+      "name": "MObyGaze-sql-db",
+      "contentUrl": "https://[update]/MObyGaze_DB.sql",
+      "encodingFormat": "application/sql",
+      "sha256": "[update]"
     },
     {
       "@type": "cr:FileSet",
@@ -77,22 +85,6 @@
       "includes": "*_sequence.json"
     },
     {
-      "@type": "cr:FileSet",
-      "@id": "srts",
-      "name": "srts",
-      "containedIn": "https://[update]/srts",
-      "encodingFormat": "text/txt",
-      "includes": "*.srt"
-    },
-    {
-      "@type": "cr:FileObject",
-      "@id": "MObyGaze-sql-db",
-      "name": "MObyGaze-sql-db",
-      "contentUrl": "https://[update]/MObyGaze_DB.sql",
-      "encodingFormat": "application/sql",
-      "sha256": "[update]"
-    },
-    {
       "@type": "cr:FileObject",
       "@id": "objectification-thesaurus",
       "name": "objectification-thesaurus",
@@ -104,55 +96,96 @@
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "@id": "movies",
-      "name": "movies",
-      "key": "movie_id",
+      "@id": "obj-level",
+      "name": "obj-level",
+      "key": "clip_id",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "movies/movie_id",
-          "name": "movie_id",
+          "@id": "obj-level/clip_id",
+          "name": "clip_id",
           "dataType": "sc:Integer",
           "source": {
             "fileObject": {
-              "@id": "movies-table"
+              "@id": "mobygaze-csv"
             },
             "extract": {
-              "column": "movieId"
+              "column": "clip_id"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "movies/title",
-          "name": "title",
-          "description": "The title of the  movie with the release year in parentheses.",
+          "@id": "obj-level/clip_index",
+          "name": "clip_index",
+          "description": "index of the clip in the movie",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
-              "@id": "movies-table"
+              "@id": "mobygaze-csv"
             },
             "extract": {
-              "column": "title"
+              "column": "clip_index"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "movies/genre",
-          "name": "genre",
-          "description": "A sequence of genres to which the rated movie belongs.",
-          "dataType": "sc:Text",
-          "repeated": true,
+          "@id": "obj-level/movie_id",
+          "name": "movie_id",
+          "description": "id of the movie to which clip belongs",
+          "dataType": "sc:Integer",
           "source": {
             "fileObject": {
-              "@id": "movies-table"
+              "@id": "mobygaze-csv"
             },
             "extract": {
-              "column": "genres"
+              "column": "movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/obj-label",
+          "name": "obj-label",
+          "description": "label of the objectification level of the clip",
+          "dataType": ["sc:Text", "cr:Label"],
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
             },
-            "transform": {
-              "separator": "|"
+            "extract": {
+              "column": "label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/start_frame",
+          "name": "start_frame",
+          "description": "start frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/end_frame",
+          "name": "end_frame",
+          "description": "end frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "end_frame"
             }
           }
         }
@@ -160,146 +193,99 @@
     },
     {
       "@type": "cr:RecordSet",
-      "@id": "ratings",
-      "name": "ratings",
-      "key": [
-        "user_id",
-        "movie_id"
-      ],
+      "@id": "obj-concept",
+      "name": "obj-concept",
+      "key": "clip_id",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "ratings/user_id",
-          "name": "user_id",
+          "@id": "obj-concept/clip_id",
+          "name": "clip_id",
           "dataType": "sc:Integer",
           "source": {
             "fileObject": {
-              "@id": "ratings-table"
+              "@id": "mobygaze-csv"
             },
             "extract": {
-              "column": "userId"
+              "column": "clip_id"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "ratings/movie_id",
-          "name": "movie_id",
-          "dataType": "sc:Integer",
-          "references": {
-            "field": {
-              "@id": "movies/movie_id"
-            }
-          },
-          "source": {
-            "fileObject": {
-              "@id": "ratings-table"
-            },
-            "extract": {
-              "column": "movieId"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "ratings/rating",
-          "name": "rating",
-          "description": "The score of the rating on a five-star scale.",
-          "dataType": "sc:Float",
-          "source": {
-            "fileObject": {
-              "@id": "ratings-table"
-            },
-            "extract": {
-              "column": "rating"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "ratings/timestamp",
-          "name": "timestamp",
-          "dataType": "sc:Integer",
-          "source": {
-            "fileObject": {
-              "@id": "ratings-table"
-            },
-            "extract": {
-              "column": "timestamp"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "@type": "cr:RecordSet",
-      "@id": "tags",
-      "name": "tags",
-      "key": [
-        "user_id",
-        "movie_id",
-        "timestamp"
-      ],
-      "field": [
-        {
-          "@type": "cr:Field",
-          "@id": "tags/user_id",
-          "name": "user_id",
-          "dataType": "sc:Integer",
-          "source": {
-            "fileObject": {
-              "@id": "tags-table"
-            },
-            "extract": {
-              "column": "userId"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "tags/movie_id",
-          "name": "movie_id",
-          "dataType": "sc:Integer",
-          "references": {
-            "field": {
-              "@id": "movies/movie_id"
-            }
-          },
-          "source": {
-            "fileObject": {
-              "@id": "tags-table"
-            },
-            "extract": {
-              "column": "movieId"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "tags/tag",
-          "name": "tag",
-          "description": "Tags assigned to the movie.",
+          "@id": "obj-concept/clip_index",
+          "name": "clip_index",
+          "description": "index of the clip in the movie",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {
-              "@id": "tags-table"
+              "@id": "mobygaze-csv"
             },
             "extract": {
-              "column": "tag"
+              "column": "clip_index"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "tags/timestamp",
-          "name": "timestamp",
+          "@id": "obj-concept/movie_id",
+          "name": "movie_id",
+          "description": "id of the movie to which clip belongs",
           "dataType": "sc:Integer",
           "source": {
             "fileObject": {
-              "@id": "tags-table"
+              "@id": "mobygaze-csv"
             },
             "extract": {
-              "column": "timestamp"
+              "column": "movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-concept/obj-concepts",
+          "name": "obj-concepts",
+          "description": "objectification concepts of the clip",
+          "dataType": ["sc:Text", "cr:Label"],
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "concepts"
+            },
+            "tranform": {
+              "separator": ","
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-concept/start_frame",
+          "name": "start_frame",
+          "description": "start frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-concept/end_frame",
+          "name": "end_frame",
+          "description": "end frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "end_frame"
             }
           }
         }
@@ -307,139 +293,129 @@
     },
     {
       "@type": "cr:RecordSet",
-      "@id": "movies_with_ratings_with_tags",
-      "name": "movies_with_ratings_with_tags",
-      "key": "movie_id",
+      "@id": "obj-speech",
+      "name": "obj-speech",
+      "key": "clip_id",
+      "description":"Recordset with aligned subtitles and label for speech objectification",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "movies_with_ratings_with_tags/movie_id",
+          "@id": "obj-speech/clip_id",
+          "name": "clip_id",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "clip_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-speech/clip_index",
+          "name": "clip_index",
+          "description": "index of the clip in the movie",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "clip_index"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-speech/movie_id",
           "name": "movie_id",
+          "description": "id of the movie to which clip belongs",
+          "dataType": "sc:Integer",
           "source": {
-            "field": {
-              "@id": "movies/movie_id"
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "movie_id"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "movies_with_ratings_with_tags/movie_title",
-          "name": "movie_title",
+          "@id": "obj-speech/speech_label",
+          "name": "speech_label",
+          "description": "whether the clips contain the speech concept",
+          "dataType": "sc:Integer",
           "source": {
-            "field": {
-              "@id": "movies/title"
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "label_speech"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "movies_with_ratings_with_tags/movie_genres",
-          "name": "movie_genres",
+          "@id": "obj-speech/start_frame",
+          "name": "start_frame",
+          "description": "start frame of the clip",
+          "dataType": "sc:Integer",
           "source": {
-            "field": {
-              "@id": "movies/genre"
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "start_frame"
             }
           }
         },
         {
           "@type": "cr:Field",
-          "@id": "movies_with_ratings_with_tags/ratings",
-          "name": "ratings",
-          "dataType": "cr:RecordSet",
-          "parentField": {
-            "references": {
-              "field": {
-                "@id": "movies/movie_id"
-              }
+          "@id": "obj-speech/end_frame",
+          "name": "end_frame",
+          "description": "end frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
             },
-            "source": {
-              "field": {
-                "@id": "ratings/movie_id"
-              }
+            "extract": {
+              "column": "end_frame"
             }
-          },
-          "subField": [
-            {
-              "@type": "cr:Field",
-              "@id": "movies_with_ratings_with_tags/ratings/user_id",
-              "name": "user_id",
-              "source": {
-                "field": {
-                  "@id": "ratings/user_id"
-                }
-              }
-            },
-            {
-              "@type": "cr:Field",
-              "@id": "movies_with_ratings_with_tags/ratings/rating",
-              "name": "rating",
-              "source": {
-                "field": {
-                  "@id": "ratings/rating"
-                }
-              }
-            },
-            {
-              "@type": "cr:Field",
-              "@id": "movies_with_ratings_with_tags/ratings/timestamp",
-              "name": "timestamp",
-              "source": {
-                "field": {
-                  "@id": "ratings/timestamp"
-                }
-              }
-            }
-          ]
+          }
         },
         {
           "@type": "cr:Field",
-          "@id": "movies_with_ratings_with_tags/tags",
-          "name": "tags",
-          "dataType": "cr:RecordSet",
-          "parentField": {
-            "references": {
-              "field": {
-                "@id": "movies/movie_id"
-              }
+          "@id": "obj-speech/end_frame",
+          "name": "end_frame",
+          "description": "end frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
             },
-            "source": {
-              "field": {
-                "@id": "tags/movie_id"
-              }
+            "extract": {
+              "column": "end_frame"
             }
-          },
-          "subField": [
-            {
-              "@type": "cr:Field",
-              "@id": "movies_with_ratings_with_tags/tags/user_id",
-              "name": "user_id",
-              "source": {
-                "field": {
-                  "@id": "tags/user_id"
-                }
-              }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-speech/subtitles",
+          "name": "subtitles",
+          "description": "subtitles in the clip",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
             },
-            {
-              "@type": "cr:Field",
-              "@id": "movies_with_ratings_with_tags/tags/tag",
-              "name": "tag",
-              "source": {
-                "field": {
-                  "@id": "tags/tag"
-                }
-              }
-            },
-            {
-              "@type": "cr:Field",
-              "@id": "movies_with_ratings_with_tags/tags/timestamp",
-              "name": "timestamp",
-              "source": {
-                "field": {
-                  "@id": "tags/timestamp"
-                }
-              }
+            "extract": {
+              "column": "text"
             }
-          ]
+          }
         }
       ]
     }
