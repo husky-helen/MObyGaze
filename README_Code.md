@@ -1,6 +1,6 @@
 # MObyGaze Code
 
-A brief description of what this project does and who it's for.
+Here are the steps to use our code
 
 ## Table of Contents
 
