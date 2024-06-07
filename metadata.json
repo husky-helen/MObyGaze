@@ -56,7 +56,15 @@
       "@type": "cr:FileObject",
       "@id": "mobygaze-csv",
       "name": "mobygaze-csv",
-      "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/neurips_dataframe.csv",
+      "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/mobygaze_dataframe.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "[update]"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "films-csv",
+      "name": "films-csv",
+      "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/mobygaze_movielist.csv",
       "encodingFormat": "text/csv",
       "sha256": "[update]"
     },
@@ -96,13 +104,83 @@
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "@id": "obj-level",
-      "name": "obj-level",
+      "@id": "films-info",
+      "name": "films-info",
+      "key": "imdb_key",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "films-info/imdb_key",
+          "name": "imdb_key",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "films-csv"
+            },
+            "extract": {
+              "column": "imdb_key"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "films-info/movie_title",
+          "name": "movie_title",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "films-csv"
+            },
+            "extract": {
+              "column": "movie_title"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "films-info/genre",
+          "name": "genre",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "films-csv"
+            },
+            "extract": {
+              "column": "genre"
+            },
+            "transform":{
+              "separator":","
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "films-info/year",
+          "name": "year",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "films-csv"
+            },
+            "extract": {
+              "column": "release_date"
+            },
+            "transform":{
+              "separator":","
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "clips",
+      "name": "clips",
       "key": "clip_id",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "obj-level/clip_id",
+          "@id": "clips/clip_id",
           "name": "clip_id",
           "dataType": "sc:Integer",
           "source": {
@@ -116,7 +194,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-level/clip_index",
+          "@id": "clips/clip_index",
           "name": "clip_index",
           "description": "index of the clip in the movie",
           "dataType": "sc:Text",
@@ -131,7 +209,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-level/movie_id",
+          "@id": "clips/movie_id",
           "name": "movie_id",
           "description": "id of the movie to which clip belongs",
           "dataType": "sc:Integer",
@@ -141,6 +219,74 @@
             },
             "extract": {
               "column": "movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "clips/start_frame",
+          "name": "start_frame",
+          "description": "start frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "clips/end_frame",
+          "name": "end_frame",
+          "description": "end frame of the clip",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "end_frame"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "obj-level",
+      "name": "obj-level",
+      "key": "clip_id",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/clip_id",
+          "name": "clip_id",
+          "source": {
+            "field":{
+              "@id":"clips/clip_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/clip_index",
+          "name": "clip_index",
+          "source": {
+            "field":{
+              "@id":"clips/clip_index"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/movie_id",
+          "name": "movie_id",
+          "source": {
+            "field":{
+              "@id":"clips/movie_id"
             }
           }
         },
@@ -163,14 +309,9 @@
           "@type": "cr:Field",
           "@id": "obj-level/start_frame",
           "name": "start_frame",
-          "description": "start frame of the clip",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "start_frame"
+            "field":{
+              "@id":"clips/start_frame"
             }
           }
         },
@@ -178,14 +319,9 @@
           "@type": "cr:Field",
           "@id": "obj-level/end_frame",
           "name": "end_frame",
-          "description": "end frame of the clip",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "end_frame"
+            "field":{
+              "@id":"clips/end_frame"
             }
           }
         }
@@ -201,13 +337,9 @@
           "@type": "cr:Field",
           "@id": "obj-concept/clip_id",
           "name": "clip_id",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "clip_id"
+            "field":{
+              "@id":"clips/clip_id"
             }
           }
         },
@@ -215,14 +347,9 @@
           "@type": "cr:Field",
           "@id": "obj-concept/clip_index",
           "name": "clip_index",
-          "description": "index of the clip in the movie",
-          "dataType": "sc:Text",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "clip_index"
+            "field":{
+              "@id":"clips/clip_index"
             }
           }
         },
@@ -230,14 +357,9 @@
           "@type": "cr:Field",
           "@id": "obj-concept/movie_id",
           "name": "movie_id",
-          "description": "id of the movie to which clip belongs",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "movie_id"
+            "field":{
+              "@id":"clips/movie_id"
             }
           }
         },
@@ -254,7 +376,7 @@
             "extract": {
               "column": "concepts"
             },
-            "tranform": {
+            "transform": {
               "separator": ","
             }
           }
@@ -263,14 +385,9 @@
           "@type": "cr:Field",
           "@id": "obj-concept/start_frame",
           "name": "start_frame",
-          "description": "start frame of the clip",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "start_frame"
+            "field":{
+              "@id":"clips/start_frame"
             }
           }
         },
@@ -278,14 +395,87 @@
           "@type": "cr:Field",
           "@id": "obj-concept/end_frame",
           "name": "end_frame",
-          "description": "end frame of the clip",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "end_frame"
+            "field":{
+              "@id":"clips/end_frame"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "obj-level-with-concept",
+      "name": "obj-level-with-concept",
+      "key": "clip_id",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/clip_id",
+          "name": "clip_id",
+          "source": {
+            "field":{
+              "@id":"clips/clip_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/clip_index",
+          "name": "clip_index",
+          "source": {
+            "field":{
+              "@id":"clips/clip_index"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/movie_id",
+          "name": "movie_id",
+          "source": {
+            "field":{
+              "@id":"clips/movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/obj-concepts",
+          "name": "obj-concepts",
+          "source": {
+            "field":{
+              "@id":"obj-concept/obj-concepts"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/obj-level",
+          "name": "obj-level",
+          "source": {
+            "field":{
+              "@id":"obj-level/obj-label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/start_frame",
+          "name": "start_frame",
+          "source": {
+            "field":{
+              "@id":"clips/start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/end_frame",
+          "name": "end_frame",
+          "source": {
+            "field":{
+              "@id":"clips/end_frame"
             }
           }
         }
@@ -302,13 +492,9 @@
           "@type": "cr:Field",
           "@id": "obj-speech/clip_id",
           "name": "clip_id",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "clip_id"
+            "field":{
+              "@id":"clips/clip_id"
             }
           }
         },
@@ -316,14 +502,9 @@
           "@type": "cr:Field",
           "@id": "obj-speech/clip_index",
           "name": "clip_index",
-          "description": "index of the clip in the movie",
-          "dataType": "sc:Text",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "clip_index"
+            "field":{
+              "@id":"clips/clip_index"
             }
           }
         },
@@ -331,14 +512,9 @@
           "@type": "cr:Field",
           "@id": "obj-speech/movie_id",
           "name": "movie_id",
-          "description": "id of the movie to which clip belongs",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "movie_id"
+            "field":{
+              "@id":"clips/movie_id"
             }
           }
         },
@@ -346,7 +522,7 @@
           "@type": "cr:Field",
           "@id": "obj-speech/speech_label",
           "name": "speech_label",
-          "description": "whether the clips contain the speech concept",
+          "description": "whether the clips contain the speech concept tagged",
           "dataType": "sc:Integer",
           "source": {
             "fileObject": {
@@ -361,14 +537,9 @@
           "@type": "cr:Field",
           "@id": "obj-speech/start_frame",
           "name": "start_frame",
-          "description": "start frame of the clip",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "start_frame"
+            "field":{
+              "@id":"clips/start_frame"
             }
           }
         },
@@ -376,29 +547,9 @@
           "@type": "cr:Field",
           "@id": "obj-speech/end_frame",
           "name": "end_frame",
-          "description": "end frame of the clip",
-          "dataType": "sc:Integer",
           "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "end_frame"
-            }
-          }
-        },
-        {
-          "@type": "cr:Field",
-          "@id": "obj-speech/end_frame",
-          "name": "end_frame",
-          "description": "end frame of the clip",
-          "dataType": "sc:Integer",
-          "source": {
-            "fileObject": {
-              "@id": "mobygaze-csv"
-            },
-            "extract": {
-              "column": "end_frame"
+            "field":{
+              "@id":"clips/end_frame"
             }
           }
         },
@@ -415,6 +566,259 @@
             "extract": {
               "column": "text"
             }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "mobygaze-full",
+      "name": "mobygaze-full",
+      "key": "clip_id",
+      "description":"Recordset with all annotations and subtitles",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/clip_id",
+          "name": "clip_id",
+          "source": {
+            "field":{
+              "@id":"clips/clip_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/clip_index",
+          "name": "clip_index",
+          "source": {
+            "field":{
+              "@id":"clips/clip_index"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/movie_id",
+          "name": "movie_id",
+          "source": {
+            "field":{
+              "@id":"clips/movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/start_frame",
+          "name": "start_frame",
+          "source": {
+            "field":{
+              "@id":"clips/start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/end_frame",
+          "name": "end_frame",
+          "source": {
+            "field":{
+              "@id":"clips/end_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/subtitles",
+          "name": "subtitles",
+          "source": {
+            "field":{
+              "@id":"obj-speech/subtitles"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/obj-concepts",
+          "name": "obj-concepts",
+          "source": {
+            "field":{
+              "@id":"obj-concept/obj-concepts"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/obj-level",
+          "name": "obj-level",
+          "source": {
+            "field":{
+              "@id":"obj-level/obj-label"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "mobygaze-vision",
+      "name": "mobygaze-vision",
+      "key": "clip_id",
+      "description":"Recordset with only the clips that are tagged with a visual concept",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/clip_id",
+          "name": "clip_id",
+          "source": {
+            "field":{
+              "@id":"clips/clip_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/clip_index",
+          "name": "clip_index",
+          "source": {
+            "field":{
+              "@id":"clips/clip_index"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/movie_id",
+          "name": "movie_id",
+          "source": {
+            "field":{
+              "@id":"clips/movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/start_frame",
+          "name": "start_frame",
+          "source": {
+            "field":{
+              "@id":"clips/start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/end_frame",
+          "name": "end_frame",
+          "source": {
+            "field":{
+              "@id":"clips/end_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/obj-concepts",
+          "name": "obj-concepts",
+          "source": {
+            "field":{
+              "@id":"obj-concept/obj-concepts"
+            }
+          },
+          "transform":{
+            "regex":"(Type of shot|Look|Body|Posture|Clothing|Appearance|Expression of emotion|Activity)*"
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/obj-level",
+          "name": "obj-level",
+          "source": {
+            "field":{
+              "@id":"obj-level/obj-label"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "mobygaze-EN",
+      "name": "mobygaze-EN",
+      "key": "clip_id",
+      "description":"Recordset with only the clips that are tagged easy negative, to ease the creation of splits",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/clip_id",
+          "name": "clip_id",
+          "source": {
+            "field":{
+              "@id":"clips/clip_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/clip_index",
+          "name": "clip_index",
+          "source": {
+            "field":{
+              "@id":"clips/clip_index"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/movie_id",
+          "name": "movie_id",
+          "source": {
+            "field":{
+              "@id":"clips/movie_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/start_frame",
+          "name": "start_frame",
+          "source": {
+            "field":{
+              "@id":"clips/start_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/end_frame",
+          "name": "end_frame",
+          "source": {
+            "field":{
+              "@id":"clips/end_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/obj-concepts",
+          "name": "obj-concepts",
+          "source": {
+            "field":{
+              "@id":"obj-concept/obj-concepts"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/obj-level",
+          "name": "obj-level",
+          "source": {
+            "field":{
+              "@id":"obj-level/obj-label"
+            }
+          },
+          "transform":{
+            "regex":"Easy Negative"
           }
         }
       ]
