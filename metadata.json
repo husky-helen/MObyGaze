@@ -235,6 +235,21 @@
               "column": "end_frame"
             }
           }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "clips/annotator",
+          "name": "annotator",
+          "description": "annotator",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "mobygaze-csv"
+            },
+            "extract": {
+              "column": "annotator"
+            }
+          }
         }
       ]
     },
@@ -306,6 +321,16 @@
           "source": {
             "field":{
               "@id":"clips/end_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
             }
           }
         }
@@ -382,6 +407,16 @@
           "source": {
             "field":{
               "@id":"clips/end_frame"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-concept/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
             }
           }
         }
@@ -462,19 +497,29 @@
               "@id":"clips/end_frame"
             }
           }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "obj-level-with-concept/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
+            }
+          }
         }
       ]
     },
     {
       "@type": "cr:RecordSet",
-      "@id": "obj-speech",
-      "name": "obj-speech",
+      "@id": "mobygaze-speech",
+      "name": "mobygaze-speech",
       "key": "clip_id",
       "description":"Recordset with aligned subtitles and label for speech objectification",
       "field": [
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/clip_id",
+          "@id": "mobygaze-speech/clip_id",
           "name": "clip_id",
           "source": {
             "field":{
@@ -484,7 +529,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/clip_index",
+          "@id": "mobygaze-speech/clip_index",
           "name": "clip_index",
           "source": {
             "field":{
@@ -494,7 +539,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/movie_id",
+          "@id": "mobygaze-speech/movie_id",
           "name": "movie_id",
           "source": {
             "field":{
@@ -504,7 +549,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/speech_label",
+          "@id": "mobygaze-speech/speech_label",
           "name": "speech_label",
           "description": "whether the clips contain the speech concept tagged",
           "dataType": "sc:Integer",
@@ -519,7 +564,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/start_frame",
+          "@id": "mobygaze-speech/start_frame",
           "name": "start_frame",
           "source": {
             "field":{
@@ -529,7 +574,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/end_frame",
+          "@id": "mobygaze-speech/end_frame",
           "name": "end_frame",
           "source": {
             "field":{
@@ -539,7 +584,7 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "obj-speech/subtitles",
+          "@id": "mobygaze-speech/subtitles",
           "name": "subtitles",
           "description": "subtitles in the clip",
           "dataType": "sc:Text",
@@ -549,6 +594,16 @@
             },
             "extract": {
               "column": "text"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-speech/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
             }
           }
         }
@@ -640,6 +695,16 @@
               "@id":"obj-level/obj-label"
             }
           }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-full/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
+            }
+          }
         }
       ]
     },
@@ -715,11 +780,21 @@
         },
         {
           "@type": "cr:Field",
-          "@id": "mobygaze-full/obj-level",
+          "@id": "mobygaze-vision/obj-level",
           "name": "obj-level",
           "source": {
             "field":{
               "@id":"obj-level/obj-label"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-vision/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
             }
           }
         }
@@ -789,6 +864,16 @@
           "source": {
             "field":{
               "@id":"obj-concept/obj-concepts"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "mobygaze-EN/annotator",
+          "name": "annotator",
+          "source": {
+            "field":{
+              "@id":"clips/annotator"
             }
           }
         },
