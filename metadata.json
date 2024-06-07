@@ -58,7 +58,7 @@
       "name": "mobygaze-csv",
       "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/mobygaze_dataframe.csv",
       "encodingFormat": "text/csv",
-      "sha256": "[update]"
+      "sha256": "0010af9390e4b8d4c000620dd9aaedd4e260a7fd"
     },
     {
       "@type": "cr:FileObject",
@@ -66,39 +66,23 @@
       "name": "films-csv",
       "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/mobygaze_movielist.csv",
       "encodingFormat": "text/csv",
-      "sha256": "[update]"
+      "sha256": "ebecebd08fcbacec751784cf8b4d3009e069a517"
     },
     {
       "@type": "cr:FileObject",
       "@id": "MObyGaze-sql-db",
       "name": "MObyGaze-sql-db",
-      "contentUrl": "https://[update]/MObyGaze_DB.sql",
+      "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/MObyGaze_DB.sql",
       "encodingFormat": "application/sql",
-      "sha256": "[update]"
-    },
-    {
-      "@type": "cr:FileSet",
-      "@id": "annotations-json",
-      "name": "raw-json-annotation",
-      "containedIn": "https://[update]/raw-json",
-      "encodingFormat": "text/json",
-      "includes": "*_annotation.json"
-    },
-    {
-      "@type": "cr:FileSet",
-      "@id": "sequences-json",
-      "name": "raw-json-sequence",
-      "containedIn": "https://[update]/raw-json",
-      "encodingFormat": "text/json",
-      "includes": "*_sequence.json"
+      "sha256": "278c807a68fd29f6b03917c28d7c4a0badd52207"
     },
     {
       "@type": "cr:FileObject",
       "@id": "objectification-thesaurus",
       "name": "objectification-thesaurus",
-      "contentUrl": "https://[update]/objectification-thesaurus.json",
+      "contentUrl": "https://anonymous.4open.science/r/MObyGaze-F600/dataset/objectification-thesaurus.json",
       "encodingFormat": "text/json",
-      "sha256": "[update]"
+      "sha256": "0ca51df2adfe1d210d66bfd14bbc22cc67ffb0ed"
     }
   ],
   "recordSet": [
