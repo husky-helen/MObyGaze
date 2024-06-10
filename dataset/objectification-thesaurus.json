@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "creator": "Tractive Team"
+        "creator": "[Redacted for review]"
     },
     "dictionaries": [
         {
@@ -13,64 +13,59 @@
                     "group": "Objectification",
                     "values": [
                         {
-                            "name": "Type of plan",
+                            "name": "Type of shot",
                             "type": "boolean",
-                            "tool-tip": "Plans sugg\u00e9rant un point de vue d'homme sur une ou des femmes / Plan mettant en parall\u00e8le une femme et un objet ou un animal / Femme hors champ dans une sc\u00e8ne d'action"
+                            "tool-tip": "Shots suggesting man perspective in presence of woman; Shot showing a woman in parallel with an animal or object; Woman off screen in acion scene"
                         },
                         {
                             "name": "Body",
                             "type": "boolean",
-                            "tool-tip": "nudit\u00e9, parties connot\u00e9es sexuellement"
+                            "tool-tip": "Suggested, partial, full nudity; Body parts suggestive of sex"
                         },
                         {
                             "name": "Voice",
                             "type": "boolean",
-                            "tool-tip": "sensuelle, infantile, ton (plaintif, etc)"
+                            "tool-tip": "Sensual, infantile, weeping, willful, screaming, imploring"
                         },
                         {
                             "name": "Appearance",
                             "type": "boolean",
-                            "tool-tip": "maquillage, beaut\u00e9, maturit\u00e9 physqiue dans situations inappropri\u00e9es"
+                            "tool-tip": "Discreprency between appearance and context; Accessories"
                         },
                         {
                             "name": "Clothes",
                             "type": "boolean",
-                            "tool-tip": "vetements et accessaoires : mouill\u00e9s, impratiques, enfantins, couleurs"
+                            "tool-tip": "Revealing, wet, transparent, infantile or impractical clothing"
                         },
                         {
                             "name": "Posture",
                             "type": "boolean",
-                            "tool-tip": "connotant sexualit\u00e9, soumission/d\u00e9pendance, enfance"
+                            "tool-tip": "Gesture or posture connoting seduction or sexuality; Connoting inaction, submission, dependence; Skipping;"
                         },
                         {
                             "name": "Speech",
                             "type": "boolean",
-                            "tool-tip": "ce qui est dit"
+                            "tool-tip": "Comments on appearance; Judgement on the body; Self-loathing; Sexualization; Stereotyping; Mansplaining, etc."
                         },
                         {
                             "name": "Activities",
                             "type": "boolean",
-                            "tool-tip": "Travail domestique, ..."
+                            "tool-tip": "Domestic activities; Sex-related, submissive actions; Violence"
                         },
                         {
                             "name": "Look",
                             "type": "boolean",
-                            "tool-tip": "regarde dans une position de voyeur / regard cam\u00e9ra par homme ou femme / Une femme regarde un homme alors qu'il l'ignore volontairement (regards perpendiculaires)"
+                            "tool-tip": "Shot suggesting man gaze on woman; Voyerism; Non-reciprocal gaze"
                         },
                         {
-                            "name": "Expression of an emotion",
+                            "name": "Expression of emotion",
                             "type": "boolean",
-                            "tool-tip": "asym\u00e9trie d'expression : femmes souriantes, hommes s\u00e9rieux, pleurent pas, ..."
+                            "tool-tip": "Asymmetric and stereotypical expression of emotion between woman and man"
                         },
                         {
                             "name": "Soundtrack",
                             "type": "boolean",
-                            "tool-tip": ""
-                        },
-                        {
-                            "name": "Narratology",
-                            "type": "boolean",
-                            "tool-tip": "Le moment de l'intrigue o\u00f9 les personnages f\u00e9minins apparaissent "
+                            "tool-tip": "Sexualization; Ridiculing; Childish"
                         }
                     ]
                 }
