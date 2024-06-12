@@ -61,14 +61,6 @@ class DistilRoberta(pl.LightningModule):
         self.val_accuracy = torchmetrics.Accuracy(task='binary')
         self.test_accuracy = torchmetrics.Accuracy(task='binary')
         
-        self.train_accuracy_macro = torchmetrics.Accuracy(task='binary', average='macro') 
-        self.val_accuracy_macro = torchmetrics.Accuracy(task='binary', average='macro')
-        self.test_accuracy_macro = torchmetrics.Accuracy(task='binary', average='macro')
-        
-        self.train_accuracy_weighted = torchmetrics.Accuracy(task='binary', average='weighted') 
-        self.val_accuracy_weighted = torchmetrics.Accuracy(task='binary', average='weighted')
-        self.test_accuracy_weighted = torchmetrics.Accuracy(task='binary', average='weighted')
-        
         self.train_precision = torchmetrics.Precision(task='binary')
         self.val_precision = torchmetrics.Precision(task='binary' )
         self.test_precision = torchmetrics.Precision(task='binary' )
@@ -80,14 +72,6 @@ class DistilRoberta(pl.LightningModule):
         self.train_f1 = torchmetrics.F1Score(task='binary')
         self.val_f1 = torchmetrics.F1Score(task='binary')
         self.test_f1 = torchmetrics.F1Score(task="binary")
-        
-        self.train_f1_macro = torchmetrics.F1Score(task='binary', average='macro')
-        self.val_f1_macro = torchmetrics.F1Score(task='binary', average='macro')
-        self.test_f1_macro = torchmetrics.F1Score(task="binary", average='macro')
-        
-        self.train_f1_weighted = torchmetrics.F1Score(task="binary", average='weighted')
-        self.val_f1_weighted = torchmetrics.F1Score(task="binary", average='weighted')
-        self.test_f1_weighted = torchmetrics.F1Score(task="binary",average='weighted')
         
         self.val_auc = torchmetrics.AUROC(task='binary') 
         self.test_auc = torchmetrics.AUROC(task='binary')
@@ -117,9 +101,9 @@ class DistilRoberta(pl.LightningModule):
 
         self.log("train_loss", loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
         
-        self.log("train_acc_micro", self.train_accuracy(predicted_classes, labels), on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("train_acc", self.train_accuracy(predicted_classes, labels), on_step=True, on_epoch=True, prog_bar=True, logger=True)
        
-        self.log("train_f1_micro", self.train_f1(predicted_classes, labels), on_epoch=True, prog_bar=True)
+        self.log("train_f1", self.train_f1(predicted_classes, labels), on_epoch=True, prog_bar=True)
 
         self.log("train_precision", self.train_precision(predicted_classes, labels), on_epoch=True, prog_bar=True)
         self.log("train_recall", self.train_recall(predicted_classes, labels), on_epoch=True, prog_bar=True)
@@ -153,9 +137,9 @@ class DistilRoberta(pl.LightningModule):
 
         self.log("val_loss", loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
         
-        self.log("val_acc_micro", self.val_accuracy(predicted_classes, labels), on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("val_acc", self.val_accuracy(predicted_classes, labels), on_step=True, on_epoch=True, prog_bar=True, logger=True)
        
-        self.log("val_f1_micro", self.val_f1(predicted_classes, labels), on_epoch=True, prog_bar=True)
+        self.log("val_f1", self.val_f1(predicted_classes, labels), on_epoch=True, prog_bar=True)
       
         self.log("val_precision", self.val_precision(predicted_classes, labels), on_epoch=True, prog_bar=True)
         self.log("val_recall", self.val_recall(predicted_classes, labels), on_epoch=True, prog_bar=True)
@@ -188,9 +172,9 @@ class DistilRoberta(pl.LightningModule):
      
         self.log("test_loss", loss, on_step=True, on_epoch=True, prog_bar=True, logger=True)
         
-        self.log("test_acc_micro", self.test_accuracy(predicted_classes, labels), on_step=True, on_epoch=True, prog_bar=True, logger=True)
+        self.log("test_acc", self.test_accuracy(predicted_classes, labels), on_step=True, on_epoch=True, prog_bar=True, logger=True)
      
-        self.log("test_f1_micro", self.test_f1(predicted_classes, labels), on_epoch=True, prog_bar=True)
+        self.log("test_f1", self.test_f1(predicted_classes, labels), on_epoch=True, prog_bar=True)
         
         self.log("test_precision", self.test_precision(predicted_classes, labels), on_epoch=True, prog_bar=True)
         self.log("test_recall", self.test_recall(predicted_classes, labels), on_epoch=True, prog_bar=True)
