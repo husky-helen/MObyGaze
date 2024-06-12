@@ -21,7 +21,12 @@ To install this project, follow these steps:
     cd MObyGaze
     ```
 3. Install the dependencies:
-   **TODO add the env.yaml file for each code folder**
+   
+   To install the ActionFormerObj code we advise to follow the steps of the original github: https://github.com/happyharrycn/actionformer_release/tree/main. Dependencies are listed in the `Install.md` file.
+
+   For both, LabelDisversity and WSL, you can find a env
+
+   
    
 
 ## Usage
@@ -31,7 +36,6 @@ To install this project, follow these steps:
 ```sh
     cd LabelDiversity
 ```
-**TODO : rename disagreement to LabelDiversity**
 
 
 2. Create your config file according to what LabelDiversity type you want to try in `LabelDiversity/configs/`
@@ -40,7 +44,7 @@ To install this project, follow these steps:
   python3 train.py config_file_path
   ```
 
-4. Test the model.
+4. Test the model (you can check the available arguments in the `LabelDiversity/eval.py` file).
 ```sh
   python3 eval.py config_file_path model_ckpt_path
 ```
@@ -57,3 +61,19 @@ To install this project, follow these steps:
  ```sh
   python3 main.py
  ```
+
+### ActionFormerObj
+
+1. From the MovyGaze folder go to the ActionFormerObj folder:
+```sh
+    cd ActionFormerObj
+```
+2. Create or modify the config files in `configs`
+3. Train the model (you can check the available arguments in the `ActionFormerObj/train.py` file).
+ ```sh
+  python3 train.py config_file_path
+ ```
+4. Test the model (you can check the available arguments in the `ActionFormerObj/eval.py` file).
+```sh
+  python3 eval.py config_file_path model_ckpt_path
+```
