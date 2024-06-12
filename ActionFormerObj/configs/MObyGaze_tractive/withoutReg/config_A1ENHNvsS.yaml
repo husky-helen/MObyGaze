@@ -1,0 +1,63 @@
+dataset:
+  crop_ratio:
+  - 0.9
+  - 1.0
+  feat_folder: /media/LaCie/Features/Scene_5_minutes
+  feat_stride: 16
+  file_ext: .pt
+  file_prefix: null
+  input_dim: 512
+  json_file: /media/LaCie/Annotation_20240521/json_style/withoutReg/main_A1_ENHN_S.json
+  max_seq_len: 512
+  num_classes: 2
+  num_frames: 16
+  trunc_thresh: 0.5
+dataset_name: tractive
+exp_config: WithoutReg
+loader:
+  batch_size: 2
+model_name: LocPointTransformer_WithoutRegHead
+model:
+  backbone_arch: !!python/tuple
+  - 2
+  - 2
+  - 4
+  fpn_type: identity
+  max_buffer_len_factor: 6.0
+  n_mha_win_size: 17
+  regression_range:
+  - - 0
+    - 11
+  - - 11
+    - 22
+  - - 22
+    - 36
+  - - 36
+    - 47
+  - - 47
+    - 10000
+opt:
+  epochs: 30
+  learning_rate: 0.0001
+  weight_decay: 0.05
+output_folder: ckpt/Neurips_V1_20240522/withoutReg
+test_cfg:
+  max_seg_num: 200
+  min_score: 0.001
+  multiclass_nms: true
+  pre_nms_topk: 2000
+  voting_thresh: 0.7
+test_split: !!python/tuple
+- test
+train_cfg:
+  center_sample: radius
+  center_sample_radius: 1.5
+  clip_grad_l2norm: 1.0
+  cls_prior_prob: 0.01
+  early_stopping: 10
+  init_loss_norm: 100
+train_split: !!python/tuple
+- train
+val_split: !!python/tuple
+- validation
+yaml_name: config_A1ENHNvsS
