@@ -39,7 +39,7 @@ if __name__ == '__main__':
   
     for annotator in annotators:
         
-        feature_dir=f'/data1/elisa/audio/audio_features/{annotator}'
+        feature_dir=f'/audio/audio_features/{annotator}'
         data_path = [f'/data/Folds/{annotator}_audio_fold_1.csv',
                     f'/data/Folds/{annotator}_audio_fold_2.csv',
                     f'/data/Folds/{annotator}_audio_fold_3.csv',
