@@ -43,7 +43,7 @@ if __name__ == '__main__':
         data_path = [f'/data/Folds/{annotator}_audio_fold_1.csv',
                     f'/data/Folds/{annotator}_audio_fold_2.csv',
                     f'/data/Folds/{annotator}_audio_fold_3.csv',
-                    f'/Folds/{annotator}_audio_fold_4.csv',
+                    f'/data/Folds/{annotator}_audio_fold_4.csv',
                     f'/data/Folds/{annotator}_audio_fold_5.csv'              
                     ]
         
