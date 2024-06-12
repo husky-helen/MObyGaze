@@ -24,7 +24,7 @@ To install this project, follow these steps:
    
    To install the ActionFormerObj code we advise to follow the steps of the original github: https://github.com/happyharrycn/actionformer_release/tree/main. Dependencies are listed in the `Install.md` file.
 
-   For both, LabelDisversity and WSL, you can find a env
+   For both, LabelDisversity and WSL, you can find a env.txt file listing all the dependencies.
 
    
    
