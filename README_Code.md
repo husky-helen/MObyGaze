@@ -31,6 +31,24 @@ To install this project, follow these steps:
 
 ## Usage
 
+### Preprocessing
+In order to use our code you might need to do some preprocessing steps on the `dataset/mobygaze_dataframe.csv` file. For exemple selecting a specific annotator and/or selecting a specific label or grouping 2 labels together
+```sh
+    import pandas as pd
+    df = pd.read_csv("dataset/mobygaze_dataframe.csv", sep=";", index_col=0)
+
+    # annotator selection
+    df_annotator = df.query("annotator == 'annotator_1'")
+
+    # label selection
+    df_label = df.query("label == 'Easy Negative'")
+
+    # label grouping
+    dico_group = {"Easy Negative" : "ENHN", "Hard Negative": "ENHN", "Sure":"Sure"}
+    new_labels = df["label"].map(dico_group)
+    df["label"] = new_labels
+```
+
 ### Label Diversity 
 1. From the MobyGaze folder go to the LabelDiversity folder:
 ```sh
@@ -68,12 +86,13 @@ To install this project, follow these steps:
 ```sh
     cd ActionFormerObj
 ```
-2. Create or modify the config files in `configs`
-3. Train the model (you can check the available arguments in the `ActionFormerObj/train.py` file).
+2. Use the preprocessing files in the `Preprocessing` folder. In order to replicate our experiments you might need to do some additional preprocessing before using these files. For exemple create intermediate csv files by selecting a specific annotator or specific labels.
+3. Create or modify the config files in `configs`
+4. Train the model (you can check the available arguments in the `ActionFormerObj/train.py` file).
  ```sh
   python3 train.py config_file_path
  ```
-4. Test the model (you can check the available arguments in the `ActionFormerObj/eval.py` file).
+5. Test the model (you can check the available arguments in the `ActionFormerObj/eval.py` file).
 ```sh
   python3 eval.py config_file_path model_ckpt_path
 ```
