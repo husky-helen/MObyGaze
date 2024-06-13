@@ -1,5 +1,6 @@
 # MObyGaze Dataframe Column Explaination
 
+Sample rows from the dataframe: 
 
 | clip_index | movie_id | annotator   | label         | concepts                            | comment                                    | start_frame | end_frame | imdb_key  | movie_title                          | framerate | text                                                                 | label_speech | start_clip | end_clip | label_audio |
 |------------|----------|-------------|---------------|-------------------------------------|--------------------------------------------|-------------|-----------|-----------|-------------------------------------|-----------|---------------------------------------------------------------------|--------------|------------|----------|-------------|
