@@ -67,7 +67,7 @@ Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dat
 4. Test the model
  ```sh
   python3 eval.py
-  ``
+  ```
 
 ### Label Diversity 
 1. From the MobyGaze folder go to the LabelDiversity folder:
