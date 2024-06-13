@@ -86,7 +86,7 @@ class LLamaForSequenceClf(pl.LightningModule):
         #criterion
         self.criterion = torch.nn.BCEWithLogitsLoss() 
         #torch metrics
-        self.train_accuracy = torchmetrics.Accuracy(task='binary') #it exsists also the top_k parameter
+        self.train_accuracy = torchmetrics.Accuracy(task='binary') 
         self.val_accuracy = torchmetrics.Accuracy(task='binary')
         self.test_accuracy = torchmetrics.Accuracy(task='binary')
         
@@ -103,7 +103,7 @@ class LLamaForSequenceClf(pl.LightningModule):
         self.test_f1 = torchmetrics.F1Score(task="binary")
         
         self.train_auc = torchmetrics.AUROC(task='binary')
-        self.val_auc = torchmetrics.AUROC(task='binary') #default average macro
+        self.val_auc = torchmetrics.AUROC(task='binary') 
         self.test_auc = torchmetrics.AUROC(task='binary')
     
         
