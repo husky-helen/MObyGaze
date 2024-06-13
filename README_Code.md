@@ -33,11 +33,9 @@ To install this project, follow these steps:
 
 ### Preprocessing
 
-
-
 In order to use our code,you might need to extract the X-CLIP features. We used a window size of 16 and a stride of 16 as well. 
 
-Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dataframe.csv` file. For exemple selecting a specific annotator and/or selecting a specific label or grouping 2 labels together
+Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dataframe.csv` file. For example selecting a specific annotator and/or selecting a specific label or grouping 2 labels together
 ```sh
     import pandas as pd
     df = pd.read_csv("dataset/mobygaze_dataframe.csv", sep=";", index_col=0)
@@ -53,6 +51,8 @@ Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dat
     new_labels = df["label"].map(dico_group)
     df["label"] = new_labels
 ```
+
+For Supervised Learning (SL), Weakly Supervised Learning (WSL), Supervised Audio and Speech Classification, the dataset must be partitioned into distinct folds for the purposes of training, validation, and testing of the models. In the provided code, folds zero, one, and two are designated for testing, validation, and training, respectively. Researchers may modify this column to align with their specific experimental design requirements. Also, its worth to note that a separate dataframe is created for each annotator.
 
 ### FSL
 1. From the MobyGaze folder go to the LabelDiversity folder:
@@ -87,7 +87,6 @@ Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dat
   python3 eval.py config_file_path model_ckpt_path
 ```
 
-
 ### WSL
 1. From the MobyGaze folder go to the WSL folder:
 ```sh
@@ -106,7 +105,7 @@ Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dat
 ```sh
     cd ActionFormerObj
 ```
-2. Use the preprocessing files in the `Preprocessing` folder. In order to replicate our experiments you might need to do some additional preprocessing before using these files. For exemple create intermediate csv files by selecting a specific annotator or specific labels.
+2. Use the preprocessing files in the `Preprocessing` folder. In order to replicate our experiments you might need to do some additional preprocessing before using these files. For example create intermediate csv files by selecting a specific annotator or specific labels.
 3. Create or modify the config files in `configs`
 4. Train the model (you can check the available arguments in the `ActionFormerObj/train.py` file).
  ```sh
@@ -116,3 +115,16 @@ Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dat
 ```sh
   python3 eval.py config_file_path model_ckpt_path
 ```
+
+### AudioClassification
+
+The preparation of the data is detailed in supplementary material of the paper. In order to associate the annotated segments (columns `start_frame` and `end_frame` respectively) with the corresponding span of audio track samples we used `segment_audio.ipynb` located in the `/audio_preprocessing` directory. All the audio segments are saved in a .wav format. In order to run the model:
+1. Extract the features from the raw .wav files using the `extract_features.py` file located in  `/extract_features`. Researchers needs to specify path to the annotator csv, the directory of the sannotator's raw audio segmenets and the output directory. The .pt features will be stored in `yourfeaturedir/annotator_name/imdb_key` (e.g yourfeaturedir/annotator_1/tt0108160).
+2. Change the path in the `process_train.py` file
+3. Change the path in the `train.py` file. Researchers need to specify the path to the extracted features and the path to the dataset.
+4. Train the model
+```sh
+  python3 train.py
+  ```
+5. `results_analysis.ipynb` notebook can be used to read from the tensorboard logs. As an alternative you can run `tensorboard --logdir=path_to_log_folder`
+
