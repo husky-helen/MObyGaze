@@ -1,18 +1,20 @@
 # MObyGaze
+This repository stores the dataset and code introduced in the submitted article *MObyGaze: a film dataset of multimodal objectification densely annotated by experts*.
+The MObyGaze dataset is described in the Croissant format for machine learning dataset, in the metadata.json file. This file specifies the resource file descriptions and data structure. 
 
 ## Repository Structure
 
 ### Datasets 
-The dataset employed for the training and evaluation of our models is available within this repository, specifically located in the `/dataset` directory. Within this directory, four files are included:
+The dataset, employed for the training and evaluation of our models, is made of four files described in the metadata.json file under the Croissant format. The resource files are available under the `/dataset` directory. Within this directory, four files are included:
 
-1. **Neurips.sql**: is the primary source of the data, containing detailed information regarding the movies, their annotations, and subtitles.
-2. **mobygaze_dataframe.csv**: represents the SQL contents, including the target column relevant to the specific task at hand. The models were trained using this file, with necessary adaptations made according to the specific task requirements.
-3. **mobygaze_movielist.csv**: contains the complete list of the movies.
-4. **objectification-thesaurus.json**: details the various annotation choices, the types of concepts, and their respective explanations.
-
+1. **mobygaze_movielist.csv**: contains the complete list of the movies with detailed information.
+2. **objectification-thesaurus.json**: details the possibles levels of objectification to annotate, as well as the list of concepts and their respective instances.
+3. **mobygaze_dataframe.csv**: the entire table of annotated segments, where a segment corresponds to an interval of a movie delimited by a given annotator. The models were trained using this file, with necessary adaptations made according to the specific task requirements.
+4. **Neurips.sql**: the sql description of the dataset, containing the above resources as tables for movies, annotations, and subtitles.
+   
 ### Models
 
-All the models where implemented using PyTorch. 
+All the models were implemented using PyTorch. 
 
 All the code is organised into six distinct directories: `ActionFormerObj` , `AudioClassification`, `FSL`, `LabelDiversity`, `SpeechClassification`, `WSL`. Each directory corresponds to a specific task, allowing independent execution of the code within these folders. Further details on the content of this folder on how to run the code can be found in the README_code.md
 
