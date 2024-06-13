@@ -3,7 +3,7 @@
 ## Repository Structure
 
 ### Datasets 
-The dataset employed for the training and evaluation of our models is available within this repository, specifically located in the `/dataset` directory. Within this directory, four primary files are included:
+The dataset employed for the training and evaluation of our models is available within this repository, specifically located in the `/dataset` directory. Within this directory, four files are included:
 
 1. **Neurips.sql**: is the primary source of the data, containing detailed information regarding the movies, their annotations, and subtitles.
 2. **mobygaze_dataframe.csv**: represents the SQL contents, including the target column relevant to the specific task at hand. The models were trained using this file, with necessary adaptations made according to the specific task requirements.
