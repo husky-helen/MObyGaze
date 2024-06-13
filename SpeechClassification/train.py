@@ -41,11 +41,11 @@ if __name__ == '__main__':
   
     for annotator in annotators:
         
-        data_path = [f'/data/Folds/{annotator}_audio_fold_1.csv',
-                    f'/data/Folds/{annotator}_audio_fold_2.csv',
-                    f'/data/Folds/{annotator}_audio_fold_3.csv',
-                    f'/data/Folds/{annotator}_audio_fold_4.csv',
-                    f'/data/Folds/{annotator}_audio_fold_5.csv'              
+        data_path = [f'/data/Folds/{annotator}_speech_fold_1.csv',
+                    f'/data/Folds/{annotator}_speech_fold_2.csv',
+                    f'/data/Folds/{annotator}_speech_fold_3.csv',
+                    f'/data/Folds/{annotator}_speech_fold_4.csv',
+                    f'/data/Folds/{annotator}_speech_fold_5.csv'              
                     ]
         
         for el in data_path:
