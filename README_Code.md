@@ -121,12 +121,24 @@ For Supervised Learning (SL), Weakly Supervised Learning (WSL), Supervised Audio
 The preparation of the data is detailed in supplementary material of the paper. In order to associate the annotated segments (columns `start_frame` and `end_frame` respectively) with the corresponding span of audio track samples we used `segment_audio.ipynb` located in the `/audio_preprocessing` directory. All the audio segments are saved in a .wav format. In order to run the model:
 1. Extract the features from the raw .wav files using the `extract_features.py` file located in  `/extract_features`. Researchers needs to specify path to the annotator csv, the directory of the sannotator's raw audio segmenets and the output directory. The .pt features will be stored in `yourfeaturedir/annotator_name/imdb_key` (e.g yourfeaturedir/annotator_1/tt0108160).
 2. Change the path in the `process_train.py` file and specify the type of experiment (var `TYPE_OF_MODEL`)
-3. Change the path in the `train.py` file. Researchers need to specify the path to the extracted features and the path to the dataset.
+3. Change the path in the `train.py` file. Researchers need to specify the both path to the extracted features and the one to the data.
 4. Train the model
 ```sh
   python3 train.py
   ```
 5. `results_analysis.ipynb` notebook can be used to read from the tensorboard logs. As an alternative, run `tensorboard --logdir=path_to_log_folder`
 
-### SpeechClassification
+### SpeechClassification (LLama and DistilRoberta)
 The preparation of the data is detailed in supplementary material of the paper. 
+1. Change the path in the `process_train.py` file and specify the type of experiment (var `TYPE_OF_MODEL`)
+3. Change the paths in the `train.py` file. Researchers need to specify the path to the data.
+4. Train the model
+```sh
+  python3 train.py
+  ```
+
+Available script to test LLaMa:
+5. Test the model SpeechClassification/LLaMA/eval.py - it can be easily adapted for DistilRoberta model.
+```sh
+  python3 eval.py config_file_path model_ckpt_path
+```
