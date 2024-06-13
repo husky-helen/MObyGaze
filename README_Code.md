@@ -32,7 +32,12 @@ To install this project, follow these steps:
 ## Usage
 
 ### Preprocessing
-In order to use our code you might need to do some preprocessing steps on the `dataset/mobygaze_dataframe.csv` file. For exemple selecting a specific annotator and/or selecting a specific label or grouping 2 labels together
+
+
+
+In order to use our code,you might need to extract the X-CLIP features. We used a window size of 16 and a stride of 16 as well. 
+
+Also, you might need to do some preprocessing steps on the `dataset/mobygaze_dataframe.csv` file. For exemple selecting a specific annotator and/or selecting a specific label or grouping 2 labels together
 ```sh
     import pandas as pd
     df = pd.read_csv("dataset/mobygaze_dataframe.csv", sep=";", index_col=0)
@@ -48,6 +53,21 @@ In order to use our code you might need to do some preprocessing steps on the `d
     new_labels = df["label"].map(dico_group)
     df["label"] = new_labels
 ```
+
+### FSL
+1. From the MobyGaze folder go to the LabelDiversity folder:
+```sh
+    cd FSL
+```
+2. Change the path in the `process_inference_neurips.py` and `process_train.py` files
+3. Train the model
+```sh
+  python3 train.py
+  ```
+4. Test the model
+ ```sh
+  python3 eval.py
+  ``
 
 ### Label Diversity 
 1. From the MobyGaze folder go to the LabelDiversity folder:
