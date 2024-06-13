@@ -137,8 +137,8 @@ The preparation of the data is detailed in supplementary material of the paper.
   python3 train.py
   ```
 
-Available script to test LLaMa:
-5. Test the model SpeechClassification/LLaMA/eval.py - it can be easily adapted for DistilRoberta model.
+Available script to test LLaMa: <br>
+5. Test the model using `eval.py` located in SpeechClassification/LLaMA/. The same script can be easily adapted for DistilRoberta model.
 ```sh
   python3 eval.py config_file_path model_ckpt_path
 ```
