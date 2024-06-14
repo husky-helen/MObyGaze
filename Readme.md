@@ -4,13 +4,13 @@ The MObyGaze dataset is described in the Croissant format for machine learning d
 
 ## Repository Structure
 
-### Datasets 
+### Dataset 
 The dataset, employed for the training and evaluation of our models, is made of four files described in the metadata.json file under the Croissant format. The resource files are available under the `/dataset` directory. Within this directory, four files are included:
 
 1. **mobygaze_movielist.csv**: contains the complete list of the movies with detailed information.
 2. **objectification-thesaurus.json**: details the possibles levels of objectification to annotate, as well as the list of concepts and their respective instances.
 3. **mobygaze_dataframe.csv**: the entire table of annotated segments, where a segment corresponds to an interval of a movie delimited by a given annotator. The models were trained using this file, with necessary adaptations made according to the specific task requirements. A description of this datasets can be found in the Readme_data.md
-4. **Neurips.sql**: the sql description of the dataset, containing the above resources as tables for movies, annotations, and subtitles.
+4. **mobygaze_db.sql**: the sql description of the dataset, containing the above resources as tables for movies, annotations, and subtitles.
    
 ### Models
 
