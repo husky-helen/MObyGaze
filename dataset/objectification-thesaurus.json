@@ -1,0 +1,112 @@
+{
+    "metadata": {
+        "creator": "[Redacted for review]"
+    },
+    "dictionaries": [
+        {
+            "timeline": {
+                "name": "Objectification",
+                "version": 1
+            },
+            "values": [
+                {
+                    "group": "Objectification",
+                    "values": [
+                        {
+                            "name": "Type of shot",
+                            "type": "boolean",
+                            "tool-tip": "Shots suggesting man perspective in presence of woman; Shot showing a woman in parallel with an animal or object; Woman off screen in acion scene"
+                        },
+                        {
+                            "name": "Body",
+                            "type": "boolean",
+                            "tool-tip": "Suggested, partial, full nudity; Body parts suggestive of sex"
+                        },
+                        {
+                            "name": "Voice",
+                            "type": "boolean",
+                            "tool-tip": "Sensual, infantile, weeping, willful, screaming, imploring"
+                        },
+                        {
+                            "name": "Appearance",
+                            "type": "boolean",
+                            "tool-tip": "Discreprency between appearance and context; Accessories"
+                        },
+                        {
+                            "name": "Clothes",
+                            "type": "boolean",
+                            "tool-tip": "Revealing, wet, transparent, infantile or impractical clothing"
+                        },
+                        {
+                            "name": "Posture",
+                            "type": "boolean",
+                            "tool-tip": "Gesture or posture connoting seduction or sexuality; Connoting inaction, submission, dependence; Skipping;"
+                        },
+                        {
+                            "name": "Speech",
+                            "type": "boolean",
+                            "tool-tip": "Comments on appearance; Judgement on the body; Self-loathing; Sexualization; Stereotyping; Mansplaining, etc."
+                        },
+                        {
+                            "name": "Activities",
+                            "type": "boolean",
+                            "tool-tip": "Domestic activities; Sex-related, submissive actions; Violence"
+                        },
+                        {
+                            "name": "Look",
+                            "type": "boolean",
+                            "tool-tip": "Shot suggesting man gaze on woman; Voyerism; Non-reciprocal gaze"
+                        },
+                        {
+                            "name": "Expression of emotion",
+                            "type": "boolean",
+                            "tool-tip": "Asymmetric and stereotypical expression of emotion between woman and man"
+                        },
+                        {
+                            "name": "Soundtrack",
+                            "type": "boolean",
+                            "tool-tip": "Sexualization; Ridiculing; Childish"
+                        }
+                    ]
+                }
+            ],
+            "anot_choices": [
+                {
+                    "name": "Null",
+                    "text": "Null",
+                    "activate": "False",
+                    "value": "N/A",
+                    "add_tl_name": "False"
+                },
+                {
+                    "name": "Easy Negative",
+                    "text": "Easy Negative",
+                    "activate": "False",
+                    "value": "False",
+                    "add_tl_name": "False"
+                },
+                {
+                    "name": "Hard Negative",
+                    "text": "Hard Negative",
+                    "activate": "True",
+                    "value": "False",
+                    "add_tl_name": "False"
+                },
+                {
+                    "name": "Not sure",
+                    "text": "Not sure",
+                    "activate": "True",
+                    "value": "False",
+                    "add_tl_name": "False"
+                },
+                {
+                    "name": "Sure",
+                    "text": "Sure",
+                    "activate": "True",
+                    "value": "False",
+                    "add_tl_name": "False"
+                }
+            ]
+        }
+    ]
+}
