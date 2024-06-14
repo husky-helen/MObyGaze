@@ -72,7 +72,7 @@ class AudioDataset(Dataset):
           
     def __getitem__(self, idx):
         row = self.data.iloc[idx]
-        
+        #speech_index is a temporarily created index that has the same role of clip_index (since in the data pre processing we split the data into 60seconds chuncks the clip index was repeated, so speech_index act as the new identifier)
         speech_index = row['speech_index'].split('_')[1]
         
         feature_path = os.path.join(self.feature_dir, row['imdb_key'], f"{row['imdb_key']}_{speech_index}_{row['annotator']}.pt")
