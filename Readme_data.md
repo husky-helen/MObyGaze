@@ -1,4 +1,4 @@
-# MObyGaze Dataframe Column Explaination
+# MObyGaze Dataframe Column Explanation
 
 Sample rows from the dataframe: 
 
