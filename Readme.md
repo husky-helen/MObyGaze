@@ -14,10 +14,7 @@ The dataset, employed for the training and evaluation of our models, is made of 
    
 ### Models
 
-All the models were implemented using PyTorch. 
-
-All the code is organised into six distinct directories: `ActionFormerObj` , `AudioClassification`, `FSL`, `LabelDiversity`, `SpeechClassification`, `WSL`. Each directory corresponds to a specific task, allowing independent execution of the code within these folders. Further details on the content of this folder on how to run the code can be found in the README_code.md
-
+All the models were implemented using PyTorch. They will be shared in folder `/models`.
 
 ### Requirements
 
