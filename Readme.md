@@ -18,4 +18,4 @@ All the models were implemented using PyTorch. They will be shared in folder `/m
 
 ### Requirements
 
-The files describing the conda environment used for the various task will be found in each model subfolder as .yml or .txt. The versions specified in this file are the ones that have been tested to work with our code, but other versions may work. Regarding the version of PyTorch that is specified, you may need to change the pytorch version according to your CUDA version. General requirement file is [/models/requirements.txt](https://github.com/husky-helen/MObyGaze/blob/main/requirement.txt)
+The files describing the conda environment used for the various task will be found in each model subfolder as .yml or .txt. The versions specified in this file are the ones that have been tested to work with our code, but other versions may work. Regarding the version of PyTorch that is specified, you may need to change the pytorch version according to your CUDA version. General requirement file is [/models/requirements.txt](https://github.com/husky-helen/MObyGaze/blob/main/models/requirement.txt)
