@@ -1,0 +1,432 @@
+clip_index;movie_id;annotator;label;concepts;comment;start_frame;end_frame;imdb_key;movie_title;framerate;start_clip;end_clip;guid;label_int;fold;test_proba
+id_6;37;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Posture', 'Speech', 'Activities', 'Look'];[];21131;21867;tt0119822;As Good as It Gets;23.976;1320;1366;1251;1;0;0.99
+id_13;37;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing', 'Posture'];['objectification of a male (gay-appearing) character '];27888;28244;tt0119822;As Good as It Gets;23.976;1743;1765;1258;1;0;0.967
+id_15;37;annotator_2;Sure;['Type of shot', 'Body', 'Posture', 'Speech'];['objectification of a male (gay-appearing) character '];28435;28776;tt0119822;As Good as It Gets;23.976;1777;1798;1260;1;0;0.428
+id_20;37;annotator_2;Sure;['Body', 'Speech', 'Exp of emotion'];[];61261;61938;tt0119822;As Good as It Gets;23.976;3828;3871;1265;1;0;0.406
+id_22;37;annotator_2;Sure;['Type of shot', 'Body', 'Posture'];[];73017;73080;tt0119822;As Good as It Gets;23.976;4563;4567;1267;1;0;0.638
+id_24;37;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Posture', 'Look', 'Exp of emotion'];[];73311;73500;tt0119822;As Good as It Gets;23.976;4581;4593;1269;1;0;0.194
+id_26;37;annotator_2;Sure;['Type of shot', 'Posture', 'Look', 'Exp of emotion'];[];73635;73775;tt0119822;As Good as It Gets;23.976;4602;4610;1271;1;0;0.758
+id_27;37;annotator_2;Sure;['Voice', 'Posture', 'Speech', 'Look', 'Exp of emotion'];[];73776;74921;tt0119822;As Good as It Gets;23.976;4611;4682;1272;1;0;0.403
+id_29;37;annotator_2;Sure;['Voice', 'Speech', 'Exp of emotion'];['objectification of a male (gay-appearing) character '];85349;85976;tt0119822;As Good as It Gets;23.976;5334;5373;1274;1;0;0.552
+id_31;37;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing', 'Posture'];[];90199;90760;tt0119822;As Good as It Gets;23.976;5637;5672;1276;1;0;0.8
+id_34;37;annotator_2;Sure;['Body', 'Clothing', 'Look'];['look by a woman'];91594;91649;tt0119822;As Good as It Gets;23.976;5724;5728;1279;1;0;0.88
+id_35;37;annotator_2;Sure;['Body', 'Clothing'];[];91650;92206;tt0119822;As Good as It Gets;23.976;5728;5762;1280;1;0;0.884
+id_37;37;annotator_2;Sure;['Body', 'Clothing', 'Posture'];[];92292;93084;tt0119822;As Good as It Gets;23.976;5768;5817;1282;1;0;0.737
+id_38;37;annotator_2;Sure;['Clothing', 'Posture', 'Speech', 'Exp of emotion'];[];93085;94949;tt0119822;As Good as It Gets;23.976;5817;5934;1283;1;0;0.824
+id_40;37;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Speech', 'Look'];[];96017;96446;tt0119822;As Good as It Gets;23.976;6001;6027;1285;1;0;0.955
+id_47;37;annotator_2;Sure;['Speech', 'Exp of emotion'];[];106371;107050;tt0119822;As Good as It Gets;23.976;6648;6690;1292;1;0;0.62
+id_50;37;annotator_2;Sure;['Voice', 'Speech', 'Look', 'Exp of emotion'];[];111437;113572;tt0119822;As Good as It Gets;23.976;6964;7098;1295;1;0;0.445
+id_60;37;annotator_2;Sure;['Body', 'Look'];[];120018;120180;tt0119822;As Good as It Gets;23.976;7501;7511;1305;1;0;0.602
+id_76;37;annotator_2;Sure;['Type of shot', 'Look'];[];137540;138135;tt0119822;As Good as It Gets;23.976;8596;8633;1321;1;0;0.525
+id_88;37;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Posture', 'Look'];[];153568;154594;tt0119822;As Good as It Gets;23.976;9598;9662;1333;1;0;0.94
+id_89;37;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Speech', 'Look'];[];154595;155468;tt0119822;As Good as It Gets;23.976;9662;9716;1334;1;0;0.965
+id_90;37;annotator_2;Sure;['Type of shot', 'Body', 'Posture', 'Look'];[];155469;155911;tt0119822;As Good as It Gets;23.976;9716;9744;1335;1;0;0.982
+id_93;37;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Activities'];[];156966;158118;tt0119822;As Good as It Gets;23.976;9810;9882;1338;1;0;0.922
+id_101;37;annotator_2;Sure;['Type of shot', 'Appearance', 'Clothing', 'Posture'];[];179906;180742;tt0119822;As Good as It Gets;23.976;11244;11296;1346;1;0;0.517
+id_105;37;annotator_2;Sure;['Body', 'Voice', 'Appearance', 'Clothing', 'Speech'];[];182496;182948;tt0119822;As Good as It Gets;23.976;11406;11434;1350;1;0;0.894
+id_107;37;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];183572;184281;tt0119822;As Good as It Gets;23.976;11473;11517;1352;1;0;0.852
+id_13;11;annotator_2;Sure;['Type of shot', 'Body'];[];10432;10730;tt1454029;The Help;23.976;652;670;4217;1;0;0.077
+id_15;11;annotator_2;Sure;['Type of shot', 'Clothing', 'Speech'];[' '];11569;11799;tt1454029;The Help;23.976;723;737;4219;1;0;0.127
+id_20;11;annotator_2;Sure;['Body', 'Voice', 'Appearance', 'Clothing', 'Posture'];[' '];14093;14162;tt1454029;The Help;23.976;880;885;4224;1;0;0.278
+id_22;11;annotator_2;Sure;['Voice', 'Clothing', 'Posture', 'Activities'];[];15679;16478;tt1454029;The Help;23.976;979;1029;4226;1;0;0.083
+id_28;11;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing', 'Posture'];[];18986;19631;tt1454029;The Help;23.976;1186;1226;4232;1;0;0.044
+id_33;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];23544;23848;tt1454029;The Help;23.976;1471;1490;4237;1;0;0.087
+id_36;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];25936;26938;tt1454029;The Help;23.976;1621;1683;4240;1;0;0.065
+id_39;11;annotator_2;Sure;['Body', 'Appearance', 'Clothing'];[];29414;29817;tt1454029;The Help;23.976;1838;1863;4243;1;0;0.122
+id_52;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];37467;37682;tt1454029;The Help;23.976;2341;2355;4256;1;0;0.119
+id_54;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];37944;38161;tt1454029;The Help;23.976;2371;2385;4258;1;0;0.099
+id_56;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];38247;38397;tt1454029;The Help;23.976;2390;2399;4260;1;0;0.147
+id_58;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];38838;39027;tt1454029;The Help;23.976;2427;2439;4262;1;0;0.196
+id_60;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[' '];39616;39742;tt1454029;The Help;23.976;2476;2483;4264;1;0;0.182
+id_77;11;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing', 'Posture', 'Activities'];[];48658;48989;tt1454029;The Help;23.976;3041;3061;4281;1;0;0.159
+id_88;11;annotator_2;Sure;['Voice', 'Posture', 'Speech', 'Activities', 'Exp of emotion', 'Soundtrack'];['domestic violence'];56062;56540;tt1454029;The Help;23.976;3503;3533;4292;1;0;0.083
+id_102;11;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Appearance', 'Clothing', 'Posture'];[];71215;71355;tt1454029;The Help;23.976;4450;4459;4306;1;0;0.09
+id_104;11;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing'];[];71899;73037;tt1454029;The Help;23.976;4493;4564;4308;1;0;0.045
+id_107;11;annotator_2;Sure;['Body', 'Voice', 'Appearance', 'Clothing', 'Posture', 'Activities'];[];73568;74190;tt1454029;The Help;23.976;4598;4636;4311;1;0;0.071
+id_108;11;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Appearance', 'Clothing', 'Posture'];[];74191;74429;tt1454029;The Help;23.976;4636;4651;4312;1;0;0.101
+id_109;11;annotator_2;Sure;['Body', 'Clothing'];[];74430;74600;tt1454029;The Help;23.976;4651;4662;4313;1;0;0.148
+id_110;11;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Appearance', 'Speech', 'Exp of emotion'];[];74601;76171;tt1454029;The Help;23.976;4662;4760;4314;1;0;0.041
+id_122;11;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing', 'Speech', 'Activities'];[];87771;88782;tt1454029;The Help;23.976;5485;5548;4326;1;0;0.065
+id_125;11;annotator_2;Sure;['Type of shot', 'Appearance', 'Speech', 'Activities'];[];89438;89802;tt1454029;The Help;23.976;5589;5612;4329;1;0;0.141
+id_129;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Look', 'Exp of emotion'];[];91903;92364;tt1454029;The Help;23.976;5743;5772;4333;1;0;0.102
+id_137;11;annotator_2;Sure;['Body', 'Voice', 'Speech'];[];101673;101979;tt1454029;The Help;23.976;6354;6373;4341;1;0;0.1
+id_141;11;annotator_2;Sure;['Type of shot', 'Body', 'Posture'];[];106970;107165;tt1454029;The Help;23.976;6685;6697;4345;1;0;0.06
+id_160;11;annotator_2;Sure;['Body', 'Activities', 'Look'];['racist violence'];126169;127554;tt1454029;The Help;23.976;7885;7972;4364;1;0;0.052
+id_165;11;annotator_2;Sure;['Body', 'Appearance', 'Clothing', 'Posture'];[];132184;132382;tt1454029;The Help;23.976;8261;8273;4369;1;0;0.071
+id_177;11;annotator_2;Sure;['Body', 'Appearance', 'Clothing', 'Posture'];[];145371;145898;tt1454029;The Help;23.976;9085;9118;4381;1;0;0.084
+id_178;11;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Appearance', 'Clothing', 'Posture', 'Look'];[];145899;146319;tt1454029;The Help;23.976;9118;9144;4382;1;0;0.12
+id_184;11;annotator_2;Sure;['Body', 'Appearance', 'Clothing', 'Activities'];['several women, some put on makeup'];147359;147569;tt1454029;The Help;23.976;9209;9223;4388;1;0;0.073
+id_185;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Activities', 'Look'];[];147570;147780;tt1454029;The Help;23.976;9223;9236;4389;1;0;0.189
+id_219;11;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Activities', 'Look'];[];183406;183795;tt1454029;The Help;23.976;11462;11487;4423;1;0;0.12
+id_13;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];18423;18744;tt1568346;The Girl with the Dragon Tattoo;23.976;1151;1171;4560;1;0;0.679
+id_42;7;annotator_2;Sure;['Type of shot', 'Voice', 'Posture', 'Speech', 'Look'];[];52418;53778;tt1568346;The Girl with the Dragon Tattoo;23.976;3276;3361;4589;1;0;0.038
+id_57;7;annotator_2;Sure;['Voice', 'Posture', 'Speech', 'Look'];[];64380;65080;tt1568346;The Girl with the Dragon Tattoo;23.976;4023;4067;4604;1;0;0.072
+id_58;7;annotator_2;Sure;['Type of shot', 'Body', 'Speech', 'Activities', 'Look', 'Narratology'];['sexual assault'];65081;67935;tt1568346;The Girl with the Dragon Tattoo;23.976;4067;4245;4605;1;0;0.039
+id_70;7;annotator_2;Sure;['Body', 'Voice', 'Posture', 'Speech', 'Activities', 'Look'];['beginning of rape scene'];75307;76260;tt1568346;The Girl with the Dragon Tattoo;23.976;4706;4766;4617;1;0;0.257
+id_71;7;annotator_2;Sure;['Voice', 'Activities', 'Soundtrack'];[];76261;76589;tt1568346;The Girl with the Dragon Tattoo;23.976;4766;4786;4618;1;0;0.566
+id_73;7;annotator_2;Sure;['Body', 'Voice', 'Appearance', 'Clothing', 'Posture', 'Activities', 'Look', 'Exp of emotion', 'Soundtrack'];['rape'];76739;79217;tt1568346;The Girl with the Dragon Tattoo;23.976;4796;4951;4620;1;0;0.546
+id_75;7;annotator_2;Sure;['Clothing', 'Posture', 'Look', 'Soundtrack', 'Narratology'];['after rape, payment'];80858;81795;tt1568346;The Girl with the Dragon Tattoo;23.976;5053;5112;4622;1;0;0.207
+id_77;7;annotator_2;Sure;['Body', 'Voice', 'Posture'];[];82321;82780;tt1568346;The Girl with the Dragon Tattoo;23.976;5145;5173;4624;1;0;0.432
+id_83;7;annotator_2;Sure;['Type of shot', 'Body'];[];85532;85764;tt1568346;The Girl with the Dragon Tattoo;23.976;5345;5360;4630;1;0;0.595
+id_84;7;annotator_2;Sure;['Body'];[];85765;86087;tt1568346;The Girl with the Dragon Tattoo;23.976;5360;5380;4631;1;0;0.07
+id_93;7;annotator_2;Sure;['Type of shot', 'Body', 'Appearance', 'Posture'];['bondage'];92790;93539;tt1568346;The Girl with the Dragon Tattoo;23.976;5799;5846;4640;1;0;0.778
+id_94;7;annotator_2;Sure;['Body', 'Voice', 'Appearance'];[];93540;94103;tt1568346;The Girl with the Dragon Tattoo;23.976;5846;5881;4641;1;0;0.406
+id_95;7;annotator_2;Sure;['Body', 'Voice', 'Appearance', 'Posture', 'Activities', 'Exp of emotion', 'Narratology'];['bondage and rape'];94104;96565;tt1568346;The Girl with the Dragon Tattoo;23.976;5881;6035;4642;1;0;0.637
+id_96;7;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Posture', 'Narratology'];[];96566;97579;tt1568346;The Girl with the Dragon Tattoo;23.976;6035;6098;4643;1;0;0.275
+id_97;7;annotator_2;Sure;['Body', 'Voice', 'Appearance'];[];97580;98087;tt1568346;The Girl with the Dragon Tattoo;23.976;6098;6130;4644;1;0;0.493
+id_99;7;annotator_2;Sure;['Type of shot', 'Body', 'Posture'];[];99182;99754;tt1568346;The Girl with the Dragon Tattoo;23.976;6198;6234;4646;1;0;0.636
+id_110;7;annotator_2;Sure;['Body', 'Posture'];[];109615;109940;tt1568346;The Girl with the Dragon Tattoo;23.976;6850;6871;4657;1;0;0.972
+id_112;7;annotator_2;Sure;['Body'];[];110028;110107;tt1568346;The Girl with the Dragon Tattoo;23.976;6876;6881;4659;1;0;0.705
+id_131;7;annotator_2;Sure;['Body', 'Appearance', 'Speech'];[];123714;124047;tt1568346;The Girl with the Dragon Tattoo;23.976;7732;7752;4678;1;0;0.302
+id_133;7;annotator_2;Sure;['Body', 'Appearance', 'Speech'];[];124421;125582;tt1568346;The Girl with the Dragon Tattoo;23.976;7776;7848;4680;1;0;0.159
+id_161;7;annotator_2;Sure;['Type of shot', 'Posture'];[];171779;173307;tt1568346;The Girl with the Dragon Tattoo;23.976;10736;10831;4708;1;0;0.046
+id_162;7;annotator_2;Sure;['Type of shot', 'Posture', 'Speech'];[];173308;173535;tt1568346;The Girl with the Dragon Tattoo;23.976;10831;10845;4709;1;0;0.128
+id_163;7;annotator_2;Sure;['Type of shot', 'Posture'];[];173536;175206;tt1568346;The Girl with the Dragon Tattoo;23.976;10846;10950;4710;1;0;0.119
+id_164;7;annotator_2;Sure;['Type of shot', 'Posture'];[];175207;175557;tt1568346;The Girl with the Dragon Tattoo;23.976;10950;10972;4711;1;0;0.207
+id_165;7;annotator_2;Sure;['Type of shot', 'Speech'];[];175558;175943;tt1568346;The Girl with the Dragon Tattoo;23.976;10972;10996;4712;1;0;0.147
+id_166;7;annotator_2;Sure;['Type of shot', 'Posture'];[];175944;177223;tt1568346;The Girl with the Dragon Tattoo;23.976;10996;11076;4713;1;0;0.103
+id_167;7;annotator_2;Sure;['Type of shot', 'Posture', 'Speech'];[];177224;178145;tt1568346;The Girl with the Dragon Tattoo;23.976;11076;11134;4714;1;0;0.066
+id_169;7;annotator_2;Sure;['Type of shot', 'Posture'];[];178495;178757;tt1568346;The Girl with the Dragon Tattoo;23.976;11155;11172;4716;1;0;0.085
+id_170;7;annotator_2;Sure;['Type of shot', 'Posture', 'Speech'];[];178758;179282;tt1568346;The Girl with the Dragon Tattoo;23.976;11172;11205;4717;1;0;0.071
+id_173;7;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Posture', 'Look', 'Exp of emotion'];[];180161;180898;tt1568346;The Girl with the Dragon Tattoo;23.976;11260;11306;4720;1;0;0.181
+id_174;7;annotator_2;Sure;['Type of shot', 'Body', 'Posture', 'Speech'];[];180899;181650;tt1568346;The Girl with the Dragon Tattoo;23.976;11306;11353;4721;1;0;0.154
+id_195;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Look'];[];197894;198011;tt1568346;The Girl with the Dragon Tattoo;23.976;12368;12375;4742;1;0;0.751
+id_199;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Look'];[];198701;198874;tt1568346;The Girl with the Dragon Tattoo;23.976;12418;12429;4746;1;0;0.72
+id_200;7;annotator_2;Sure;['Posture'];[];198875;198998;tt1568346;The Girl with the Dragon Tattoo;23.976;12429;12437;4747;1;0;0.779
+id_212;7;annotator_2;Sure;['Type of shot', 'Body'];[];207962;208003;tt1568346;The Girl with the Dragon Tattoo;23.976;12997;13000;4759;1;0;0.8
+id_217;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];209190;209287;tt1568346;The Girl with the Dragon Tattoo;23.976;13074;13080;4764;1;0;0.657
+id_218;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];209288;209386;tt1568346;The Girl with the Dragon Tattoo;23.976;13080;13086;4765;1;0;0.842
+id_219;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];209387;209499;tt1568346;The Girl with the Dragon Tattoo;23.976;13086;13093;4766;1;0;0.991
+id_220;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];209500;209708;tt1568346;The Girl with the Dragon Tattoo;23.976;13093;13106;4767;1;0;0.886
+id_221;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];209709;209845;tt1568346;The Girl with the Dragon Tattoo;23.976;13106;13115;4768;1;0;0.363
+id_225;7;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];211144;211366;tt1568346;The Girl with the Dragon Tattoo;23.976;13196;13210;4772;1;0;0.754
+id_228;7;annotator_2;Sure;['Type of shot', 'Body', 'Appearance'];[];211584;211635;tt1568346;The Girl with the Dragon Tattoo;23.976;13224;13227;4775;1;0;0.191
+id_234;7;annotator_2;Sure;['Type of shot', 'Look'];['male perspective'];215557;215774;tt1568346;The Girl with the Dragon Tattoo;23.976;13472;13485;4781;1;0;0.057
+id_1;5;annotator_2;Sure;['Body', 'Posture'];[];1128;1720;tt1907668;Flight;23.976;70;107;5536;1;0;0.879
+id_3;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Look'];[];2349;3387;tt1907668;Flight;23.976;146;211;5538;1;0;0.916
+id_4;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];3388;3445;tt1907668;Flight;23.976;211;215;5539;1;0;0.984
+id_5;5;annotator_2;Sure;['Type of shot', 'Body', 'Posture'];[];3446;5320;tt1907668;Flight;23.976;215;332;5540;1;0;0.938
+id_7;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];9402;9793;tt1907668;Flight;23.976;587;612;5542;1;0;0.818
+id_9;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];10202;10425;tt1907668;Flight;23.976;637;651;5544;1;0;0.701
+id_10;5;annotator_2;Sure;['Posture', 'Speech', 'Activities', 'Look'];[];10426;10884;tt1907668;Flight;23.976;651;680;5545;1;0;0.759
+id_11;5;annotator_2;Sure;['Body', 'Clothing', 'Speech', 'Activities', 'Look'];[];10885;11304;tt1907668;Flight;23.976;680;706;5546;1;0;0.68
+id_12;5;annotator_2;Sure;['Body', 'Speech'];[];11305;11956;tt1907668;Flight;23.976;706;747;5547;1;0;0.931
+id_13;5;annotator_2;Sure;['Body', 'Voice', 'Speech'];[];11957;13284;tt1907668;Flight;23.976;747;830;5548;1;0;0.957
+id_15;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];19239;19358;tt1907668;Flight;23.976;1202;1209;5550;1;0;0.721
+id_17;5;annotator_2;Sure;['Voice', 'Speech', 'Look', 'Exp of emotion'];[];19999;20758;tt1907668;Flight;23.976;1249;1297;5552;1;0;0.344
+id_18;5;annotator_2;Sure;['Speech', 'Look', 'Exp of emotion'];[];20759;23293;tt1907668;Flight;23.976;1297;1455;5553;1;0;0.56
+id_20;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing'];[];24493;31785;tt1907668;Flight;23.976;1530;1986;5555;1;0;0.097
+id_22;5;annotator_2;Sure;['Body', 'Appearance'];[];31849;50381;tt1907668;Flight;23.976;1990;3148;5557;1;0;0.07
+id_24;5;annotator_2;Sure;['Voice', 'Appearance', 'Posture', 'Speech'];[];50436;50570;tt1907668;Flight;23.976;3152;3160;5559;1;0;0.969
+id_26;5;annotator_2;Sure;['Voice', 'Appearance', 'Speech', 'Activities'];[];50769;51287;tt1907668;Flight;23.976;3173;3205;5561;1;0;0.549
+id_34;5;annotator_2;Sure;['Posture', 'Speech', 'Look'];[];59736;60055;tt1907668;Flight;23.976;3733;3753;5569;1;0;0.451
+id_36;5;annotator_2;Sure;['Voice', 'Speech', 'Look', 'Exp of emotion'];[' '];60422;61116;tt1907668;Flight;23.976;3776;3819;5571;1;0;0.602
+id_40;5;annotator_2;Sure;['Voice', 'Posture', 'Speech'];[];65432;65778;tt1907668;Flight;23.976;4089;4111;5575;1;0;0.809
+id_50;5;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Clothing', 'Activities', 'Look', 'Soundtrack'];[];88884;91388;tt1907668;Flight;23.976;5555;5711;5585;1;0;0.696
+id_51;5;annotator_2;Sure;['Type of shot', 'Body', 'Voice', 'Clothing', 'Posture', 'Activities', 'Look', 'Exp of emotion'];[];91389;91794;tt1907668;Flight;23.976;5711;5737;5586;1;0;0.829
+id_53;5;annotator_2;Sure;['Body', 'Appearance', 'Clothing', 'Look'];[];97414;97628;tt1907668;Flight;23.976;6088;6101;5588;1;0;0.084
+id_58;5;annotator_2;Sure;['Type of shot', 'Voice', 'Posture', 'Look'];[];104590;105719;tt1907668;Flight;23.976;6536;6607;5593;1;0;0.235
+id_61;5;annotator_2;Sure;['Voice', 'Posture', 'Speech', 'Activities'];[];126912;127537;tt1907668;Flight;23.976;7932;7971;5596;1;0;0.856
+id_64;5;annotator_2;Sure;['Type of shot', 'Body'];[];13285;13410;tt1907668;Flight;23.976;830;838;5599;1;0;0.791
+id_66;5;annotator_2;Sure;['Type of shot', 'Body', 'Clothing', 'Look'];[];129218;130282;tt1907668;Flight;23.976;8076;8142;5601;1;0;0.125
+id_0;37;annotator_2;Easy Negative;[];[];0;16259;tt0119822;As Good as It Gets;23.976;0;1016;1245;0;0;0.382
+id_5;37;annotator_2;Easy Negative;[];[];17151;21130;tt0119822;As Good as It Gets;23.976;1071;1320;1250;0;0;0.446
+id_8;37;annotator_2;Easy Negative;[];[];22593;24778;tt0119822;As Good as It Gets;23.976;1412;1548;1253;0;0;0.939
+id_9;37;annotator_2;Easy Negative;[];[];24779;26865;tt0119822;As Good as It Gets;23.976;1548;1679;1254;0;0;0.787
+id_11;37;annotator_2;Easy Negative;[];[];27295;27549;tt0119822;As Good as It Gets;23.976;1705;1721;1256;0;0;0.691
+id_17;37;annotator_2;Easy Negative;[];[];30692;48174;tt0119822;As Good as It Gets;23.976;1918;3010;1262;0;0;0.464
+id_19;37;annotator_2;Easy Negative;[];[];49184;61260;tt0119822;As Good as It Gets;23.976;3074;3828;1264;0;0;0.371
+id_21;37;annotator_2;Easy Negative;[];[];61939;73016;tt0119822;As Good as It Gets;23.976;3871;4563;1266;0;0;0.437
+id_23;37;annotator_2;Easy Negative;['Speech'];[];73081;73310;tt0119822;As Good as It Gets;23.976;4567;4581;1268;0;0;0.011
+id_25;37;annotator_2;Easy Negative;[];[];73501;73634;tt0119822;As Good as It Gets;23.976;4593;4602;1270;0;0;0.027
+id_28;37;annotator_2;Easy Negative;[];['  '];74922;85348;tt0119822;As Good as It Gets;23.976;4682;5334;1273;0;0;0.681
+id_30;37;annotator_2;Easy Negative;[];[];85977;90198;tt0119822;As Good as It Gets;23.976;5373;5637;1275;0;0;0.517
+id_32;37;annotator_2;Easy Negative;[];[];90761;91328;tt0119822;As Good as It Gets;23.976;5672;5707;1277;0;0;0.138
+id_33;37;annotator_2;Easy Negative;[];[];91329;91593;tt0119822;As Good as It Gets;23.976;5708;5724;1278;0;0;0.509
+id_36;37;annotator_2;Easy Negative;[];[];92207;92291;tt0119822;As Good as It Gets;23.976;5762;5768;1281;0;0;0.981
+id_41;37;annotator_2;Easy Negative;[];[' '];96447;99642;tt0119822;As Good as It Gets;23.976;6027;6227;1286;0;0;0.528
+id_46;37;annotator_2;Easy Negative;[];[];104900;106370;tt0119822;As Good as It Gets;23.976;6556;6648;1291;0;0;0.387
+id_48;37;annotator_2;Easy Negative;[];[];107051;107263;tt0119822;As Good as It Gets;23.976;6690;6703;1293;0;0;0.358
+id_49;37;annotator_2;Easy Negative;[];[];107264;111436;tt0119822;As Good as It Gets;23.976;6704;6964;1294;0;0;0.38
+id_53;37;annotator_2;Easy Negative;['Speech'];[];115044;115640;tt0119822;As Good as It Gets;23.976;7190;7227;1298;0;0;0.66
+id_54;37;annotator_2;Easy Negative;[];[];115641;116596;tt0119822;As Good as It Gets;23.976;7227;7287;1299;0;0;0.845
+id_57;37;annotator_2;Easy Negative;[];[];118134;119427;tt0119822;As Good as It Gets;23.976;7383;7464;1302;0;0;0.36
+id_58;37;annotator_2;Easy Negative;[];['makes fun of a gay couple'];119428;119801;tt0119822;As Good as It Gets;23.976;7464;7487;1303;0;0;0.173
+id_61;37;annotator_2;Easy Negative;['Speech'];[];120181;120383;tt0119822;As Good as It Gets;23.976;7511;7523;1306;0;0;0.851
+id_62;37;annotator_2;Easy Negative;[];[];120385;121162;tt0119822;As Good as It Gets;23.976;7524;7572;1307;0;0;0.536
+id_64;37;annotator_2;Easy Negative;[];[];121604;121846;tt0119822;As Good as It Gets;23.976;7600;7615;1309;0;0;0.558
+id_65;37;annotator_2;Easy Negative;[];[];121847;124920;tt0119822;As Good as It Gets;23.976;7615;7807;1310;0;0;0.173
+id_66;37;annotator_2;Easy Negative;['Speech'];[];124921;126307;tt0119822;As Good as It Gets;23.976;7807;7894;1311;0;0;0.662
+id_67;37;annotator_2;Easy Negative;['Speech'];[];126308;128105;tt0119822;As Good as It Gets;23.976;7894;8006;1312;0;0;0.392
+id_68;37;annotator_2;Easy Negative;[];[];128106;131737;tt0119822;As Good as It Gets;23.976;8006;8233;1313;0;0;0.45
+id_69;37;annotator_2;Easy Negative;[];[];131738;132338;tt0119822;As Good as It Gets;23.976;8233;8271;1314;0;0;0.775
+id_71;37;annotator_2;Easy Negative;[];[];133010;133545;tt0119822;As Good as It Gets;23.976;8313;8346;1316;0;0;0.935
+id_73;37;annotator_2;Easy Negative;[];[];133919;134582;tt0119822;As Good as It Gets;23.976;8369;8411;1318;0;0;0.94
+id_75;37;annotator_2;Easy Negative;[];[];135559;137539;tt0119822;As Good as It Gets;23.976;8472;8596;1320;0;0;0.582
+id_83;37;annotator_2;Easy Negative;['Speech'];[];145425;145779;tt0119822;As Good as It Gets;23.976;9089;9111;1328;0;0;0.575
+id_84;37;annotator_2;Easy Negative;[];[];145780;148713;tt0119822;As Good as It Gets;23.976;9111;9294;1329;0;0;0.837
+id_85;37;annotator_2;Easy Negative;['Speech'];[];148714;149781;tt0119822;As Good as It Gets;23.976;9294;9361;1330;0;0;0.782
+id_87;37;annotator_2;Easy Negative;[];[];150183;153567;tt0119822;As Good as It Gets;23.976;9386;9597;1332;0;0;0.913
+id_91;37;annotator_2;Easy Negative;[];[];155912;156558;tt0119822;As Good as It Gets;23.976;9744;9784;1336;0;0;0.087
+id_94;37;annotator_2;Easy Negative;['Speech'];[];158119;158381;tt0119822;As Good as It Gets;23.976;9882;9898;1339;0;0;0.841
+id_95;37;annotator_2;Easy Negative;[];[];158382;158631;tt0119822;As Good as It Gets;23.976;9898;9914;1340;0;0;0.825
+id_96;37;annotator_2;Easy Negative;['Speech'];[];158632;158752;tt0119822;As Good as It Gets;23.976;9914;9921;1341;0;0;0.383
+id_98;37;annotator_2;Easy Negative;[];[' '];159260;172190;tt0119822;As Good as It Gets;23.976;9953;10761;1343;0;0;0.546
+id_100;37;annotator_2;Easy Negative;[];[];174664;179905;tt0119822;As Good as It Gets;23.976;10916;11244;1345;0;0;0.32
+id_108;37;annotator_2;Easy Negative;[];[];184282;185059;tt0119822;As Good as It Gets;23.976;11517;11566;1353;0;0;0.857
+id_110;37;annotator_2;Easy Negative;[];[];185409;186149;tt0119822;As Good as It Gets;23.976;11588;11634;1355;0;0;0.417
+id_112;37;annotator_2;Easy Negative;['Speech'];[];189695;189854;tt0119822;As Good as It Gets;23.976;11855;11865;1357;0;0;0.669
+id_114;37;annotator_2;Easy Negative;['Voice'];[];190864;191294;tt0119822;As Good as It Gets;23.976;11929;11955;1359;0;0;0.834
+id_115;37;annotator_2;Easy Negative;[];[];191295;199284;tt0119822;As Good as It Gets;23.976;11955;12455;1360;0;0;0.013
+id_0;11;annotator_2;Easy Negative;[];[];0;3774;tt1454029;The Help;23.976;0;235;4204;0;0;0.04
+id_1;11;annotator_2;Easy Negative;['Speech'];[];3775;3933;tt1454029;The Help;23.976;235;245;4205;0;0;0.332
+id_2;11;annotator_2;Easy Negative;[];[];3934;4446;tt1454029;The Help;23.976;245;277;4206;0;0;0.091
+id_4;11;annotator_2;Easy Negative;[];[];4698;4894;tt1454029;The Help;23.976;293;305;4208;0;0;0.083
+id_8;11;annotator_2;Easy Negative;[];[];5981;7363;tt1454029;The Help;23.976;373;460;4212;0;0;0.046
+id_10;11;annotator_2;Easy Negative;[];[];7885;9223;tt1454029;The Help;23.976;492;576;4214;0;0;0.076
+id_19;11;annotator_2;Easy Negative;['Speech'];['order to the maid and old mother as object'];13923;14092;tt1454029;The Help;23.976;870;880;4223;0;0;0.123
+id_21;11;annotator_2;Easy Negative;[];[];14163;15678;tt1454029;The Help;23.976;885;979;4225;0;0;0.06
+id_23;11;annotator_2;Easy Negative;['Speech'];[];16479;17207;tt1454029;The Help;23.976;1029;1075;4227;0;0;0.101
+id_25;11;annotator_2;Easy Negative;['Speech'];[];17333;17902;tt1454029;The Help;23.976;1083;1118;4229;0;0;0.075
+id_26;11;annotator_2;Easy Negative;[];[];17903;18463;tt1454029;The Help;23.976;1118;1153;4230;0;0;0.095
+id_27;11;annotator_2;Easy Negative;[];[];18464;18985;tt1454029;The Help;23.976;1154;1186;4231;0;0;0.058
+id_31;11;annotator_2;Easy Negative;['Speech'];[' racial discrimination - toilet'];21611;22809;tt1454029;The Help;23.976;1350;1425;4235;0;0;0.053
+id_32;11;annotator_2;Easy Negative;[];[];22810;23543;tt1454029;The Help;23.976;1425;1471;4236;0;0;0.061
+id_35;11;annotator_2;Easy Negative;[];[' '];25740;25935;tt1454029;The Help;23.976;1608;1620;4239;0;0;0.087
+id_38;11;annotator_2;Easy Negative;['Speech'];[];28678;29413;tt1454029;The Help;23.976;1792;1838;4242;0;0;0.091
+id_40;11;annotator_2;Easy Negative;['Speech'];[];29818;30660;tt1454029;The Help;23.976;1863;1916;4244;0;0;0.055
+id_41;11;annotator_2;Easy Negative;['Speech'];[];30661;30842;tt1454029;The Help;23.976;1916;1927;4245;0;0;0.473
+id_42;11;annotator_2;Easy Negative;['Speech'];['paternalizing/paternalist'];30843;31279;tt1454029;The Help;23.976;1927;1954;4246;0;0;0.114
+id_44;11;annotator_2;Easy Negative;[];[' '];31567;32420;tt1454029;The Help;23.976;1972;2026;4248;0;0;0.06
+id_45;11;annotator_2;Easy Negative;['Speech'];['maid considered as disposable'];32421;33029;tt1454029;The Help;23.976;2026;2064;4249;0;0;0.085
+id_48;11;annotator_2;Easy Negative;[];[];33598;34491;tt1454029;The Help;23.976;2099;2155;4252;0;0;0.051
+id_49;11;annotator_2;Easy Negative;['Speech'];[];34492;34810;tt1454029;The Help;23.976;2155;2175;4253;0;0;0.052
+id_50;11;annotator_2;Easy Negative;[];[];34811;37188;tt1454029;The Help;23.976;2175;2324;4254;0;0;0.039
+id_53;11;annotator_2;Easy Negative;['Speech'];[];37683;37943;tt1454029;The Help;23.976;2355;2371;4257;0;0;0.154
+id_55;11;annotator_2;Easy Negative;['Speech'];[];38162;38246;tt1454029;The Help;23.976;2385;2390;4259;0;0;0.179
+id_57;11;annotator_2;Easy Negative;[];[];38398;38837;tt1454029;The Help;23.976;2399;2427;4261;0;0;0.114
+id_59;11;annotator_2;Easy Negative;['Speech'];[];39028;39615;tt1454029;The Help;23.976;2439;2475;4263;0;0;0.05
+id_61;11;annotator_2;Easy Negative;[];[];39743;40834;tt1454029;The Help;23.976;2483;2552;4265;0;0;0.059
+id_64;11;annotator_2;Easy Negative;[];[];41982;42192;tt1454029;The Help;23.976;2623;2636;4268;0;0;0.094
+id_65;11;annotator_2;Easy Negative;['Voice', 'Speech'];[];42193;43201;tt1454029;The Help;23.976;2637;2700;4269;0;0;0.061
+id_66;11;annotator_2;Easy Negative;['Speech'];[];43202;43563;tt1454029;The Help;23.976;2700;2722;4270;0;0;0.099
+id_67;11;annotator_2;Easy Negative;[];[' '];43564;44303;tt1454029;The Help;23.976;2722;2768;4271;0;0;0.095
+id_68;11;annotator_2;Easy Negative;['Speech'];[];44304;44413;tt1454029;The Help;23.976;2769;2775;4272;0;0;0.453
+id_69;11;annotator_2;Easy Negative;[];[];44414;45288;tt1454029;The Help;23.976;2775;2830;4273;0;0;0.051
+id_71;11;annotator_2;Easy Negative;['Speech'];[];45391;46136;tt1454029;The Help;23.976;2836;2883;4275;0;0;0.071
+id_74;11;annotator_2;Easy Negative;[];[];47480;48144;tt1454029;The Help;23.976;2967;3008;4278;0;0;0.08
+id_76;11;annotator_2;Easy Negative;[];[];48496;48657;tt1454029;The Help;23.976;3031;3041;4280;0;0;0.142
+id_78;11;annotator_2;Easy Negative;[];[];48990;49363;tt1454029;The Help;23.976;3061;3085;4282;0;0;0.088
+id_82;11;annotator_2;Easy Negative;[];[' '];51279;52371;tt1454029;The Help;23.976;3204;3273;4286;0;0;0.041
+id_86;11;annotator_2;Easy Negative;[];[];54352;55777;tt1454029;The Help;23.976;3397;3486;4290;0;0;0.049
+id_89;11;annotator_2;Easy Negative;[];[];56541;56717;tt1454029;The Help;23.976;3533;3544;4293;0;0;0.166
+id_90;11;annotator_2;Easy Negative;[];[];56718;58873;tt1454029;The Help;23.976;3544;3679;4294;0;0;0.035
+id_92;11;annotator_2;Easy Negative;[];[];61656;62648;tt1454029;The Help;23.976;3853;3915;4296;0;0;0.059
+id_95;11;annotator_2;Easy Negative;[];[];64391;65914;tt1454029;The Help;23.976;4024;4119;4299;0;0;0.064
+id_100;11;annotator_2;Easy Negative;['Speech'];[' '];70300;70672;tt1454029;The Help;23.976;4393;4416;4304;0;0;0.089
+id_105;11;annotator_2;Easy Negative;[];[];73038;73309;tt1454029;The Help;23.976;4564;4581;4309;0;0;0.153
+id_111;11;annotator_2;Easy Negative;[];[];76172;77521;tt1454029;The Help;23.976;4760;4845;4315;0;0;0.05
+id_115;11;annotator_2;Easy Negative;[];[];79794;80707;tt1454029;The Help;23.976;4987;5044;4319;0;0;0.052
+id_117;11;annotator_2;Easy Negative;[];[];81109;81400;tt1454029;The Help;23.976;5069;5087;4321;0;0;0.085
+id_118;11;annotator_2;Easy Negative;['Speech'];[];81401;81876;tt1454029;The Help;23.976;5087;5117;4322;0;0;0.089
+id_119;11;annotator_2;Easy Negative;[];[];81877;85702;tt1454029;The Help;23.976;5117;5356;4323;0;0;0.031
+id_123;11;annotator_2;Easy Negative;['Speech'];['prescriptive of self-objectification behavior'];88783;89245;tt1454029;The Help;23.976;5548;5577;4327;0;0;0.094
+id_124;11;annotator_2;Easy Negative;[];[];89246;89437;tt1454029;The Help;23.976;5577;5589;4328;0;0;0.112
+id_127;11;annotator_2;Easy Negative;[];[];89938;90786;tt1454029;The Help;23.976;5621;5674;4331;0;0;0.048
+id_133;11;annotator_2;Easy Negative;['Speech'];[];94829;96808;tt1454029;The Help;23.976;5926;6050;4337;0;0;0.036
+id_135;11;annotator_2;Easy Negative;[];[];98085;101322;tt1454029;The Help;23.976;6130;6332;4339;0;0;0.042
+id_138;11;annotator_2;Easy Negative;['Speech'];[];101980;102869;tt1454029;The Help;23.976;6373;6429;4342;0;0;0.086
+id_139;11;annotator_2;Easy Negative;['Speech'];[];102870;104806;tt1454029;The Help;23.976;6429;6550;4343;0;0;0.053
+id_142;11;annotator_2;Easy Negative;['Speech'];[];107166;108074;tt1454029;The Help;23.976;6697;6754;4346;0;0;0.081
+id_145;11;annotator_2;Easy Negative;['Speech'];[];110488;112106;tt1454029;The Help;23.976;6905;7006;4349;0;0;0.046
+id_147;11;annotator_2;Easy Negative;[];[];112594;112950;tt1454029;The Help;23.976;7037;7059;4351;0;0;0.159
+id_150;11;annotator_2;Easy Negative;[];[];114128;114883;tt1454029;The Help;23.976;7133;7180;4354;0;0;0.044
+id_151;11;annotator_2;Easy Negative;[];[];114884;116024;tt1454029;The Help;23.976;7180;7251;4355;0;0;0.05
+id_152;11;annotator_2;Easy Negative;[];[];116025;119002;tt1454029;The Help;23.976;7251;7437;4356;0;0;0.039
+id_154;11;annotator_2;Easy Negative;[];[];120003;120195;tt1454029;The Help;23.976;7500;7512;4358;0;0;0.109
+id_155;11;annotator_2;Easy Negative;[];[];120196;123451;tt1454029;The Help;23.976;7512;7715;4359;0;0;0.05
+id_157;11;annotator_2;Easy Negative;['Speech'];[];124427;124838;tt1454029;The Help;23.976;7776;7802;4361;0;0;0.093
+id_161;11;annotator_2;Easy Negative;[];[];127555;129465;tt1454029;The Help;23.976;7972;8091;4365;0;0;0.05
+id_162;11;annotator_2;Easy Negative;['Speech'];['objectification / slavery'];129466;131325;tt1454029;The Help;23.976;8091;8207;4366;0;0;0.047
+id_163;11;annotator_2;Easy Negative;[];[];131326;132042;tt1454029;The Help;23.976;8207;8252;4367;0;0;0.048
+id_166;11;annotator_2;Easy Negative;['Voice'];[];132383;133976;tt1454029;The Help;23.976;8273;8373;4370;0;0;0.038
+id_168;11;annotator_2;Easy Negative;[];[];134341;135897;tt1454029;The Help;23.976;8396;8493;4372;0;0;0.049
+id_170;11;annotator_2;Easy Negative;['Speech'];['talk about domestic violence'];136410;137428;tt1454029;The Help;23.976;8525;8589;4374;0;0;0.037
+id_171;11;annotator_2;Easy Negative;[];[];137429;138211;tt1454029;The Help;23.976;8589;8638;4375;0;0;0.038
+id_173;11;annotator_2;Easy Negative;['Speech'];[];138427;138947;tt1454029;The Help;23.976;8651;8684;4377;0;0;0.081
+id_175;11;annotator_2;Easy Negative;[];[];141914;143145;tt1454029;The Help;23.976;8869;8946;4379;0;0;0.043
+id_176;11;annotator_2;Easy Negative;[];[];143146;145370;tt1454029;The Help;23.976;8946;9085;4380;0;0;0.038
+id_179;11;annotator_2;Easy Negative;['Speech'];[];146320;146511;tt1454029;The Help;23.976;9145;9156;4383;0;0;0.097
+id_180;11;annotator_2;Easy Negative;[];[];146512;146779;tt1454029;The Help;23.976;9157;9173;4384;0;0;0.279
+id_181;11;annotator_2;Easy Negative;[];[];146780;147046;tt1454029;The Help;23.976;9173;9190;4385;0;0;0.063
+id_182;11;annotator_2;Easy Negative;['Voice'];[];147047;147165;tt1454029;The Help;23.976;9190;9197;4386;0;0;0.147
+id_183;11;annotator_2;Easy Negative;[];[];147166;147358;tt1454029;The Help;23.976;9197;9209;4387;0;0;0.109
+id_186;11;annotator_2;Easy Negative;[];[];147781;148360;tt1454029;The Help;23.976;9236;9272;4390;0;0;0.113
+id_189;11;annotator_2;Easy Negative;['Voice'];[];149122;149864;tt1454029;The Help;23.976;9320;9366;4393;0;0;0.073
+id_191;11;annotator_2;Easy Negative;[];[];152011;152242;tt1454029;The Help;23.976;9500;9515;4395;0;0;0.209
+id_193;11;annotator_2;Easy Negative;['Speech'];[];153329;155625;tt1454029;The Help;23.976;9583;9726;4397;0;0;0.05
+id_194;11;annotator_2;Easy Negative;[];[];155626;156219;tt1454029;The Help;23.976;9726;9763;4398;0;0;0.078
+id_196;11;annotator_2;Easy Negative;[];[];156545;157241;tt1454029;The Help;23.976;9784;9827;4400;0;0;0.073
+id_200;11;annotator_2;Easy Negative;[];[];161669;163348;tt1454029;The Help;23.976;10104;10209;4404;0;0;0.037
+id_201;11;annotator_2;Easy Negative;['Speech'];[];163349;163574;tt1454029;The Help;23.976;10209;10223;4405;0;0;0.071
+id_204;11;annotator_2;Easy Negative;[];[];165474;165779;tt1454029;The Help;23.976;10342;10361;4408;0;0;0.061
+id_205;11;annotator_2;Easy Negative;[];[];165780;166824;tt1454029;The Help;23.976;10361;10426;4409;0;0;0.044
+id_214;11;annotator_2;Easy Negative;[];[];173681;174740;tt1454029;The Help;23.976;10855;10921;4418;0;0;0.037
+id_222;11;annotator_2;Easy Negative;[];[];185422;185760;tt1454029;The Help;23.976;11588;11609;4426;0;0;0.129
+id_226;11;annotator_2;Easy Negative;[];[];188687;191030;tt1454029;The Help;23.976;11792;11939;4430;0;0;0.038
+id_231;11;annotator_2;Easy Negative;[];[];199938;210178;tt1454029;The Help;23.976;12496;13136;4435;0;0;0.042
+id_0;7;annotator_2;Easy Negative;[];[];0;7638;tt1568346;The Girl with the Dragon Tattoo;23.976;0;477;4547;0;0;0.073
+id_4;7;annotator_2;Easy Negative;[];[];8871;9899;tt1568346;The Girl with the Dragon Tattoo;23.976;554;618;4551;0;0;0.065
+id_5;7;annotator_2;Easy Negative;[];[];9900;10304;tt1568346;The Girl with the Dragon Tattoo;23.976;618;643;4552;0;0;0.079
+id_8;7;annotator_2;Easy Negative;[];[];12899;14304;tt1568346;The Girl with the Dragon Tattoo;23.976;806;893;4555;0;0;0.023
+id_10;7;annotator_2;Easy Negative;[];[];14739;16616;tt1568346;The Girl with the Dragon Tattoo;23.976;921;1038;4557;0;0;0.065
+id_12;7;annotator_2;Easy Negative;[];[];17018;18422;tt1568346;The Girl with the Dragon Tattoo;23.976;1063;1151;4559;0;0;0.162
+id_14;7;annotator_2;Easy Negative;[];[];18745;19330;tt1568346;The Girl with the Dragon Tattoo;23.976;1171;1208;4561;0;0;0.439
+id_15;7;annotator_2;Easy Negative;[];[];19331;23523;tt1568346;The Girl with the Dragon Tattoo;23.976;1208;1470;4562;0;0;0.045
+id_16;7;annotator_2;Easy Negative;[];[];23524;24279;tt1568346;The Girl with the Dragon Tattoo;23.976;1470;1517;4563;0;0;0.083
+id_18;7;annotator_2;Easy Negative;[];[];24390;25131;tt1568346;The Girl with the Dragon Tattoo;23.976;1524;1570;4565;0;0;0.071
+id_19;7;annotator_2;Easy Negative;['Speech'];[];25132;25302;tt1568346;The Girl with the Dragon Tattoo;23.976;1570;1581;4566;0;0;0.309
+id_20;7;annotator_2;Easy Negative;[];[];25303;26274;tt1568346;The Girl with the Dragon Tattoo;23.976;1581;1642;4567;0;0;0.055
+id_21;7;annotator_2;Easy Negative;['Speech'];[];26275;26793;tt1568346;The Girl with the Dragon Tattoo;23.976;1642;1674;4568;0;0;0.05
+id_22;7;annotator_2;Easy Negative;[];[];26794;31873;tt1568346;The Girl with the Dragon Tattoo;23.976;1674;1992;4569;0;0;0.049
+id_23;7;annotator_2;Easy Negative;[];[];31874;33981;tt1568346;The Girl with the Dragon Tattoo;23.976;1992;2123;4570;0;0;0.059
+id_24;7;annotator_2;Easy Negative;[];[];33982;34408;tt1568346;The Girl with the Dragon Tattoo;23.976;2123;2150;4571;0;0;0.138
+id_25;7;annotator_2;Easy Negative;[];[];34409;34902;tt1568346;The Girl with the Dragon Tattoo;23.976;2150;2181;4572;0;0;0.178
+id_28;7;annotator_2;Easy Negative;[];[];35716;36723;tt1568346;The Girl with the Dragon Tattoo;23.976;2232;2295;4575;0;0;0.046
+id_30;7;annotator_2;Easy Negative;[];[];36952;40019;tt1568346;The Girl with the Dragon Tattoo;23.976;2309;2501;4577;0;0;0.033
+id_32;7;annotator_2;Easy Negative;[];[];40170;40564;tt1568346;The Girl with the Dragon Tattoo;23.976;2510;2535;4579;0;0;0.329
+id_34;7;annotator_2;Easy Negative;[];[];40803;46318;tt1568346;The Girl with the Dragon Tattoo;23.976;2550;2894;4581;0;0;0.053
+id_36;7;annotator_2;Easy Negative;[];[];46467;46940;tt1568346;The Girl with the Dragon Tattoo;23.976;2904;2933;4583;0;0;0.193
+id_39;7;annotator_2;Easy Negative;[];[];47326;51381;tt1568346;The Girl with the Dragon Tattoo;23.976;2957;3211;4586;0;0;0.021
+id_41;7;annotator_2;Easy Negative;['Speech'];[];52278;52417;tt1568346;The Girl with the Dragon Tattoo;23.976;3267;3276;4588;0;0;0.351
+id_43;7;annotator_2;Easy Negative;['Voice', 'Speech'];[];53779;54577;tt1568346;The Girl with the Dragon Tattoo;23.976;3361;3411;4590;0;0;0.071
+id_44;7;annotator_2;Easy Negative;[];[];54578;54826;tt1568346;The Girl with the Dragon Tattoo;23.976;3411;3426;4591;0;0;0.091
+id_45;7;annotator_2;Easy Negative;['Voice'];[];54827;54896;tt1568346;The Girl with the Dragon Tattoo;23.976;3426;3430;4592;0;0;0.491
+id_46;7;annotator_2;Easy Negative;[];[];54897;55712;tt1568346;The Girl with the Dragon Tattoo;23.976;3431;3481;4593;0;0;0.151
+id_49;7;annotator_2;Easy Negative;[];[];57413;57781;tt1568346;The Girl with the Dragon Tattoo;23.976;3588;3611;4596;0;0;0.23
+id_51;7;annotator_2;Easy Negative;[];[];57931;58847;tt1568346;The Girl with the Dragon Tattoo;23.976;3620;3677;4598;0;0;0.615
+id_52;7;annotator_2;Easy Negative;[];[];58848;59918;tt1568346;The Girl with the Dragon Tattoo;23.976;3678;3744;4599;0;0;0.076
+id_53;7;annotator_2;Easy Negative;[];[];59919;60794;tt1568346;The Girl with the Dragon Tattoo;23.976;3744;3799;4600;0;0;0.164
+id_54;7;annotator_2;Easy Negative;[];[];60795;63661;tt1568346;The Girl with the Dragon Tattoo;23.976;3799;3978;4601;0;0;0.137
+id_55;7;annotator_2;Easy Negative;[];[];63662;63912;tt1568346;The Girl with the Dragon Tattoo;23.976;3978;3994;4602;0;0;0.034
+id_56;7;annotator_2;Easy Negative;['Voice', 'Speech'];[];63913;64379;tt1568346;The Girl with the Dragon Tattoo;23.976;3994;4023;4603;0;0;0.034
+id_60;7;annotator_2;Easy Negative;['Narratology'];['payment after blackmailing rape'];68216;68538;tt1568346;The Girl with the Dragon Tattoo;23.976;4263;4283;4607;0;0;0.265
+id_62;7;annotator_2;Easy Negative;[];[' '];69004;69742;tt1568346;The Girl with the Dragon Tattoo;23.976;4312;4358;4609;0;0;0.037
+id_63;7;annotator_2;Easy Negative;[];[];69743;72058;tt1568346;The Girl with the Dragon Tattoo;23.976;4358;4503;4610;0;0;0.221
+id_64;7;annotator_2;Easy Negative;['Speech'];[];72059;72599;tt1568346;The Girl with the Dragon Tattoo;23.976;4503;4537;4611;0;0;0.283
+id_65;7;annotator_2;Easy Negative;[];[];72600;73139;tt1568346;The Girl with the Dragon Tattoo;23.976;4537;4571;4612;0;0;0.348
+id_66;7;annotator_2;Easy Negative;[];[];73140;73456;tt1568346;The Girl with the Dragon Tattoo;23.976;4571;4590;4613;0;0;0.073
+id_67;7;annotator_2;Easy Negative;['Speech', 'Narratology'];[];73457;73847;tt1568346;The Girl with the Dragon Tattoo;23.976;4591;4615;4614;0;0;0.232
+id_68;7;annotator_2;Easy Negative;[];[];73848;74422;tt1568346;The Girl with the Dragon Tattoo;23.976;4615;4651;4615;0;0;0.081
+id_72;7;annotator_2;Easy Negative;[];[];76590;76738;tt1568346;The Girl with the Dragon Tattoo;23.976;4786;4796;4619;0;0;0.72
+id_74;7;annotator_2;Easy Negative;[];[];79218;80857;tt1568346;The Girl with the Dragon Tattoo;23.976;4951;5053;4621;0;0;0.081
+id_76;7;annotator_2;Easy Negative;[];[];81796;82320;tt1568346;The Girl with the Dragon Tattoo;23.976;5112;5144;4623;0;0;0.196
+id_78;7;annotator_2;Easy Negative;[];[];82781;83015;tt1568346;The Girl with the Dragon Tattoo;23.976;5173;5188;4625;0;0;0.058
+id_81;7;annotator_2;Easy Negative;[];[];83385;84844;tt1568346;The Girl with the Dragon Tattoo;23.976;5211;5302;4628;0;0;0.267
+id_85;7;annotator_2;Easy Negative;[];[];86088;90470;tt1568346;The Girl with the Dragon Tattoo;23.976;5380;5654;4632;0;0;0.036
+id_86;7;annotator_2;Easy Negative;[];[];90471;90615;tt1568346;The Girl with the Dragon Tattoo;23.976;5654;5663;4633;0;0;0.301
+id_88;7;annotator_2;Easy Negative;[];[];90801;91136;tt1568346;The Girl with the Dragon Tattoo;23.976;5675;5695;4635;0;0;0.075
+id_91;7;annotator_2;Easy Negative;[];[];91911;92614;tt1568346;The Girl with the Dragon Tattoo;23.976;5744;5788;4638;0;0;0.085
+id_98;7;annotator_2;Easy Negative;[];[];98088;99181;tt1568346;The Girl with the Dragon Tattoo;23.976;6130;6198;4645;0;0;0.161
+id_100;7;annotator_2;Easy Negative;[];[];99755;100337;tt1568346;The Girl with the Dragon Tattoo;23.976;6234;6271;4647;0;0;0.097
+id_101;7;annotator_2;Easy Negative;[];[];100338;102115;tt1568346;The Girl with the Dragon Tattoo;23.976;6271;6382;4648;0;0;0.126
+id_102;7;annotator_2;Easy Negative;[];[];102116;103882;tt1568346;The Girl with the Dragon Tattoo;23.976;6382;6492;4649;0;0;0.045
+id_103;7;annotator_2;Easy Negative;['Speech'];[];103883;104436;tt1568346;The Girl with the Dragon Tattoo;23.976;6492;6527;4650;0;0;0.038
+id_104;7;annotator_2;Easy Negative;[];[];104437;107424;tt1568346;The Girl with the Dragon Tattoo;23.976;6527;6713;4651;0;0;0.087
+id_105;7;annotator_2;Easy Negative;[];[];107425;108150;tt1568346;The Girl with the Dragon Tattoo;23.976;6714;6759;4652;0;0;0.097
+id_106;7;annotator_2;Easy Negative;['Speech'];[];108151;108604;tt1568346;The Girl with the Dragon Tattoo;23.976;6759;6787;4653;0;0;0.045
+id_109;7;annotator_2;Easy Negative;[];[];109581;109614;tt1568346;The Girl with the Dragon Tattoo;23.976;6848;6850;4656;0;0;0.493
+id_111;7;annotator_2;Easy Negative;[];[];109941;110027;tt1568346;The Girl with the Dragon Tattoo;23.976;6871;6876;4658;0;0;0.131
+id_113;7;annotator_2;Easy Negative;[];[];110108;110473;tt1568346;The Girl with the Dragon Tattoo;23.976;6881;6904;4660;0;0;0.328
+id_115;7;annotator_2;Easy Negative;['Speech'];[];111024;111365;tt1568346;The Girl with the Dragon Tattoo;23.976;6939;6960;4662;0;0;0.356
+id_117;7;annotator_2;Easy Negative;[];[];111598;111782;tt1568346;The Girl with the Dragon Tattoo;23.976;6974;6986;4664;0;0;0.615
+id_120;7;annotator_2;Easy Negative;['Speech'];[];113333;113439;tt1568346;The Girl with the Dragon Tattoo;23.976;7083;7089;4667;0;0;0.152
+id_122;7;annotator_2;Easy Negative;[];[];114392;115211;tt1568346;The Girl with the Dragon Tattoo;23.976;7149;7200;4669;0;0;0.078
+id_123;7;annotator_2;Easy Negative;[];[];115212;117122;tt1568346;The Girl with the Dragon Tattoo;23.976;7200;7320;4670;0;0;0.048
+id_124;7;annotator_2;Easy Negative;[];[];117123;120385;tt1568346;The Girl with the Dragon Tattoo;23.976;7320;7524;4671;0;0;0.019
+id_125;7;annotator_2;Easy Negative;['Speech'];[];120385;120608;tt1568346;The Girl with the Dragon Tattoo;23.976;7524;7537;4672;0;0;0.059
+id_126;7;annotator_2;Easy Negative;[];[];120609;122166;tt1568346;The Girl with the Dragon Tattoo;23.976;7538;7635;4673;0;0;0.044
+id_127;7;annotator_2;Easy Negative;[];[];122167;122520;tt1568346;The Girl with the Dragon Tattoo;23.976;7635;7657;4674;0;0;0.1
+id_128;7;annotator_2;Easy Negative;['Speech'];[];122521;122647;tt1568346;The Girl with the Dragon Tattoo;23.976;7657;7665;4675;0;0;0.092
+id_129;7;annotator_2;Easy Negative;[];[];122648;123241;tt1568346;The Girl with the Dragon Tattoo;23.976;7665;7702;4676;0;0;0.18
+id_130;7;annotator_2;Easy Negative;['Speech'];[];123242;123713;tt1568346;The Girl with the Dragon Tattoo;23.976;7702;7732;4677;0;0;0.114
+id_132;7;annotator_2;Easy Negative;['Speech'];[];124048;124420;tt1568346;The Girl with the Dragon Tattoo;23.976;7753;7776;4679;0;0;0.103
+id_134;7;annotator_2;Easy Negative;[];[];125583;126471;tt1568346;The Girl with the Dragon Tattoo;23.976;7848;7904;4681;0;0;0.138
+id_135;7;annotator_2;Easy Negative;[];[];126472;129166;tt1568346;The Girl with the Dragon Tattoo;23.976;7904;8072;4682;0;0;0.036
+id_136;7;annotator_2;Easy Negative;[];[];129167;131959;tt1568346;The Girl with the Dragon Tattoo;23.976;8072;8247;4683;0;0;0.06
+id_137;7;annotator_2;Easy Negative;[];[];131960;134474;tt1568346;The Girl with the Dragon Tattoo;23.976;8247;8404;4684;0;0;0.069
+id_139;7;annotator_2;Easy Negative;[];[];135799;138412;tt1568346;The Girl with the Dragon Tattoo;23.976;8487;8650;4686;0;0;0.037
+id_140;7;annotator_2;Easy Negative;[];[];138413;139356;tt1568346;The Girl with the Dragon Tattoo;23.976;8650;8709;4687;0;0;0.066
+id_146;7;annotator_2;Easy Negative;[];[];143552;143813;tt1568346;The Girl with the Dragon Tattoo;23.976;8972;8988;4693;0;0;0.612
+id_147;7;annotator_2;Easy Negative;[];[];143814;144473;tt1568346;The Girl with the Dragon Tattoo;23.976;8988;9029;4694;0;0;0.289
+id_148;7;annotator_2;Easy Negative;[];[];144474;145929;tt1568346;The Girl with the Dragon Tattoo;23.976;9029;9120;4695;0;0;0.031
+id_149;7;annotator_2;Easy Negative;[];[];145930;150553;tt1568346;The Girl with the Dragon Tattoo;23.976;9120;9409;4696;0;0;0.023
+id_151;7;annotator_2;Easy Negative;[];[];152597;158152;tt1568346;The Girl with the Dragon Tattoo;23.976;9537;9884;4698;0;0;0.015
+id_152;7;annotator_2;Easy Negative;[];[];158153;160148;tt1568346;The Girl with the Dragon Tattoo;23.976;9884;10009;4699;0;0;0.044
+id_154;7;annotator_2;Easy Negative;[];[];160442;160869;tt1568346;The Girl with the Dragon Tattoo;23.976;10027;10054;4701;0;0;0.114
+id_156;7;annotator_2;Easy Negative;[];[];161058;165097;tt1568346;The Girl with the Dragon Tattoo;23.976;10066;10318;4703;0;0;0.061
+id_157;7;annotator_2;Easy Negative;[];[];165098;165217;tt1568346;The Girl with the Dragon Tattoo;23.976;10318;10326;4704;0;0;0.112
+id_158;7;annotator_2;Easy Negative;[];[];165218;171224;tt1568346;The Girl with the Dragon Tattoo;23.976;10326;10701;4705;0;0;0.039
+id_168;7;annotator_2;Easy Negative;[];[];178146;178494;tt1568346;The Girl with the Dragon Tattoo;23.976;11134;11155;4715;0;0;0.151
+id_172;7;annotator_2;Easy Negative;[];[];179825;180160;tt1568346;The Girl with the Dragon Tattoo;23.976;11239;11259;4719;0;0;0.195
+id_176;7;annotator_2;Easy Negative;[];[];182460;184989;tt1568346;The Girl with the Dragon Tattoo;23.976;11403;11561;4723;0;0;0.044
+id_178;7;annotator_2;Easy Negative;[];[];185159;185708;tt1568346;The Girl with the Dragon Tattoo;23.976;11572;11606;4725;0;0;0.153
+id_180;7;annotator_2;Easy Negative;[];[];185964;186541;tt1568346;The Girl with the Dragon Tattoo;23.976;11622;11658;4727;0;0;0.12
+id_183;7;annotator_2;Easy Negative;[];[];188560;191079;tt1568346;The Girl with the Dragon Tattoo;23.976;11785;11942;4730;0;0;0.049
+id_184;7;annotator_2;Easy Negative;[];[];191080;192457;tt1568346;The Girl with the Dragon Tattoo;23.976;11942;12028;4731;0;0;0.21
+id_187;7;annotator_2;Easy Negative;[];[];193744;195404;tt1568346;The Girl with the Dragon Tattoo;23.976;12109;12212;4734;0;0;0.073
+id_188;7;annotator_2;Easy Negative;[];[];195405;195473;tt1568346;The Girl with the Dragon Tattoo;23.976;12212;12217;4735;0;0;0.691
+id_189;7;annotator_2;Easy Negative;['Speech'];[];195474;196172;tt1568346;The Girl with the Dragon Tattoo;23.976;12217;12260;4736;0;0;0.168
+id_190;7;annotator_2;Easy Negative;['Voice', 'Speech'];[];196173;197153;tt1568346;The Girl with the Dragon Tattoo;23.976;12260;12322;4737;0;0;0.19
+id_192;7;annotator_2;Easy Negative;[];[];197220;197578;tt1568346;The Girl with the Dragon Tattoo;23.976;12326;12348;4739;0;0;0.234
+id_194;7;annotator_2;Easy Negative;[];[];197731;197893;tt1568346;The Girl with the Dragon Tattoo;23.976;12358;12368;4741;0;0;0.284
+id_196;7;annotator_2;Easy Negative;[];[];198012;198126;tt1568346;The Girl with the Dragon Tattoo;23.976;12375;12382;4743;0;0;0.366
+id_198;7;annotator_2;Easy Negative;[];[];198441;198700;tt1568346;The Girl with the Dragon Tattoo;23.976;12402;12418;4745;0;0;0.47
+id_202;7;annotator_2;Easy Negative;[];[];199106;199940;tt1568346;The Girl with the Dragon Tattoo;23.976;12444;12496;4749;0;0;0.162
+id_205;7;annotator_2;Easy Negative;[];[];200530;202117;tt1568346;The Girl with the Dragon Tattoo;23.976;12533;12632;4752;0;0;0.113
+id_207;7;annotator_2;Easy Negative;[];[];202300;203987;tt1568346;The Girl with the Dragon Tattoo;23.976;12643;12749;4754;0;0;0.045
+id_208;7;annotator_2;Easy Negative;['Voice'];[];203988;204059;tt1568346;The Girl with the Dragon Tattoo;23.976;12749;12753;4755;0;0;0.115
+id_210;7;annotator_2;Easy Negative;[];[];205893;207223;tt1568346;The Girl with the Dragon Tattoo;23.976;12868;12951;4757;0;0;0.053
+id_211;7;annotator_2;Easy Negative;[];[];207224;207961;tt1568346;The Girl with the Dragon Tattoo;23.976;12951;12997;4758;0;0;0.082
+id_214;7;annotator_2;Easy Negative;[];[];208166;208877;tt1568346;The Girl with the Dragon Tattoo;23.976;13010;13054;4761;0;0;0.126
+id_216;7;annotator_2;Easy Negative;[];[];208980;209189;tt1568346;The Girl with the Dragon Tattoo;23.976;13061;13074;4763;0;0;0.583
+id_222;7;annotator_2;Easy Negative;[];[];209846;210292;tt1568346;The Girl with the Dragon Tattoo;23.976;13115;13143;4769;0;0;0.144
+id_224;7;annotator_2;Easy Negative;[];[];210458;211143;tt1568346;The Girl with the Dragon Tattoo;23.976;13153;13196;4771;0;0;0.26
+id_227;7;annotator_2;Easy Negative;[];[];211548;211583;tt1568346;The Girl with the Dragon Tattoo;23.976;13221;13223;4774;0;0;0.531
+id_229;7;annotator_2;Easy Negative;[];[];211636;212292;tt1568346;The Girl with the Dragon Tattoo;23.976;13227;13268;4776;0;0;0.09
+id_231;7;annotator_2;Easy Negative;[];[];212515;214176;tt1568346;The Girl with the Dragon Tattoo;23.976;13282;13385;4778;0;0;0.131
+id_232;7;annotator_2;Easy Negative;[];[];214177;215205;tt1568346;The Girl with the Dragon Tattoo;23.976;13386;13450;4779;0;0;0.097
+id_233;7;annotator_2;Easy Negative;['Voice', 'Speech'];[];215206;215556;tt1568346;The Girl with the Dragon Tattoo;23.976;13450;13472;4780;0;0;0.174
+id_235;7;annotator_2;Easy Negative;[];[];215775;217809;tt1568346;The Girl with the Dragon Tattoo;23.976;13485;13613;4782;0;0;0.154
+id_237;7;annotator_2;Easy Negative;[];[];218038;227247;tt1568346;The Girl with the Dragon Tattoo;23.976;13627;14202;4784;0;0;0.012
+id_0;5;annotator_2;Easy Negative;[];[];0;1127;tt1907668;Flight;23.976;0;70;5535;0;0;0.047
+id_6;5;annotator_2;Easy Negative;[];[];5321;9401;tt1907668;Flight;23.976;332;587;5541;0;0;0.068
+id_8;5;annotator_2;Easy Negative;[];[];9794;10201;tt1907668;Flight;23.976;612;637;5543;0;0;0.067
+id_14;5;annotator_2;Easy Negative;[];[];13411;19238;tt1907668;Flight;23.976;838;1202;5549;0;0;0.059
+id_23;5;annotator_2;Easy Negative;[];[];50382;50435;tt1907668;Flight;23.976;3148;3152;5558;0;0;0.238
+id_25;5;annotator_2;Easy Negative;['Speech'];[];50571;50768;tt1907668;Flight;23.976;3160;3172;5560;0;0;0.542
+id_27;5;annotator_2;Easy Negative;[];[];51288;54495;tt1907668;Flight;23.976;3205;3405;5562;0;0;0.121
+id_29;5;annotator_2;Easy Negative;[];[];54934;56172;tt1907668;Flight;23.976;3433;3510;5564;0;0;0.223
+id_31;5;annotator_2;Easy Negative;[];[];56859;58658;tt1907668;Flight;23.976;3553;3666;5566;0;0;0.486
+id_33;5;annotator_2;Easy Negative;[];[];58865;59735;tt1907668;Flight;23.976;3679;3733;5568;0;0;0.791
+id_35;5;annotator_2;Easy Negative;[];[];60056;60421;tt1907668;Flight;23.976;3753;3776;5570;0;0;0.644
+id_37;5;annotator_2;Easy Negative;['Speech'];[];61117;61386;tt1907668;Flight;23.976;3819;3836;5572;0;0;0.529
+id_38;5;annotator_2;Easy Negative;['Speech'];[];61387;62080;tt1907668;Flight;23.976;3836;3879;5573;0;0;0.648
+id_39;5;annotator_2;Easy Negative;[];[];62081;65431;tt1907668;Flight;23.976;3880;4089;5574;0;0;0.369
+id_41;5;annotator_2;Easy Negative;[];[];65779;78943;tt1907668;Flight;23.976;4111;4933;5576;0;0;0.041
+id_42;5;annotator_2;Easy Negative;['Speech'];[];78944;79109;tt1907668;Flight;23.976;4934;4944;5577;0;0;0.138
+id_43;5;annotator_2;Easy Negative;[];[];79110;85525;tt1907668;Flight;23.976;4944;5345;5578;0;0;0.051
+id_47;5;annotator_2;Easy Negative;[];[];87505;88146;tt1907668;Flight;23.976;5469;5509;5582;0;0;0.432
+id_49;5;annotator_2;Easy Negative;[];[];88668;88883;tt1907668;Flight;23.976;5541;5555;5584;0;0;0.073
+id_52;5;annotator_2;Easy Negative;[];[];91795;97413;tt1907668;Flight;23.976;5737;6088;5587;0;0;0.039
+id_54;5;annotator_2;Easy Negative;[];[];97629;101489;tt1907668;Flight;23.976;6101;6343;5589;0;0;0.105
+id_57;5;annotator_2;Easy Negative;[];['takes care'];103965;104589;tt1907668;Flight;23.976;6497;6536;5592;0;0;0.893
+id_60;5;annotator_2;Easy Negative;[];[];108656;126911;tt1907668;Flight;23.976;6791;7931;5595;0;0;0.46
+id_63;5;annotator_2;Easy Negative;['Speech'];[];127764;128201;tt1907668;Flight;23.976;7985;8012;5598;0;0;0.213
+id_65;5;annotator_2;Easy Negative;[];[];128202;129217;tt1907668;Flight;23.976;8012;8076;5600;0;0;0.183
+id_68;5;annotator_2;Easy Negative;[];[];132091;141263;tt1907668;Flight;23.976;8255;8828;5603;0;0;0.019
+id_71;5;annotator_2;Easy Negative;[];['  '];143762;144586;tt1907668;Flight;23.976;8985;9036;5606;0;0;0.135
+id_73;5;annotator_2;Easy Negative;[];[' '];144993;157582;tt1907668;Flight;23.976;9062;9848;5608;0;0;0.298
+id_76;5;annotator_2;Easy Negative;[];[];159096;174170;tt1907668;Flight;23.976;9943;10885;5611;0;0;0.197
+id_77;5;annotator_2;Easy Negative;[];[];174171;185767;tt1907668;Flight;23.976;10885;11610;5612;0;0;0.259
+id_78;5;annotator_2;Easy Negative;[];[];185768;199472;tt1907668;Flight;23.976;11610;12466;5613;0;0;0.017

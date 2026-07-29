@@ -1,0 +1,10 @@
+ffmpeg-python
+imageio
+ffprobe
+timm
+peft
+pingouin
+
+#For fuzzy C-means
+scikit-fuzzy-c-means
+scikit-fda

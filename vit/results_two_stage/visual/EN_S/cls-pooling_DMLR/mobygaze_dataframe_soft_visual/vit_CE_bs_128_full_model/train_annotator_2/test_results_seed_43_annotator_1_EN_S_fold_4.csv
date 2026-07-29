@@ -1,0 +1,402 @@
+clip_index;movie_id;annotator;label;concepts;comment;start_frame;end_frame;imdb_key;movie_title;framerate;start_clip;end_clip;guid;label_int;fold;test_proba
+id_33;44;annotator_1;Sure;['Body'];['Feet only'];48873;49085;tt0110912;Pulp Fiction;23.976;3054;3067;721;1;0;0.928
+id_34;44;annotator_1;Sure;['Body'];[];49086;49156;tt0110912;Pulp Fiction;23.976;3067;3072;722;1;0;0.384
+id_44;44;annotator_1;Sure;['Type of shot'];['Back shot of Mia and Vincent staring at her'];61230;61448;tt0110912;Pulp Fiction;23.976;3826;3840;732;1;0;0.291
+id_45;44;annotator_1;Sure;['Body', 'Clothing', 'Posture'];[];61449;61630;tt0110912;Pulp Fiction;23.976;3840;3851;733;1;0;0.87
+id_49;44;annotator_1;Sure;['Appearance', 'Clothing', 'Activities'];['Monroe holding trophy'];67106;67254;tt0110912;Pulp Fiction;23.976;4194;4203;737;1;0;0.307
+id_50;44;annotator_1;Sure;['Appearance', 'Clothing', 'Posture', 'Activities'];[];67255;67676;tt0110912;Pulp Fiction;23.976;4203;4229;738;1;0;0.395
+id_75;44;annotator_1;Sure;['Body', 'Voice', 'Speech'];[];115542;116145;tt0110912;Pulp Fiction;23.976;7221;7259;763;1;0;0.951
+id_79;44;annotator_1;Sure;['Body', 'Voice', 'Clothing', 'Posture', 'Speech', 'Exp of emotion'];[];121834;126660;tt0110912;Pulp Fiction;23.976;7614;7916;767;1;0;0.153
+id_84;44;annotator_1;Sure;['Body', 'Clothing', 'Activities', 'Soundtrack'];['Sexual bondage scene'];140364;148342;tt0110912;Pulp Fiction;23.976;8772;9271;772;1;0;0.367
+id_86;44;annotator_1;Sure;['Body', 'Voice', 'Posture', 'Soundtrack'];['Rape scene'];151135;152744;tt0110912;Pulp Fiction;23.976;9445;9546;774;1;0;0.463
+id_6;39;annotator_1;Sure;['Body'];['partial chest nudity of male character'];6401;6432;tt0120338;Titanic;23.976;400;401;1367;1;0;0.404
+id_10;39;annotator_1;Sure;['Body', 'Posture'];['picture of fully nude woman'];14650;15085;tt0120338;Titanic;23.976;915;942;1371;1;0;0.497
+id_11;39;annotator_1;Sure;['Body', 'Posture'];['nude picture in background of screen'];15086;15296;tt0120338;Titanic;23.976;942;955;1372;1;0;0.584
+id_12;39;annotator_1;Sure;['Body', 'Clothing'];['nudity, suggestive jewelry?'];15297;15386;tt0120338;Titanic;23.976;956;961;1373;1;0;0.898
+id_15;39;annotator_1;Sure;['Body', 'Posture'];['nude picture in suggestive posture'];16941;17065;tt0120338;Titanic;23.976;1058;1066;1376;1;0;0.475
+id_17;39;annotator_1;Sure;['Body', 'Posture'];[];17147;17308;tt0120338;Titanic;23.976;1071;1081;1378;1;0;0.262
+id_24;39;annotator_1;Sure;['Speech', 'Activities', 'Look'];['somewhat disapproving speech on her lifestyle, judging on a few suitcases'];20462;20616;tt0120338;Titanic;23.976;1278;1288;1385;1;0;0.353
+id_26;39;annotator_1;Sure;['Exp of emotion'];['scoffing in the background'];21162;21912;tt0120338;Titanic;23.976;1322;1369;1387;1;0;0.15
+id_27;39;annotator_1;Sure;['Type of shot', 'Body', 'Look'];['look of jack and shot while drawing Rose corresponds to look and shot of rose looking at her own nude drawing'];21913;22425;tt0120338;Titanic;23.976;1369;1401;1388;1;0;0.504
+id_29;39;annotator_1;Sure;['Activities', 'Exp of emotion'];"[""Perpendicular expression of emotion. Woman's objects.""]";24368;25412;tt0120338;Titanic;23.976;1523;1588;1390;1;0;0.058
+id_30;39;annotator_1;Sure;['Exp of emotion'];['Forensic analysis of disaster (cool) versus emotional recollections of Rose'];25413;27407;tt0120338;Titanic;23.976;1588;1712;1391;1;0;0.133
+id_32;39;annotator_1;Sure;['Exp of emotion'];['Expression of emotion vs Brock just taking out recorder'];28460;29195;tt0120338;Titanic;23.976;1778;1824;1393;1;0;0.085
+id_33;39;annotator_1;Sure;['Speech', 'Exp of emotion'];"[""Brock cutting across Rose's speech""]";29196;30276;tt0120338;Titanic;23.976;1824;1892;1394;1;0;0.029
+id_35;39;annotator_1;Sure;['Clothing'];[];31434;31684;tt0120338;Titanic;23.976;1964;1980;1396;1;0;0.471
+id_39;39;annotator_1;Sure;['Activities'];['women with all their parcels'];32967;33081;tt0120338;Titanic;23.976;2060;2067;1400;1;0;0.396
+id_47;39;annotator_1;Sure;['Body', 'Posture'];['painting nudity'];40661;41002;tt0120338;Titanic;23.976;2541;2562;1408;1;0;0.704
+id_48;39;annotator_1;Sure;['Speech', 'Look'];"[""Cal's speech derogatory, Cal look at Rose possessively""]";41003;41299;tt0120338;Titanic;23.976;2562;2581;1409;1;0;0.297
+id_49;39;annotator_1;Sure;['Body', 'Speech'];['nude painting, mansplaining picasso'];41300;41605;tt0120338;Titanic;23.976;2581;2600;1410;1;0;0.374
+id_56;39;annotator_1;Sure;['Type of shot', 'Clothing'];['women clothing revealing, filmed from back'];48100;48312;tt0120338;Titanic;23.976;3006;3019;1417;1;0;0.496
+id_57;39;annotator_1;Sure;['Type of shot', 'Clothing'];['shot from back of rose with revealing clothing'];48313;48567;tt0120338;Titanic;23.976;3019;3035;1418;1;0;0.657
+id_58;39;annotator_1;Sure;['Speech', 'Look'];['she knows'];48568;48953;tt0120338;Titanic;23.976;3035;3059;1419;1;0;0.199
+id_59;39;annotator_1;Sure;['Speech', 'Look'];"[""sweet pea, taking Rose's autonomy""]";48954;49179;tt0120338;Titanic;23.976;3059;3073;1420;1;0;0.326
+id_64;39;annotator_1;Sure;['Type of shot', 'Clothing', 'Look'];['clear male gaze'];51337;52244;tt0120338;Titanic;23.976;3208;3265;1425;1;0;0.377
+id_66;39;annotator_1;Sure;['Type of shot', 'Look', 'Exp of emotion'];['everyone looking at Rose as she passes by, focus on hr shoes, emotionally unstable compared to surrounding'];52967;53362;tt0120338;Titanic;23.976;3310;3335;1427;1;0;0.807
+id_68;39;annotator_1;Sure;['Body', 'Clothing'];['revealing dress on chest'];53750;55524;tt0120338;Titanic;23.976;3359;3470;1429;1;0;0.511
+id_69;39;annotator_1;Sure;['Clothing', 'Exp of emotion'];['revealing clothes, indoor girl, mansplaining, presumptious'];55525;58328;tt0120338;Titanic;23.976;3470;3645;1430;1;0;0.337
+id_71;39;annotator_1;Sure;['Clothing', 'Posture'];[];59642;61437;tt0120338;Titanic;23.976;3727;3839;1432;1;0;0.581
+id_72;39;annotator_1;Sure;['Posture'];[];61437;61568;tt0120338;Titanic;23.976;3839;3847;1433;1;0;0.776
+id_73;39;annotator_1;Sure;['Clothing', 'Look'];[];61569;61859;tt0120338;Titanic;23.976;3848;3866;1434;1;0;0.572
+id_77;39;annotator_1;Sure;['Speech', 'Exp of emotion'];['boy is hero for saving woman, jack lies for Rose (also earning he gratitude?)'];63015;63388;tt0120338;Titanic;23.976;3938;3961;1438;1;0;0.269
+id_79;39;annotator_1;Sure;['Look'];['clearly male gaze as Cal looks at Rose thinking he could buy her'];65395;67796;tt0120338;Titanic;23.976;4087;4237;1440;1;0;0.231
+id_82;39;annotator_1;Sure;['Exp of emotion'];['unequal expression of emotion'];70211;71845;tt0120338;Titanic;23.976;4388;4490;1443;1;0;0.347
+id_84;39;annotator_1;Sure;['Body'];['in pictures'];72262;73199;tt0120338;Titanic;23.976;4516;4574;1445;1;0;0.759
+id_85;39;annotator_1;Sure;['Body', 'Speech'];['paris has lots of girls willing to take their clothes off, drawings'];73200;73362;tt0120338;Titanic;23.976;4575;4585;1446;1;0;0.862
+id_86;39;annotator_1;Sure;['Body', 'Posture', 'Speech'];['girl is good because of her hands'];73363;74190;tt0120338;Titanic;23.976;4585;4636;1447;1;0;0.728
+id_88;39;annotator_1;Sure;['Look'];[];74804;75106;tt0120338;Titanic;23.976;4675;4694;1449;1;0;0.651
+id_101;39;annotator_1;Sure;['Look'];['jack completely ignored on the side'];83535;83680;tt0120338;Titanic;23.976;5220;5229;1462;1;0;0.818
+id_102;39;annotator_1;Sure;['Type of shot', 'Look'];[];83681;84756;tt0120338;Titanic;23.976;5230;5297;1463;1;0;0.538
+id_103;39;annotator_1;Sure;['Speech', 'Look'];['jack can almost pass as a gentleman, says Cal'];84757;85210;tt0120338;Titanic;23.976;5297;5325;1464;1;0;0.821
+id_118;39;annotator_1;Sure;['Voice', 'Posture', 'Speech', 'Look', 'Exp of emotion'];['Rose must honor Cal te way a wife honors a husband'];101176;102908;tt0120338;Titanic;23.976;6323;6431;1479;1;0;0.269
+id_121;39;annotator_1;Sure;['Clothing', 'Speech'];['women defined by the things they own and the men in their life'];104014;106382;tt0120338;Titanic;23.976;6500;6648;1482;1;0;0.444
+id_134;39;annotator_1;Sure;['Body', 'Posture', 'Look'];[];122479;124617;tt0120338;Titanic;23.976;7654;7788;1495;1;0;0.454
+id_135;39;annotator_1;Sure;['Type of shot', 'Body', 'Posture', 'Look'];[];124618;127074;tt0120338;Titanic;23.976;7788;7942;1496;1;0;0.198
+id_145;39;annotator_1;Sure;['Type of shot', 'Speech', 'Look'];[];140537;140902;tt0120338;Titanic;23.976;8783;8806;1506;1;0;0.214
+id_149;39;annotator_1;Sure;['Clothing', 'Speech', 'Look'];['Rose is stolen / lost property'];150608;152920;tt0120338;Titanic;23.976;9413;9557;1510;1;0;0.274
+id_151;39;annotator_1;Sure;['Type of shot', 'Clothing', 'Speech', 'Look'];"[""first shot shows rose's body and not face""]";155380;155899;tt0120338;Titanic;23.976;9711;9743;1512;1;0;0.848
+id_164;39;annotator_1;Sure;['Clothing', 'Speech'];['missing concept of man forcing woman, thinks he knows best, without listening to her?'];177099;178298;tt0120338;Titanic;23.976;11068;11143;1525;1;0;0.418
+id_169;39;annotator_1;Sure;['Posture', 'Speech'];"['woman just picked up and put in a boat; she is shown as quite stupid']";184283;184478;tt0120338;Titanic;23.976;11517;11529;1530;1;0;0.687
+id_174;39;annotator_1;Sure;['Clothing', 'Speech', 'Look'];"[""rose's objections overided. cal focusing on her clothes""]";195769;197317;tt0120338;Titanic;23.976;12235;12332;1535;1;0;0.547
+id_195;39;annotator_1;Sure;['Type of shot', 'Exp of emotion'];[];229367;229604;tt0120338;Titanic;23.976;14335;14350;1556;1;0;0.545
+id_213;39;annotator_1;Sure;['Type of shot', 'Clothing', 'Look'];[];268065;269101;tt0120338;Titanic;23.976;16754;16818;1574;1;0;0.72
+id_16;4;annotator_1;Sure;['Activities'];['Pat lies around as Dolores brings him his meal.'];12498;12703;tt1045658;Silver Linings Playbook;23.976;781;793;2873;1;0;0.294
+id_25;4;annotator_1;Sure;['Clothing', 'Speech'];"[""Women's panties on the ground""]";19278;19384;tt1045658;Silver Linings Playbook;23.976;1204;1211;2882;1;0;0.422
+id_26;4;annotator_1;Sure;['Body', 'Speech', 'Activities'];"[""Wife in shower, back to Pat, and Pat thinks it's sweet (that she's naked in the shower)""]";19385;19566;tt1045658;Silver Linings Playbook;23.976;1211;1222;2883;1;0;0.384
+id_27;4;annotator_1;Sure;['Type of shot', 'Body'];"[""Over the shoulder from Pat's perspective and nudity""]";19567;19726;tt1045658;Silver Linings Playbook;23.976;1222;1232;2884;1;0;0.803
+id_40;4;annotator_1;Sure;['Clothing', 'Activities'];['Veronica taking care of the baby. Happy couple portrait with baby?'];33108;33588;tt1045658;Silver Linings Playbook;23.976;2069;2099;2897;1;0;0.878
+id_43;4;annotator_1;Sure;['Appearance', 'Speech', 'Look'];"['Pat looking at Tiffany, ""You look nice"" and stating he will try to acknowledge his wife\'s beauty more often.']";35674;36376;tt1045658;Silver Linings Playbook;23.976;2229;2273;2900;1;0;0.394
+id_45;4;annotator_1;Sure;['Body', 'Clothing', 'Look'];"[""Pat looking at Tiffany's cleavage, nails, necklace, then her face.""]";36856;37317;tt1045658;Silver Linings Playbook;23.976;2303;2332;2902;1;0;0.893
+id_50;4;annotator_1;Sure;['Speech', 'Activities'];['Veronica did all the cooking (salad, cake), talking about Tiffany in third person.'];40796;42342;tt1045658;Silver Linings Playbook;23.976;2549;2646;2907;1;0;0.621
+id_69;4;annotator_1;Sure;['Type of shot', 'Clothing'];[];59893;60349;tt1045658;Silver Linings Playbook;23.976;3743;3771;2926;1;0;0.217
+id_93;4;annotator_1;Sure;['Type of shot'];[];104571;105162;tt1045658;Silver Linings Playbook;23.976;6535;6572;2950;1;0;0.926
+id_97;4;annotator_1;Sure;['Body', 'Clothing', 'Look'];[];118827;118957;tt1045658;Silver Linings Playbook;23.976;7426;7434;2954;1;0;0.102
+id_2;10;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Speech'];[];675;1222;tt1632708;Friends with Benefits;23.976;42;76;5106;1;0;0.853
+id_4;10;annotator_1;Sure;['Body', 'Clothing', 'Speech', 'Activities'];[];1383;1704;tt1632708;Friends with Benefits;23.976;86;106;5108;1;0;0.255
+id_5;10;annotator_1;Sure;['Clothing', 'Speech', 'Exp of emotion'];[];1705;3487;tt1632708;Friends with Benefits;23.976;106;217;5109;1;0;0.176
+id_6;10;annotator_1;Sure;['Speech', 'Exp of emotion'];[];3488;6380;tt1632708;Friends with Benefits;23.976;218;398;5110;1;0;0.015
+id_9;10;annotator_1;Sure;['Type of shot', 'Posture', 'Look'];[];7767;7989;tt1632708;Friends with Benefits;23.976;485;499;5113;1;0;0.776
+id_10;10;annotator_1;Sure;['Body', 'Clothing', 'Activities', 'Look'];[];7990;8489;tt1632708;Friends with Benefits;23.976;499;530;5114;1;0;0.409
+id_12;10;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture'];[];8986;9992;tt1632708;Friends with Benefits;23.976;561;624;5116;1;0;0.882
+id_22;10;annotator_1;Sure;['Voice', 'Speech', 'Activities', 'Look', 'Exp of emotion'];[];27613;28740;tt1632708;Friends with Benefits;23.976;1725;1796;5126;1;0;0.012
+id_23;10;annotator_1;Sure;['Clothing', 'Speech', 'Exp of emotion'];[];28741;31179;tt1632708;Friends with Benefits;23.976;1796;1948;5127;1;0;0.039
+id_26;10;annotator_1;Sure;['Clothing', 'Posture', 'Look'];[];33891;35045;tt1632708;Friends with Benefits;23.976;2118;2190;5130;1;0;0.156
+id_27;10;annotator_1;Sure;['Body', 'Clothing', 'Posture'];[];35046;37798;tt1632708;Friends with Benefits;23.976;2190;2362;5131;1;0;0.083
+id_28;10;annotator_1;Sure;['Type of shot', 'Clothing', 'Posture', 'Speech', 'Look'];[];37799;41294;tt1632708;Friends with Benefits;23.976;2362;2580;5132;1;0;0.199
+id_30;10;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Speech', 'Activities', 'Look', 'Exp of emotion'];[];42353;47342;tt1632708;Friends with Benefits;23.976;2647;2958;5134;1;0;0.813
+id_31;10;annotator_1;Sure;['Speech', 'Look'];[];47343;48414;tt1632708;Friends with Benefits;23.976;2958;3025;5135;1;0;0.098
+id_34;10;annotator_1;Sure;['Type of shot', 'Body', 'Posture', 'Speech', 'Activities'];[];50607;56828;tt1632708;Friends with Benefits;23.976;3162;3551;5138;1;0;0.695
+id_35;10;annotator_1;Sure;['Body', 'Speech', 'Look'];[];56829;59070;tt1632708;Friends with Benefits;23.976;3551;3691;5139;1;0;0.688
+id_43;10;annotator_1;Sure;['Type of shot', 'Body', 'Appearance', 'Clothing', 'Posture', 'Activities', 'Look'];[];65867;67496;tt1632708;Friends with Benefits;23.976;4116;4218;5147;1;0;0.551
+id_44;10;annotator_1;Sure;['Type of shot', 'Clothing', 'Speech', 'Look'];[];67497;68188;tt1632708;Friends with Benefits;23.976;4218;4261;5148;1;0;0.814
+id_45;10;annotator_1;Sure;['Type of shot', 'Clothing', 'Posture', 'Look', 'Exp of emotion'];[];68189;69128;tt1632708;Friends with Benefits;23.976;4261;4320;5149;1;0;0.758
+id_46;10;annotator_1;Sure;['Speech', 'Look', 'Exp of emotion'];[];69129;70812;tt1632708;Friends with Benefits;23.976;4320;4425;5150;1;0;0.12
+id_50;10;annotator_1;Sure;['Body', 'Voice', 'Clothing', 'Posture', 'Speech', 'Activities', 'Look', 'Exp of emotion'];[];75229;77183;tt1632708;Friends with Benefits;23.976;4701;4823;5154;1;0;0.626
+id_51;10;annotator_1;Sure;['Body', 'Appearance', 'Clothing', 'Posture'];[];77184;78523;tt1632708;Friends with Benefits;23.976;4824;4907;5155;1;0;0.886
+id_52;10;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Speech'];['Photo in the upcoming blog'];78524;79387;tt1632708;Friends with Benefits;23.976;4907;4961;5156;1;0;0.875
+id_53;10;annotator_1;Sure;['Clothing', 'Speech', 'Exp of emotion'];['Parker shirt half open, trying to appear reasonable while Jaime is angry'];79388;80749;tt1632708;Friends with Benefits;23.976;4961;5046;5157;1;0;0.067
+id_60;10;annotator_1;Sure;['Body', 'Clothing', 'Speech', 'Look'];[];89150;89520;tt1632708;Friends with Benefits;23.976;5571;5594;5164;1;0;0.313
+id_63;10;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Speech'];[];92007;93590;tt1632708;Friends with Benefits;23.976;5750;5849;5167;1;0;0.882
+id_65;10;annotator_1;Sure;['Body', 'Clothing', 'Speech', 'Look'];[];95228;96883;tt1632708;Friends with Benefits;23.976;5951;6055;5169;1;0;0.9
+id_66;10;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Activities', 'Look'];[];96884;100053;tt1632708;Friends with Benefits;23.976;6055;6253;5170;1;0;0.889
+id_74;10;annotator_1;Sure;['Speech', 'Look', 'Exp of emotion'];[];108203;110803;tt1632708;Friends with Benefits;23.976;6762;6925;5178;1;0;0.039
+id_77;10;annotator_1;Sure;['Posture', 'Speech', 'Look', 'Exp of emotion'];[];112234;113768;tt1632708;Friends with Benefits;23.976;7014;7110;5181;1;0;0.02
+id_88;10;annotator_1;Sure;['Body', 'Clothing', 'Posture'];[];126743;129115;tt1632708;Friends with Benefits;23.976;7921;8069;5192;1;0;0.145
+id_92;10;annotator_1;Sure;['Type of shot', 'Clothing', 'Look'];[];134400;135411;tt1632708;Friends with Benefits;23.976;8400;8463;5196;1;0;0.163
+id_94;10;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Look'];[];138384;138539;tt1632708;Friends with Benefits;23.976;8649;8658;5198;1;0;0.827
+id_0;44;annotator_1;Easy Negative;[];['open logo'];0;294;tt0110912;Pulp Fiction;23.976;0;18;688;0;0;0.052
+id_1;44;annotator_1;Easy Negative;[];['Pulp definition'];295;628;tt0110912;Pulp Fiction;23.976;18;39;689;0;0;0.355
+id_2;44;annotator_1;Easy Negative;['Speech'];['Posture of man, the way he talks down, swearing, authority'];629;1514;tt0110912;Pulp Fiction;23.976;39;94;690;0;0;0.675
+id_4;44;annotator_1;Easy Negative;['Speech'];['Lots of swearing, woman cares just about little girl'];1718;3833;tt0110912;Pulp Fiction;23.976;107;239;692;0;0;0.092
+id_6;44;annotator_1;Easy Negative;['Speech'];['Swearing'];4217;6286;tt0110912;Pulp Fiction;23.976;263;392;694;0;0;0.017
+id_7;44;annotator_1;Easy Negative;[];[];6287;6890;tt0110912;Pulp Fiction;23.976;392;430;695;0;0;0.644
+id_8;44;annotator_1;Easy Negative;[];['Credits scene'];6891;10148;tt0110912;Pulp Fiction;23.976;430;634;696;0;0;0.142
+id_9;44;annotator_1;Easy Negative;[];"[""Just talking about McDonald's in Paris...""]";10149;13119;tt0110912;Pulp Fiction;23.976;634;819;697;0;0;0.016
+id_10;44;annotator_1;Easy Negative;['Speech'];['Talking about Mia and her failed acting career'];13120;14240;tt0110912;Pulp Fiction;23.976;820;889;698;0;0;0.062
+id_11;44;annotator_1;Easy Negative;['Speech'];['Body shaming (fat guy?)'];14241;14854;tt0110912;Pulp Fiction;23.976;890;928;699;0;0;0.015
+id_12;44;annotator_1;Easy Negative;['Speech'];"['Person attacked for giving Mia a foot massage. ""Nigger""']";14855;15829;tt0110912;Pulp Fiction;23.976;928;989;700;0;0;0.653
+id_13;44;annotator_1;Easy Negative;['Speech'];['Foot massage mixed with sexual connotations'];15830;17872;tt0110912;Pulp Fiction;23.976;989;1116;701;0;0;0.02
+id_14;44;annotator_1;Easy Negative;['Speech'];"[""Continued discussion about the problem with giving Marcella's wife a foot massage""]";17873;19593;tt0110912;Pulp Fiction;23.976;1117;1224;702;0;0;0.038
+id_15;44;annotator_1;Easy Negative;['Speech'];['Talking again about Mia'];19594;20711;tt0110912;Pulp Fiction;23.976;1224;1294;703;0;0;0.176
+id_16;44;annotator_1;Easy Negative;[];['Lots of vulgar speech but involving no women'];20712;28180;tt0110912;Pulp Fiction;23.976;1294;1761;704;0;0;0.042
+id_17;44;annotator_1;Easy Negative;['Speech'];['Use of the term bitch to describe someone who has been fucked with'];28181;28744;tt0110912;Pulp Fiction;23.976;1761;1796;705;0;0;0.176
+id_18;44;annotator_1;Easy Negative;['Speech'];"[""Marsella Wallance don't want to be fucked by no one but Mrs. Wallace""]";28745;28900;tt0110912;Pulp Fiction;23.976;1796;1806;706;0;0;0.73
+id_19;44;annotator_1;Easy Negative;[];['violent but not really objectifying'];28901;30370;tt0110912;Pulp Fiction;23.976;1806;1898;707;0;0;0.066
+id_20;44;annotator_1;Easy Negative;[];['chapter title'];30371;30495;tt0110912;Pulp Fiction;23.976;1898;1905;708;0;0;0.253
+id_21;44;annotator_1;Easy Negative;[];[];30496;35721;tt0110912;Pulp Fiction;23.976;1906;2232;709;0;0;0.013
+id_22;44;annotator_1;Easy Negative;['Speech'];['Talking about Mia again, implying something (about her?)'];35722;36673;tt0110912;Pulp Fiction;23.976;2232;2292;710;0;0;0.069
+id_23;44;annotator_1;Easy Negative;[];[];36674;37426;tt0110912;Pulp Fiction;23.976;2292;2339;711;0;0;0.011
+id_24;44;annotator_1;Easy Negative;[];[];37427;37957;tt0110912;Pulp Fiction;23.976;2339;2372;712;0;0;0.126
+id_25;44;annotator_1;Easy Negative;['Speech'];['Dialogue a lot about body, very visual'];37958;38764;tt0110912;Pulp Fiction;23.976;2372;2422;713;0;0;0.485
+id_26;44;annotator_1;Easy Negative;['Speech'];[];38765;39034;tt0110912;Pulp Fiction;23.976;2422;2439;714;0;0;0.346
+id_27;44;annotator_1;Easy Negative;[];[];39035;41514;tt0110912;Pulp Fiction;23.976;2439;2594;715;0;0;0.138
+id_28;44;annotator_1;Easy Negative;['Speech'];['The one with all the shit in her face'];41515;42102;tt0110912;Pulp Fiction;23.976;2594;2631;716;0;0;0.043
+id_29;44;annotator_1;Easy Negative;[];[];42103;45886;tt0110912;Pulp Fiction;23.976;2631;2867;717;0;0;0.051
+id_31;44;annotator_1;Easy Negative;[];[];47626;48717;tt0110912;Pulp Fiction;23.976;2976;3044;719;0;0;0.076
+id_35;44;annotator_1;Easy Negative;['Speech'];['Diminutive names (Kitty cat)'];49157;49869;tt0110912;Pulp Fiction;23.976;3072;3116;723;0;0;0.382
+id_37;44;annotator_1;Easy Negative;[];[];51918;52992;tt0110912;Pulp Fiction;23.976;3244;3311;725;0;0;0.177
+id_38;44;annotator_1;Easy Negative;[];[];52993;54301;tt0110912;Pulp Fiction;23.976;3312;3393;726;0;0;0.107
+id_39;44;annotator_1;Easy Negative;[];[];54302;55561;tt0110912;Pulp Fiction;23.976;3393;3472;727;0;0;0.224
+id_40;44;annotator_1;Easy Negative;['Speech'];['Description of Foxy five'];55562;57210;tt0110912;Pulp Fiction;23.976;3472;3575;728;0;0;0.21
+id_48;44;annotator_1;Easy Negative;[];[];62841;67105;tt0110912;Pulp Fiction;23.976;3927;4194;736;0;0;0.135
+id_53;44;annotator_1;Easy Negative;[];[];74324;74601;tt0110912;Pulp Fiction;23.976;4645;4662;741;0;0;0.136
+id_55;44;annotator_1;Easy Negative;[];[];75330;75670;tt0110912;Pulp Fiction;23.976;4708;4729;743;0;0;0.915
+id_57;44;annotator_1;Easy Negative;['Speech'];['Implying jerking off while thinking of Mia'];76861;77143;tt0110912;Pulp Fiction;23.976;4803;4821;745;0;0;0.621
+id_59;44;annotator_1;Easy Negative;['Speech'];[];78204;82094;tt0110912;Pulp Fiction;23.976;4887;5130;747;0;0;0.259
+id_60;44;annotator_1;Easy Negative;['Speech'];[];82095;82649;tt0110912;Pulp Fiction;23.976;5130;5165;748;0;0;0.868
+id_61;44;annotator_1;Easy Negative;['Speech'];['Lots of yelling, shouting, vulgar speech'];82650;85405;tt0110912;Pulp Fiction;23.976;5165;5337;749;0;0;0.366
+id_63;44;annotator_1;Easy Negative;[];[];88143;90946;tt0110912;Pulp Fiction;23.976;5508;5684;751;0;0;0.508
+id_66;44;annotator_1;Easy Negative;[];[];93754;94963;tt0110912;Pulp Fiction;23.976;5859;5935;754;0;0;0.009
+id_68;44;annotator_1;Easy Negative;[];[];96730;99151;tt0110912;Pulp Fiction;23.976;6045;6196;756;0;0;0.018
+id_69;44;annotator_1;Easy Negative;[];[];99152;99805;tt0110912;Pulp Fiction;23.976;6197;6237;757;0;0;0.479
+id_70;44;annotator_1;Easy Negative;[];[];99806;101655;tt0110912;Pulp Fiction;23.976;6237;6353;758;0;0;0.21
+id_72;44;annotator_1;Easy Negative;[];[];105366;107996;tt0110912;Pulp Fiction;23.976;6585;6749;760;0;0;0.035
+id_80;44;annotator_1;Easy Negative;[];[];126661;136526;tt0110912;Pulp Fiction;23.976;7916;8532;768;0;0;0.015
+id_83;44;annotator_1;Easy Negative;[];[];137738;140363;tt0110912;Pulp Fiction;23.976;8608;8772;771;0;0;0.253
+id_85;44;annotator_1;Easy Negative;[];[];148343;151134;tt0110912;Pulp Fiction;23.976;9271;9445;773;0;0;0.224
+id_88;44;annotator_1;Easy Negative;[];[];157152;158589;tt0110912;Pulp Fiction;23.976;9822;9911;776;0;0;0.029
+id_90;44;annotator_1;Easy Negative;[];[];160364;160573;tt0110912;Pulp Fiction;23.976;10022;10035;778;0;0;0.061
+id_91;44;annotator_1;Easy Negative;[];[];160574;160716;tt0110912;Pulp Fiction;23.976;10035;10044;779;0;0;0.348
+id_92;44;annotator_1;Easy Negative;['Speech'];"['""Nigger""']";160717;165671;tt0110912;Pulp Fiction;23.976;10044;10354;780;0;0;0.096
+id_93;44;annotator_1;Easy Negative;['Speech'];['Violent, swearing, gun pointed at Marvin (and shot).'];165672;168456;tt0110912;Pulp Fiction;23.976;10354;10528;781;0;0;0.089
+id_94;44;annotator_1;Easy Negative;[];['Small comment on Bonnie who works the midnight shift'];168457;173229;tt0110912;Pulp Fiction;23.976;10528;10826;782;0;0;0.036
+id_95;44;annotator_1;Easy Negative;[];[];173230;173665;tt0110912;Pulp Fiction;23.976;10826;10854;783;0;0;0.796
+id_97;44;annotator_1;Easy Negative;[];[];174086;174353;tt0110912;Pulp Fiction;23.976;10880;10897;785;0;0;0.621
+id_99;44;annotator_1;Easy Negative;[];[];174608;174667;tt0110912;Pulp Fiction;23.976;10913;10916;787;0;0;0.515
+id_101;44;annotator_1;Easy Negative;['Speech'];['Nigger'];174722;174854;tt0110912;Pulp Fiction;23.976;10920;10928;789;0;0;0.378
+id_103;44;annotator_1;Easy Negative;[];[];175061;186400;tt0110912;Pulp Fiction;23.976;10941;11649;791;0;0;0.061
+id_105;44;annotator_1;Easy Negative;[];[];188459;189830;tt0110912;Pulp Fiction;23.976;11778;11864;793;0;0;0.056
+id_106;44;annotator_1;Easy Negative;['Speech'];['Interactions with Raquelle like she is an accessory'];189831;191456;tt0110912;Pulp Fiction;23.976;11864;11965;794;0;0;0.31
+id_107;44;annotator_1;Easy Negative;[];[];191457;198170;tt0110912;Pulp Fiction;23.976;11966;12385;795;0;0;0.017
+id_108;44;annotator_1;Easy Negative;[];[];198171;204683;tt0110912;Pulp Fiction;23.976;12385;12792;796;0;0;0.147
+id_110;44;annotator_1;Easy Negative;[];[];205742;207945;tt0110912;Pulp Fiction;23.976;12858;12996;798;0;0;0.041
+id_113;44;annotator_1;Easy Negative;[];[];210770;214206;tt0110912;Pulp Fiction;23.976;13173;13387;801;0;0;0.019
+id_115;44;annotator_1;Easy Negative;[];['Credits'];215462;221894;tt0110912;Pulp Fiction;23.976;13466;13868;803;0;0;0.18
+id_0;39;annotator_1;Easy Negative;[];['opening credits'];0;633;tt0120338;Titanic;23.976;0;39;1361;0;0;0.06
+id_1;39;annotator_1;Easy Negative;[];['opening credits scene'];634;1997;tt0120338;Titanic;23.976;39;124;1362;0;0;0.059
+id_2;39;annotator_1;Easy Negative;[];[];1998;2578;tt0120338;Titanic;23.976;124;161;1363;0;0;0.018
+id_3;39;annotator_1;Easy Negative;[];['submarines'];2579;3034;tt0120338;Titanic;23.976;161;189;1364;0;0;0.036
+id_4;39;annotator_1;Easy Negative;[];['navigating titanic. To note habit of personification of ship as a femaile.'];3035;4988;tt0120338;Titanic;23.976;189;311;1365;0;0;0.022
+id_5;39;annotator_1;Easy Negative;[];[];4989;6400;tt0120338;Titanic;23.976;311;399;1366;0;0;0.01
+id_7;39;annotator_1;Easy Negative;[];['submarine exploration'];6433;12100;tt0120338;Titanic;23.976;402;756;1368;0;0;0.014
+id_8;39;annotator_1;Easy Negative;[];[];12101;14431;tt0120338;Titanic;23.976;756;901;1369;0;0;0.128
+id_9;39;annotator_1;Easy Negative;[];[];14432;14649;tt0120338;Titanic;23.976;902;915;1370;0;0;0.244
+id_13;39;annotator_1;Easy Negative;[];[];15387;15516;tt0120338;Titanic;23.976;961;969;1374;0;0;0.559
+id_14;39;annotator_1;Easy Negative;[];[];15517;16940;tt0120338;Titanic;23.976;969;1058;1375;0;0;0.101
+id_16;39;annotator_1;Easy Negative;[];[];17066;17146;tt0120338;Titanic;23.976;1066;1071;1377;0;0;0.159
+id_18;39;annotator_1;Easy Negative;[];[];17309;17702;tt0120338;Titanic;23.976;1081;1106;1379;0;0;0.291
+id_19;39;annotator_1;Easy Negative;['Speech'];['no mention of name, woman simply characterized as old'];17703;17819;tt0120338;Titanic;23.976;1106;1113;1380;0;0;0.542
+id_20;39;annotator_1;Easy Negative;['Speech'];"[""doesn't know Rose's name until last minute, woman in the picture where interest is in heart of the ocean""]";17820;18538;tt0120338;Titanic;23.976;1113;1158;1381;0;0;0.186
+id_21;39;annotator_1;Easy Negative;[];[];18539;19280;tt0120338;Titanic;23.976;1158;1204;1382;0;0;0.101
+id_22;39;annotator_1;Easy Negative;['Speech'];"[""Talking about Rose's life in a derogatory manner""]";19281;20231;tt0120338;Titanic;23.976;1205;1264;1383;0;0;0.064
+id_23;39;annotator_1;Easy Negative;[];[];20232;20461;tt0120338;Titanic;23.976;1264;1278;1384;0;0;0.106
+id_28;39;annotator_1;Easy Negative;['Speech'];['Rose is important not because of who she is but because of the value of the diamond she was wearing'];22426;24367;tt0120338;Titanic;23.976;1401;1522;1389;0;0;0.147
+id_31;39;annotator_1;Easy Negative;[];"[""Female gaze, male gaze fades awayleaving room for Rose's recollections""]";27408;28459;tt0120338;Titanic;23.976;1713;1778;1392;0;0;0.062
+id_34;39;annotator_1;Easy Negative;[];[];30277;31433;tt0120338;Titanic;23.976;1892;1964;1395;0;0;0.096
+id_36;39;annotator_1;Easy Negative;[];[];31685;31875;tt0120338;Titanic;23.976;1980;1992;1397;0;0;0.507
+id_37;39;annotator_1;Easy Negative;['Speech'];['mansplaining, daughter hard to impress'];31876;32267;tt0120338;Titanic;23.976;1992;2016;1398;0;0;0.675
+id_38;39;annotator_1;Easy Negative;[];[];32268;32966;tt0120338;Titanic;23.976;2016;2060;1399;0;0;0.181
+id_40;39;annotator_1;Easy Negative;[];[];33082;34146;tt0120338;Titanic;23.976;2067;2134;1401;0;0;0.49
+id_41;39;annotator_1;Easy Negative;[];[];34147;38053;tt0120338;Titanic;23.976;2134;2378;1402;0;0;0.202
+id_42;39;annotator_1;Easy Negative;[];[];38054;39529;tt0120338;Titanic;23.976;2378;2470;1403;0;0;0.128
+id_43;39;annotator_1;Easy Negative;[];[];39530;39692;tt0120338;Titanic;23.976;2470;2480;1404;0;0;0.09
+id_45;39;annotator_1;Easy Negative;[];[];39825;40455;tt0120338;Titanic;23.976;2489;2528;1406;0;0;0.63
+id_46;39;annotator_1;Easy Negative;[];[];40457;40660;tt0120338;Titanic;23.976;2528;2541;1407;0;0;0.371
+id_50;39;annotator_1;Easy Negative;[];[];41606;42110;tt0120338;Titanic;23.976;2600;2631;1411;0;0;0.345
+id_51;39;annotator_1;Easy Negative;['Speech'];"['Molly called ""new money""']";42111;42500;tt0120338;Titanic;23.976;2631;2656;1412;0;0;0.526
+id_52;39;annotator_1;Easy Negative;[];[];42501;42703;tt0120338;Titanic;23.976;2656;2668;1413;0;0;0.011
+id_53;39;annotator_1;Easy Negative;[];"[""let's stretch her legs (sexual connotation?)""]";42704;42903;tt0120338;Titanic;23.976;2669;2681;1414;0;0;0.101
+id_54;39;annotator_1;Easy Negative;[];[];42904;44340;tt0120338;Titanic;23.976;2681;2771;1415;0;0;0.058
+id_55;39;annotator_1;Easy Negative;[];[];44341;48099;tt0120338;Titanic;23.976;2771;3006;1416;0;0;0.032
+id_60;39;annotator_1;Easy Negative;['Speech'];"[""correspond to Rose's following speech about size and power""]";49180;49687;tt0120338;Titanic;23.976;3073;3105;1421;0;0;0.433
+id_61;39;annotator_1;Easy Negative;[];['female gaze'];49688;49877;tt0120338;Titanic;23.976;3105;3117;1422;0;0;0.5
+id_62;39;annotator_1;Easy Negative;['Speech'];['apologiz for Rose. handle her'];49878;50404;tt0120338;Titanic;23.976;3117;3150;1423;0;0;0.591
+id_63;39;annotator_1;Easy Negative;[];[];50405;51336;tt0120338;Titanic;23.976;3150;3208;1424;0;0;0.713
+id_67;39;annotator_1;Easy Negative;[];[];53363;53749;tt0120338;Titanic;23.976;3335;3359;1428;0;0;0.605
+id_70;39;annotator_1;Easy Negative;[];[];58329;59641;tt0120338;Titanic;23.976;3645;3727;1431;0;0;0.512
+id_74;39;annotator_1;Easy Negative;['Speech'];['speech of Cal'];61860;62284;tt0120338;Titanic;23.976;3866;3892;1435;0;0;0.397
+id_75;39;annotator_1;Easy Negative;['Speech'];[];62285;62914;tt0120338;Titanic;23.976;3892;3932;1436;0;0;0.427
+id_76;39;annotator_1;Easy Negative;['Speech'];['women and machinery do not mix'];62915;63014;tt0120338;Titanic;23.976;3932;3938;1437;0;0;0.516
+id_78;39;annotator_1;Easy Negative;['Speech'];['Cal compromising to humiliating Jack for the woman he loves'];63389;65394;tt0120338;Titanic;23.976;3961;4087;1439;0;0;0.099
+id_80;39;annotator_1;Easy Negative;[];[];67797;69691;tt0120338;Titanic;23.976;4237;4355;1441;0;0;0.365
+id_81;39;annotator_1;Easy Negative;[];['female gaze'];69692;70210;tt0120338;Titanic;23.976;4355;4388;1442;0;0;0.533
+id_83;39;annotator_1;Easy Negative;[];[];71846;72261;tt0120338;Titanic;23.976;4490;4516;1444;0;0;0.699
+id_87;39;annotator_1;Easy Negative;[];[];74191;74803;tt0120338;Titanic;23.976;4636;4675;1448;0;0;0.639
+id_89;39;annotator_1;Easy Negative;['Speech'];['awful brown woman'];75107;75862;tt0120338;Titanic;23.976;4694;4741;1450;0;0;0.341
+id_90;39;annotator_1;Easy Negative;[];[];75863;77041;tt0120338;Titanic;23.976;4741;4815;1451;0;0;0.408
+id_91;39;annotator_1;Easy Negative;[];[];77042;78312;tt0120338;Titanic;23.976;4815;4894;1452;0;0;0.643
+id_92;39;annotator_1;Easy Negative;['Speech'];[];78313;78692;tt0120338;Titanic;23.976;4894;4918;1453;0;0;0.932
+id_93;39;annotator_1;Easy Negative;[];[];78693;79275;tt0120338;Titanic;23.976;4918;4954;1454;0;0;0.857
+id_95;39;annotator_1;Easy Negative;[];[];80292;80738;tt0120338;Titanic;23.976;5018;5046;1456;0;0;0.745
+id_98;39;annotator_1;Easy Negative;[];[];81586;81730;tt0120338;Titanic;23.976;5099;5108;1459;0;0;0.14
+id_100;39;annotator_1;Easy Negative;[];[];82736;83534;tt0120338;Titanic;23.976;5171;5220;1461;0;0;0.545
+id_104;39;annotator_1;Easy Negative;['Speech'];['descripton of other women and men in the room'];85211;86602;tt0120338;Titanic;23.976;5325;5412;1465;0;0;0.411
+id_105;39;annotator_1;Easy Negative;[];[];86603;87594;tt0120338;Titanic;23.976;5412;5474;1466;0;0;0.379
+id_106;39;annotator_1;Easy Negative;[];[];87595;87951;tt0120338;Titanic;23.976;5474;5496;1467;0;0;0.772
+id_107;39;annotator_1;Easy Negative;[];['interesting dialogue where te rich try to entrap jack but he makes his way out'];87952;91212;tt0120338;Titanic;23.976;5497;5700;1468;0;0;0.152
+id_108;39;annotator_1;Easy Negative;[];[];91213;92366;tt0120338;Titanic;23.976;5700;5772;1469;0;0;0.284
+id_109;39;annotator_1;Easy Negative;['Speech'];['Cal suggests to escort Rose back'];92367;92449;tt0120338;Titanic;23.976;5772;5778;1470;0;0;0.764
+id_110;39;annotator_1;Easy Negative;['Speech'];['choice between joining the men or staying outside with the women'];92450;92681;tt0120338;Titanic;23.976;5778;5792;1471;0;0;0.873
+id_111;39;annotator_1;Easy Negative;[];[];92682;94310;tt0120338;Titanic;23.976;5792;5894;1472;0;0;0.258
+id_112;39;annotator_1;Easy Negative;[];[];94311;95716;tt0120338;Titanic;23.976;5894;5982;1473;0;0;0.933
+id_113;39;annotator_1;Easy Negative;[];['dance scene, carefree'];95717;98534;tt0120338;Titanic;23.976;5982;6158;1474;0;0;0.952
+id_114;39;annotator_1;Easy Negative;[];[];98535;99706;tt0120338;Titanic;23.976;6158;6231;1475;0;0;0.819
+id_123;39;annotator_1;Easy Negative;[];[];106606;108930;tt0120338;Titanic;23.976;6662;6808;1484;0;0;0.078
+id_124;39;annotator_1;Easy Negative;[];[];108931;109093;tt0120338;Titanic;23.976;6808;6818;1485;0;0;0.467
+id_125;39;annotator_1;Easy Negative;['Speech'];['talking in somewhat diminutive way'];109094;109620;tt0120338;Titanic;23.976;6818;6851;1486;0;0;0.277
+id_127;39;annotator_1;Easy Negative;['Narratology'];"[""Rose's words disregarded when she is in fact right""]";110060;111191;tt0120338;Titanic;23.976;6878;6949;1488;0;0;0.349
+id_128;39;annotator_1;Easy Negative;[];[];111192;114016;tt0120338;Titanic;23.976;6949;7125;1489;0;0;0.306
+id_129;39;annotator_1;Easy Negative;[];[];114017;114574;tt0120338;Titanic;23.976;7126;7160;1490;0;0;0.146
+id_132;39;annotator_1;Easy Negative;[];[];119161;120357;tt0120338;Titanic;23.976;7447;7522;1493;0;0;0.095
+id_133;39;annotator_1;Easy Negative;[];[];120358;122478;tt0120338;Titanic;23.976;7522;7654;1494;0;0;0.3
+id_136;39;annotator_1;Easy Negative;['Speech'];"[""Elderly Rose's audience just intrested in whether they did it""]";127075;128668;tt0120338;Titanic;23.976;7942;8041;1497;0;0;0.128
+id_137;39;annotator_1;Easy Negative;['Speech'];[];128669;128998;tt0120338;Titanic;23.976;8041;8062;1498;0;0;0.245
+id_138;39;annotator_1;Easy Negative;[];[];128999;130348;tt0120338;Titanic;23.976;8062;8146;1499;0;0;0.021
+id_141;39;annotator_1;Easy Negative;[];[];136134;136875;tt0120338;Titanic;23.976;8508;8554;1502;0;0;0.027
+id_143;39;annotator_1;Easy Negative;[];[];138223;139230;tt0120338;Titanic;23.976;8638;8701;1504;0;0;0.185
+id_144;39;annotator_1;Easy Negative;[];[];139231;140536;tt0120338;Titanic;23.976;8701;8783;1505;0;0;0.284
+id_146;39;annotator_1;Easy Negative;[];[];140903;148818;tt0120338;Titanic;23.976;8806;9301;1507;0;0;0.062
+id_148;39;annotator_1;Easy Negative;[];[];149184;150607;tt0120338;Titanic;23.976;9324;9412;1509;0;0;0.229
+id_150;39;annotator_1;Easy Negative;[];[];152921;155379;tt0120338;Titanic;23.976;9557;9711;1511;0;0;0.055
+id_152;39;annotator_1;Easy Negative;[];[];155900;158547;tt0120338;Titanic;23.976;9743;9909;1513;0;0;0.348
+id_153;39;annotator_1;Easy Negative;[];[];158548;161417;tt0120338;Titanic;23.976;9909;10088;1514;0;0;0.369
+id_154;39;annotator_1;Easy Negative;[];[];161418;165719;tt0120338;Titanic;23.976;10088;10357;1515;0;0;0.28
+id_155;39;annotator_1;Easy Negative;[];[];165720;167144;tt0120338;Titanic;23.976;10357;10446;1516;0;0;0.072
+id_156;39;annotator_1;Easy Negative;['Speech'];"[""stupidity of rose's mom""]";167145;168865;tt0120338;Titanic;23.976;10446;10554;1517;0;0;0.195
+id_157;39;annotator_1;Easy Negative;['Speech'];[];168866;169372;tt0120338;Titanic;23.976;10554;10585;1518;0;0;0.716
+id_158;39;annotator_1;Easy Negative;[];[];169373;172520;tt0120338;Titanic;23.976;10585;10782;1519;0;0;0.203
+id_160;39;annotator_1;Easy Negative;[];[];173658;173986;tt0120338;Titanic;23.976;10853;10874;1521;0;0;0.687
+id_162;39;annotator_1;Easy Negative;[];[];174170;175900;tt0120338;Titanic;23.976;10885;10993;1523;0;0;0.369
+id_168;39;annotator_1;Easy Negative;[];[];182193;184282;tt0120338;Titanic;23.976;11387;11517;1529;0;0;0.169
+id_170;39;annotator_1;Easy Negative;[];[];184479;187089;tt0120338;Titanic;23.976;11529;11693;1531;0;0;0.446
+id_171;39;annotator_1;Easy Negative;[];[];187090;189015;tt0120338;Titanic;23.976;11693;11813;1532;0;0;0.67
+id_172;39;annotator_1;Easy Negative;[];[];189016;191268;tt0120338;Titanic;23.976;11813;11954;1533;0;0;0.253
+id_175;39;annotator_1;Easy Negative;[];['female gaze moment when we see through her eyes'];197318;199844;tt0120338;Titanic;23.976;12332;12490;1536;0;0;0.182
+id_177;39;annotator_1;Easy Negative;['Speech'];['keeps calling her stupid'];200221;201219;tt0120338;Titanic;23.976;12513;12576;1538;0;0;0.568
+id_178;39;annotator_1;Easy Negative;[];[];201220;202560;tt0120338;Titanic;23.976;12576;12659;1539;0;0;0.714
+id_179;39;annotator_1;Easy Negative;[];[];202561;203893;tt0120338;Titanic;23.976;12660;12743;1540;0;0;0.298
+id_180;39;annotator_1;Easy Negative;[];[];203894;205516;tt0120338;Titanic;23.976;12743;12844;1541;0;0;0.17
+id_181;39;annotator_1;Easy Negative;[];[];205517;206096;tt0120338;Titanic;23.976;12844;12880;1542;0;0;0.972
+id_184;39;annotator_1;Easy Negative;[];[];207445;209074;tt0120338;Titanic;23.976;12965;13067;1545;0;0;0.211
+id_186;39;annotator_1;Easy Negative;[];[];209310;210436;tt0120338;Titanic;23.976;13081;13152;1547;0;0;0.23
+id_188;39;annotator_1;Easy Negative;['Speech'];"[""little girl is an object to fit cal's needs""]";210618;213191;tt0120338;Titanic;23.976;13163;13324;1549;0;0;0.255
+id_189;39;annotator_1;Easy Negative;[];[];213192;214735;tt0120338;Titanic;23.976;13324;13420;1550;0;0;0.28
+id_191;39;annotator_1;Easy Negative;[];[];215030;221969;tt0120338;Titanic;23.976;13439;13873;1552;0;0;0.178
+id_192;39;annotator_1;Easy Negative;[];[];221970;228457;tt0120338;Titanic;23.976;13873;14278;1553;0;0;0.344
+id_194;39;annotator_1;Easy Negative;[];[];228623;229366;tt0120338;Titanic;23.976;14288;14335;1555;0;0;0.447
+id_196;39;annotator_1;Easy Negative;[];[];229605;232407;tt0120338;Titanic;23.976;14350;14525;1557;0;0;0.056
+id_197;39;annotator_1;Easy Negative;[];[];232408;234419;tt0120338;Titanic;23.976;14525;14651;1558;0;0;0.14
+id_199;39;annotator_1;Easy Negative;[];[];234614;236737;tt0120338;Titanic;23.976;14663;14796;1560;0;0;0.17
+id_200;39;annotator_1;Easy Negative;[];[];236738;240335;tt0120338;Titanic;23.976;14796;15020;1561;0;0;0.502
+id_201;39;annotator_1;Easy Negative;[];[];240336;241460;tt0120338;Titanic;23.976;15021;15091;1562;0;0;0.376
+id_202;39;annotator_1;Easy Negative;['Speech'];['molly brown female gaze, speech of sailor?'];241461;243586;tt0120338;Titanic;23.976;15091;15224;1563;0;0;0.141
+id_203;39;annotator_1;Easy Negative;[];[];243587;247715;tt0120338;Titanic;23.976;15224;15482;1564;0;0;0.46
+id_204;39;annotator_1;Easy Negative;[];[];247716;250931;tt0120338;Titanic;23.976;15482;15683;1565;0;0;0.264
+id_205;39;annotator_1;Easy Negative;[];[];250932;255933;tt0120338;Titanic;23.976;15683;15995;1566;0;0;0.167
+id_206;39;annotator_1;Easy Negative;[];[];255934;258732;tt0120338;Titanic;23.976;15995;16170;1567;0;0;0.05
+id_208;39;annotator_1;Easy Negative;[];[];260067;261259;tt0120338;Titanic;23.976;16254;16328;1569;0;0;0.165
+id_209;39;annotator_1;Easy Negative;[];[];261260;261592;tt0120338;Titanic;23.976;16328;16349;1570;0;0;0.035
+id_210;39;annotator_1;Easy Negative;[];[];261593;262498;tt0120338;Titanic;23.976;16349;16406;1571;0;0;0.02
+id_211;39;annotator_1;Easy Negative;[];[];262499;267255;tt0120338;Titanic;23.976;16406;16703;1572;0;0;0.097
+id_212;39;annotator_1;Easy Negative;[];[];267256;268064;tt0120338;Titanic;23.976;16703;16753;1573;0;0;0.015
+id_214;39;annotator_1;Easy Negative;[];['credits'];269102;279992;tt0120338;Titanic;23.976;16818;17499;1575;0;0;0.094
+id_0;4;annotator_1;Easy Negative;[];[];0;347;tt1045658;Silver Linings Playbook;23.976;0;21;2857;0;0;0.467
+id_1;4;annotator_1;Easy Negative;[];[];348;2630;tt1045658;Silver Linings Playbook;23.976;21;164;2858;0;0;0.023
+id_3;4;annotator_1;Easy Negative;['Speech'];"['They talk about ""him"" as if he were not there.']";2961;3308;tt1045658;Silver Linings Playbook;23.976;185;206;2860;0;0;0.05
+id_4;4;annotator_1;Easy Negative;[];['  '];3309;3480;tt1045658;Silver Linings Playbook;23.976;206;217;2861;0;0;0.023
+id_5;4;annotator_1;Easy Negative;['Speech'];['Dolores is somewhat hesitant and confused, whereas Pat just talks over her. Her achievements are the fact fact that she holds the household together and makes good lasagna.'];3481;4248;tt1045658;Silver Linings Playbook;23.976;217;265;2862;0;0;0.029
+id_8;4;annotator_1;Easy Negative;[];[];5816;6274;tt1045658;Silver Linings Playbook;23.976;363;392;2865;0;0;0.163
+id_9;4;annotator_1;Easy Negative;[];[];6275;6902;tt1045658;Silver Linings Playbook;23.976;392;431;2866;0;0;0.031
+id_10;4;annotator_1;Easy Negative;['Speech'];['What is America: cowboys and Benjamin Franklin'];6903;7907;tt1045658;Silver Linings Playbook;23.976;431;494;2867;0;0;0.056
+id_11;4;annotator_1;Easy Negative;['Narratology'];['Portraits on the wall are all men?'];7908;8151;tt1045658;Silver Linings Playbook;23.976;494;509;2868;0;0;0.105
+id_13;4;annotator_1;Easy Negative;['Speech'];['Pat Sr. talks down and mansplains to Dolores, not trusting her choice.'];9095;10211;tt1045658;Silver Linings Playbook;23.976;568;638;2870;0;0;0.058
+id_14;4;annotator_1;Easy Negative;['Speech'];"['Pat believes Nikki is still there, waiting for him, and that they are ""happily married""']";10212;12239;tt1045658;Silver Linings Playbook;23.976;638;764;2871;0;0;0.048
+id_15;4;annotator_1;Easy Negative;[];[];12240;12497;tt1045658;Silver Linings Playbook;23.976;765;781;2872;0;0;0.206
+id_17;4;annotator_1;Easy Negative;[];[];12704;13140;tt1045658;Silver Linings Playbook;23.976;794;821;2874;0;0;0.281
+id_18;4;annotator_1;Easy Negative;['Speech'];"[""It's Nikki's fault that she is teaching the book to kids.""]";13141;13291;tt1045658;Silver Linings Playbook;23.976;821;830;2875;0;0;0.817
+id_19;4;annotator_1;Easy Negative;['Speech'];"['""Happy"" is Hemmingway coming home from war, Catherine is married to him and pregnant, and they live happily drinking wine...etc.']";13292;14277;tt1045658;Silver Linings Playbook;23.976;830;892;2876;0;0;0.413
+id_20;4;annotator_1;Easy Negative;[];[];14278;14833;tt1045658;Silver Linings Playbook;23.976;892;927;2877;0;0;0.266
+id_22;4;annotator_1;Easy Negative;[];[];14918;15987;tt1045658;Silver Linings Playbook;23.976;932;999;2879;0;0;0.022
+id_29;4;annotator_1;Easy Negative;[];[];20132;21783;tt1045658;Silver Linings Playbook;23.976;1258;1361;2886;0;0;0.064
+id_30;4;annotator_1;Easy Negative;['Speech'];['Pat only listen to Pat Sr. and not Dolores'];21784;22683;tt1045658;Silver Linings Playbook;23.976;1361;1417;2887;0;0;0.123
+id_33;4;annotator_1;Easy Negative;[];[];26459;27689;tt1045658;Silver Linings Playbook;23.976;1653;1730;2890;0;0;0.012
+id_34;4;annotator_1;Easy Negative;[];['Veronica talks through Ronnie'];27690;28527;tt1045658;Silver Linings Playbook;23.976;1730;1782;2891;0;0;0.013
+id_35;4;annotator_1;Easy Negative;[];[];28528;29792;tt1045658;Silver Linings Playbook;23.976;1783;1861;2892;0;0;0.144
+id_37;4;annotator_1;Easy Negative;['Speech'];['The last sentence on the jersey, DeSean Jackson is the man.'];30487;32429;tt1045658;Silver Linings Playbook;23.976;1905;2026;2894;0;0;0.021
+id_39;4;annotator_1;Easy Negative;[];[];32514;33107;tt1045658;Silver Linings Playbook;23.976;2032;2069;2896;0;0;0.165
+id_42;4;annotator_1;Easy Negative;[];[];34027;35673;tt1045658;Silver Linings Playbook;23.976;2126;2229;2899;0;0;0.228
+id_44;4;annotator_1;Easy Negative;[];[];36377;36855;tt1045658;Silver Linings Playbook;23.976;2273;2303;2901;0;0;0.445
+id_47;4;annotator_1;Easy Negative;[];[];38607;38977;tt1045658;Silver Linings Playbook;23.976;2412;2436;2904;0;0;0.503
+id_48;4;annotator_1;Easy Negative;['Speech'];"['Story of the word OK linked to the men\'s club, and those who were ""cool"" were part of the club.']";38978;39297;tt1045658;Silver Linings Playbook;23.976;2436;2456;2905;0;0;0.418
+id_49;4;annotator_1;Easy Negative;[];[];39298;40795;tt1045658;Silver Linings Playbook;23.976;2456;2549;2906;0;0;0.161
+id_55;4;annotator_1;Easy Negative;[];[];47249;47524;tt1045658;Silver Linings Playbook;23.976;2953;2970;2912;0;0;0.136
+id_57;4;annotator_1;Easy Negative;[];[];47902;50829;tt1045658;Silver Linings Playbook;23.976;2993;3176;2914;0;0;0.196
+id_58;4;annotator_1;Easy Negative;[];[];50830;51534;tt1045658;Silver Linings Playbook;23.976;3176;3220;2915;0;0;0.094
+id_61;4;annotator_1;Easy Negative;['Speech'];['S word'];53715;53799;tt1045658;Silver Linings Playbook;23.976;3357;3362;2918;0;0;0.468
+id_63;4;annotator_1;Easy Negative;[];[];54378;55860;tt1045658;Silver Linings Playbook;23.976;3398;3491;2920;0;0;0.021
+id_64;4;annotator_1;Easy Negative;['Speech'];"['""Nikki is not around and Tiffany is an attractive girl, and if you get drawn to Tiffany you\'ll lose your chance to get Nikki back."" (Women as possessions)']";55861;56129;tt1045658;Silver Linings Playbook;23.976;3491;3508;2921;0;0;0.061
+id_65;4;annotator_1;Easy Negative;['Speech'];['S word again'];56130;56523;tt1045658;Silver Linings Playbook;23.976;3508;3532;2922;0;0;0.164
+id_66;4;annotator_1;Easy Negative;['Speech'];"['Tiffany never said she was a ""W*"" but Pat interprets it that way.']";56524;56993;tt1045658;Silver Linings Playbook;23.976;3532;3562;2923;0;0;0.108
+id_67;4;annotator_1;Easy Negative;[];[];56994;58098;tt1045658;Silver Linings Playbook;23.976;3562;3631;2924;0;0;0.033
+id_68;4;annotator_1;Easy Negative;[];[];58099;59892;tt1045658;Silver Linings Playbook;23.976;3631;3743;2925;0;0;0.026
+id_70;4;annotator_1;Easy Negative;[];['How did Tiffany get a jacket between the previous shot and this one...?'];60350;60651;tt1045658;Silver Linings Playbook;23.976;3771;3790;2927;0;0;0.64
+id_71;4;annotator_1;Easy Negative;[];[];60652;64881;tt1045658;Silver Linings Playbook;23.976;3790;4055;2928;0;0;0.368
+id_72;4;annotator_1;Easy Negative;['Speech'];[];64882;66066;tt1045658;Silver Linings Playbook;23.976;4055;4129;2929;0;0;0.547
+id_73;4;annotator_1;Easy Negative;[];[];66067;73954;tt1045658;Silver Linings Playbook;23.976;4129;4622;2930;0;0;0.411
+id_74;4;annotator_1;Easy Negative;['Speech'];[];73955;74319;tt1045658;Silver Linings Playbook;23.976;4622;4644;2931;0;0;0.862
+id_76;4;annotator_1;Easy Negative;[];[];74558;75499;tt1045658;Silver Linings Playbook;23.976;4659;4718;2933;0;0;0.099
+id_78;4;annotator_1;Easy Negative;[];[];75987;76875;tt1045658;Silver Linings Playbook;23.976;4749;4804;2935;0;0;0.291
+id_79;4;annotator_1;Easy Negative;['Speech'];['Dolores is making snacks...'];76876;77134;tt1045658;Silver Linings Playbook;23.976;4804;4820;2936;0;0;0.192
+id_80;4;annotator_1;Easy Negative;[];[];77135;80144;tt1045658;Silver Linings Playbook;23.976;4820;5008;2937;0;0;0.054
+id_83;4;annotator_1;Easy Negative;[];[];84710;92951;tt1045658;Silver Linings Playbook;23.976;5294;5809;2940;0;0;0.055
+id_84;4;annotator_1;Easy Negative;['Speech'];['Pat is the one helping Tiffany, being generous, of service...'];92952;93505;tt1045658;Silver Linings Playbook;23.976;5809;5844;2941;0;0;0.716
+id_85;4;annotator_1;Easy Negative;[];[];93506;97632;tt1045658;Silver Linings Playbook;23.976;5844;6101;2942;0;0;0.439
+id_87;4;annotator_1;Easy Negative;[];[];98034;99913;tt1045658;Silver Linings Playbook;23.976;6127;6244;2944;0;0;0.604
+id_88;4;annotator_1;Easy Negative;[];[];99914;100285;tt1045658;Silver Linings Playbook;23.976;6244;6267;2945;0;0;0.192
+id_89;4;annotator_1;Easy Negative;[];[];100286;100510;tt1045658;Silver Linings Playbook;23.976;6267;6281;2946;0;0;0.349
+id_91;4;annotator_1;Easy Negative;[];[];100624;102075;tt1045658;Silver Linings Playbook;23.976;6289;6379;2948;0;0;0.664
+id_94;4;annotator_1;Easy Negative;[];[];105163;105486;tt1045658;Silver Linings Playbook;23.976;6572;6592;2951;0;0;0.874
+id_95;4;annotator_1;Easy Negative;[];[];105487;117735;tt1045658;Silver Linings Playbook;23.976;6592;7358;2952;0;0;0.125
+id_96;4;annotator_1;Easy Negative;[];[];117736;118826;tt1045658;Silver Linings Playbook;23.976;7358;7426;2953;0;0;0.014
+id_98;4;annotator_1;Easy Negative;[];[];118958;123243;tt1045658;Silver Linings Playbook;23.976;7434;7702;2955;0;0;0.078
+id_99;4;annotator_1;Easy Negative;['Speech'];"[""There's a lot going on in this scene, quite a bit of derogatory comments""]";123244;135728;tt1045658;Silver Linings Playbook;23.976;7702;8482;2956;0;0;0.382
+id_100;4;annotator_1;Easy Negative;[];[];135729;138793;tt1045658;Silver Linings Playbook;23.976;8483;8674;2957;0;0;0.181
+id_101;4;annotator_1;Easy Negative;[];[];138794;142000;tt1045658;Silver Linings Playbook;23.976;8674;8874;2958;0;0;0.195
+id_103;4;annotator_1;Easy Negative;[];[];142346;152374;tt1045658;Silver Linings Playbook;23.976;8896;9523;2960;0;0;0.368
+id_105;4;annotator_1;Easy Negative;[];"[""It's a really funny scene in terms of narrative""]";156818;158385;tt1045658;Silver Linings Playbook;23.976;9801;9899;2962;0;0;0.246
+id_106;4;annotator_1;Easy Negative;[];[];158386;162011;tt1045658;Silver Linings Playbook;23.976;9899;10125;2963;0;0;0.369
+id_107;4;annotator_1;Easy Negative;[];[];162012;164927;tt1045658;Silver Linings Playbook;23.976;10125;10307;2964;0;0;0.301
+id_108;4;annotator_1;Easy Negative;[];[];164928;166133;tt1045658;Silver Linings Playbook;23.976;10308;10383;2965;0;0;0.017
+id_110;4;annotator_1;Easy Negative;[];[];166360;166656;tt1045658;Silver Linings Playbook;23.976;10397;10415;2967;0;0;0.321
+id_113;4;annotator_1;Easy Negative;[];[];167088;175458;tt1045658;Silver Linings Playbook;23.976;10443;10966;2970;0;0;0.111
+id_0;10;annotator_1;Easy Negative;[];['logo'];0;342;tt1632708;Friends with Benefits;23.976;0;21;5104;0;0;0.028
+id_3;10;annotator_1;Easy Negative;['Speech'];['Lying about work'];1223;1382;tt1632708;Friends with Benefits;23.976;76;86;5107;0;0;0.947
+id_7;10;annotator_1;Easy Negative;['Speech'];[];6381;6998;tt1632708;Friends with Benefits;23.976;398;437;5111;0;0;0.393
+id_11;10;annotator_1;Easy Negative;[];[];8491;8985;tt1632708;Friends with Benefits;23.976;530;561;5115;0;0;0.312
+id_20;10;annotator_1;Easy Negative;[];[];25480;26413;tt1632708;Friends with Benefits;23.976;1592;1650;5124;0;0;0.02
+id_21;10;annotator_1;Easy Negative;[];[];26414;27612;tt1632708;Friends with Benefits;23.976;1650;1725;5125;0;0;0.146
+id_36;10;annotator_1;Easy Negative;['Speech'];[];59071;59654;tt1632708;Friends with Benefits;23.976;3691;3728;5140;0;0;0.745
+id_38;10;annotator_1;Easy Negative;['Speech'];[];60460;62745;tt1632708;Friends with Benefits;23.976;3778;3921;5142;0;0;0.129
+id_39;10;annotator_1;Easy Negative;[];[];62746;63374;tt1632708;Friends with Benefits;23.976;3921;3960;5143;0;0;0.039
+id_47;10;annotator_1;Easy Negative;[];[];70813;74032;tt1632708;Friends with Benefits;23.976;4425;4626;5151;0;0;0.06
+id_55;10;annotator_1;Easy Negative;[];[];83094;84872;tt1632708;Friends with Benefits;23.976;5193;5304;5159;0;0;0.039
+id_56;10;annotator_1;Easy Negative;[];['travel scene'];84873;86123;tt1632708;Friends with Benefits;23.976;5304;5382;5160;0;0;0.042
+id_57;10;annotator_1;Easy Negative;[];[];86124;87535;tt1632708;Friends with Benefits;23.976;5382;5470;5161;0;0;0.213
+id_58;10;annotator_1;Easy Negative;['Speech'];['sexting'];87536;87622;tt1632708;Friends with Benefits;23.976;5471;5476;5162;0;0;0.257
+id_59;10;annotator_1;Easy Negative;[];[];87623;89149;tt1632708;Friends with Benefits;23.976;5476;5571;5163;0;0;0.104
+id_61;10;annotator_1;Easy Negative;[];[];89521;91481;tt1632708;Friends with Benefits;23.976;5595;5717;5165;0;0;0.042
+id_70;10;annotator_1;Easy Negative;[];['Talk about Jaime being beautiful'];102571;103169;tt1632708;Friends with Benefits;23.976;6410;6448;5174;0;0;0.306
+id_71;10;annotator_1;Easy Negative;[];"[""Alzheimer's""]";103170;106109;tt1632708;Friends with Benefits;23.976;6448;6631;5175;0;0;0.027
+id_73;10;annotator_1;Easy Negative;['Speech'];['vulgar'];107807;108202;tt1632708;Friends with Benefits;23.976;6737;6762;5177;0;0;0.324
+id_75;10;annotator_1;Easy Negative;[];[];110804;111340;tt1632708;Friends with Benefits;23.976;6925;6958;5179;0;0;0.176
+id_78;10;annotator_1;Easy Negative;[];[];113769;115789;tt1632708;Friends with Benefits;23.976;7110;7236;5182;0;0;0.032
+id_79;10;annotator_1;Easy Negative;[];[];115790;117174;tt1632708;Friends with Benefits;23.976;7236;7323;5183;0;0;0.045
+id_80;10;annotator_1;Easy Negative;[];[];117175;118355;tt1632708;Friends with Benefits;23.976;7323;7397;5184;0;0;0.043
+id_82;10;annotator_1;Easy Negative;[];[];120975;121313;tt1632708;Friends with Benefits;23.976;7560;7582;5186;0;0;0.146
+id_84;10;annotator_1;Easy Negative;[];[];123926;124476;tt1632708;Friends with Benefits;23.976;7745;7779;5188;0;0;0.015
+id_89;10;annotator_1;Easy Negative;[];[];129116;130606;tt1632708;Friends with Benefits;23.976;8069;8162;5193;0;0;0.103
+id_91;10;annotator_1;Easy Negative;[];[];132537;134399;tt1632708;Friends with Benefits;23.976;8283;8399;5195;0;0;0.073
+id_93;10;annotator_1;Easy Negative;[];[];135412;138383;tt1632708;Friends with Benefits;23.976;8463;8648;5197;0;0;0.012
+id_95;10;annotator_1;Easy Negative;[];[];138540;141732;tt1632708;Friends with Benefits;23.976;8658;8858;5199;0;0;0.027
+id_98;10;annotator_1;Easy Negative;[];[];147967;156918;tt1632708;Friends with Benefits;23.976;9247;9807;5202;0;0;0.183
+id_99;10;annotator_1;Easy Negative;[];['End credits scene cut off'];156919;157258;tt1632708;Friends with Benefits;23.976;9807;9828;5203;0;0;0.754

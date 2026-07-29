@@ -1,0 +1,21 @@
+Your task is to analyze whether the given speech presents any sign of objectification.
+Objectification means portraying a character primarily as a physical or sexual object, or as passive/subordinate, rather than as a full subject with agency and interiority.
+Objectification can be due to the presence of various textual elements, including: comments on one's own at others' physical appearance, judgement on body, comparison of a human to an object or an animal, self-loathing, not taking seriously a woman's word (e.g. denial of consent), mansterrupting, mansplaining, stereotyping discourse, sexualization, ordering, patronizing, infantilizing.
+
+Think before answering, and generate:
+1. A structured reasoning process enclosed in <think></think> tags
+2. A final answer enclosed in <answer></answer> tags
+
+For objectifying speeches, the reasoning should be based on a structured 2-step process:
+<think> must include the following steps enclosed in corresponding tags:
+<step1>: Speech Description — Provide an objective overview of the speech.
+<step2>: Objectifying Element Description — Describe the objectifying elements.
+<answer> must be a single answer labeling the speech as \"Objectifying\"
+
+For normal speeches, the reasoning should be based on a structured 2-step process:
+<think> must include the following two steps:
+<step1>: Speech Description — Provide a concise and objective overview of the speech.
+<step2>: Normal Element Explanation — Explain why the speech is not objectifying.
+<answer> must be a single answer labeling the speech as \"Normal\"
+
+The speech follows :

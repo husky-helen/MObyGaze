@@ -1,0 +1,432 @@
+clip_index;movie_id;annotator;label;concepts;comment;start_frame;end_frame;imdb_key;movie_title;framerate;start_clip;end_clip;guid;label_int;fold;test_proba
+id_10;37;annotator_1;Hard Negative;['Activities'];['Also interaction with '];16174;16656;tt0119822;As Good as It Gets;23.976;1010;1040;1142;0;0;0.072
+id_11;37;annotator_1;Not Sure;['Clothing', 'Activities', 'Look'];[];16657;17580;tt0119822;As Good as It Gets;23.976;1041;1098;1143;0;0;0.007
+id_13;37;annotator_1;Sure;['Speech', 'Look', 'Exp of emotion'];[];18005;21097;tt0119822;As Good as It Gets;23.976;1125;1318;1145;1;0;0.499
+id_14;37;annotator_1;Sure;['Posture', 'Exp of emotion'];"[""She doesn't seem very consensual, seems somewhat hesitant""]";21098;22539;tt0119822;As Good as It Gets;23.976;1318;1408;1146;1;0;0.082
+id_15;37;annotator_1;Sure;['Speech', 'Activities', 'Exp of emotion'];"['Look and gestures of the man demeaning; Motherhood']";22540;25948;tt0119822;As Good as It Gets;23.976;1408;1621;1147;1;0;0.067
+id_16;37;annotator_1;Hard Negative;['Body'];[];25949;28359;tt0119822;As Good as It Gets;23.976;1621;1772;1148;0;0;0.019
+id_17;37;annotator_1;Sure;['Clothing', 'Posture'];[];28360;29124;tt0119822;As Good as It Gets;23.976;1772;1820;1149;0;0;0.032
+id_19;37;annotator_1;Hard Negative;['Type of shot'];['Feet only of people in collision'];30586;30790;tt0119822;As Good as It Gets;23.976;1911;1924;1151;0;0;0.007
+id_20;37;annotator_1;Not Sure;['Clothing', 'Look', 'Exp of emotion'];[];30791;32455;tt0119822;As Good as It Gets;23.976;1924;2028;1152;1;0;0.086
+id_21;37;annotator_1;Hard Negative;['Look'];[];32456;33641;tt0119822;As Good as It Gets;23.976;2028;2102;1153;0;0;0.503
+id_24;37;annotator_1;Hard Negative;['Activities'];['Doctors are all men, nurse a woman, doctor reassuring (woman) family.'];43343;43887;tt0119822;As Good as It Gets;23.976;2708;2742;1156;0;0;0.068
+id_25;37;annotator_1;Not Sure;['Exp of emotion'];['Woman in uncontrollable tears while the other two men stay reasonable'];43888;45616;tt0119822;As Good as It Gets;23.976;2743;2850;1157;1;0;0.313
+id_28;37;annotator_1;Not Sure;['Speech', 'Look'];['Looking at her, shot cutoff point around chest, asking her age, talking about her physical appearance (black eye rings)'];48077;49909;tt0119822;As Good as It Gets;23.976;3004;3119;1160;0;0;0.123
+id_34;37;annotator_1;Hard Negative;['Speech', 'Exp of emotion'];[];60659;61905;tt0119822;As Good as It Gets;23.976;3791;3869;1166;1;0;0.69
+id_35;37;annotator_1;Hard Negative;['Look'];['Everyone lookng at him'];61906;64846;tt0119822;As Good as It Gets;23.976;3869;4052;1167;0;0;0.167
+id_36;37;annotator_1;Not Sure;['Speech', 'Activities', 'Look'];"['Dish washing, ""I\'m not sexist but..."", expecting her to be his waitress']";64847;65938;tt0119822;As Good as It Gets;23.976;4052;4121;1168;0;0;0.086
+id_40;37;annotator_1;Not Sure;['Speech', 'Exp of emotion'];"[""Completely ignoring the woman's emotional distress and only caring about the dog""]";69821;72249;tt0119822;As Good as It Gets;23.976;4363;4515;1172;1;0;0.02
+id_42;37;annotator_1;Not Sure;['Body', 'Posture'];['Not really sure what the lady at the desk is doing with her hip...'];72937;73084;tt0119822;As Good as It Gets;23.976;4558;4567;1174;0;0;0.006
+id_44;37;annotator_1;Sure;['Posture', 'Look', 'Exp of emotion'];[];73392;73472;tt0119822;As Good as It Gets;23.976;4587;4591;1176;1;0;0.035
+id_46;37;annotator_1;Sure;['Appearance', 'Posture', 'Speech', 'Look', 'Exp of emotion'];['Very sexist discourse'];73678;75067;tt0119822;As Good as It Gets;23.976;4604;4691;1178;1;0;0.081
+id_47;37;annotator_1;Not Sure;['Speech', 'Activities', 'Exp of emotion'];['multiple instances of outbursts of emotion somewhat bizarre (by Mom and Carol), touching and hugging the doctor'];75068;80886;tt0119822;As Good as It Gets;23.976;4691;5055;1179;1;0;0.271
+id_48;37;annotator_1;Not Sure;['Exp of emotion'];[];80887;81619;tt0119822;As Good as It Gets;23.976;5055;5101;1180;1;0;0.021
+id_49;37;annotator_1;Sure;['Speech', 'Exp of emotion'];[];81620;83113;tt0119822;As Good as It Gets;23.976;5101;5194;1181;1;0;0.169
+id_52;37;annotator_1;Hard Negative;['Appearance', 'Clothing'];['Full make up at night ...?'];90015;90648;tt0119822;As Good as It Gets;23.976;5625;5665;1184;0;0;0.184
+id_53;37;annotator_1;Hard Negative;['Clothing'];[];90649;92107;tt0119822;As Good as It Gets;23.976;5665;5756;1185;0;0;0.015
+id_55;37;annotator_1;Sure;['Body', 'Appearance', 'Clothing'];[];92294;93951;tt0119822;As Good as It Gets;23.976;5768;5871;1187;0;0;0.087
+id_56;37;annotator_1;Sure;['Appearance', 'Clothing', 'Speech'];[];93952;96493;tt0119822;As Good as It Gets;23.976;5872;6030;1188;0;0;0.476
+id_60;37;annotator_1;Hard Negative;['Look'];[];106230;107047;tt0119822;As Good as It Gets;23.976;6639;6690;1192;0;0;0.184
+id_61;37;annotator_1;Not Sure;['Speech', 'Look'];[];107048;107264;tt0119822;As Good as It Gets;23.976;6690;6703;1193;0;0;0.017
+id_65;37;annotator_1;Not Sure;['Posture', 'Speech', 'Exp of emotion'];[];110391;113508;tt0119822;As Good as It Gets;23.976;6899;7094;1197;1;0;0.322
+id_72;37;annotator_1;Hard Negative;['Exp of emotion'];[];131866;132102;tt0119822;As Good as It Gets;23.976;8241;8256;1204;1;0;0.086
+id_73;37;annotator_1;Hard Negative;['Clothing'];[];132103;134338;tt0119822;As Good as It Gets;23.976;8256;8396;1205;0;0;0.023
+id_75;37;annotator_1;Not Sure;['Look'];[];137534;138602;tt0119822;As Good as It Gets;23.976;8595;8662;1207;0;0;0.053
+id_76;37;annotator_1;Hard Negative;['Clothing', 'Look'];[];138603;140238;tt0119822;As Good as It Gets;23.976;8662;8764;1208;0;0;0.254
+id_88;37;annotator_1;Sure;['Body', 'Speech', 'Look'];[];153644;155941;tt0119822;As Good as It Gets;23.976;9602;9746;1220;0;0;0.022
+id_90;37;annotator_1;Sure;['Body', 'Posture', 'Look'];[];156961;157994;tt0119822;As Good as It Gets;23.976;9810;9874;1222;0;0;0.029
+id_91;37;annotator_1;Hard Negative;['Clothing', 'Speech'];[];157995;159029;tt0119822;As Good as It Gets;23.976;9874;9939;1223;0;0;0.146
+id_94;37;annotator_1;Not Sure;['Clothing'];[];161076;161196;tt0119822;As Good as It Gets;23.976;10067;10074;1226;0;0;0.026
+id_97;37;annotator_1;Not Sure;['Look'];[];163384;163557;tt0119822;As Good as It Gets;23.976;10211;10222;1229;0;0;0.044
+id_101;37;annotator_1;Hard Negative;['Appearance'];[];171733;171897;tt0119822;As Good as It Gets;23.976;10733;10743;1233;0;0;0.016
+id_102;37;annotator_1;Hard Negative;['Posture'];[];171898;172973;tt0119822;As Good as It Gets;23.976;10743;10810;1234;0;0;0.089
+id_103;37;annotator_1;Hard Negative;['Speech', 'Exp of emotion'];[];172974;173715;tt0119822;As Good as It Gets;23.976;10810;10857;1235;1;0;0.047
+id_106;37;annotator_1;Not Sure;['Body', 'Clothing', 'Posture'];[];179916;180461;tt0119822;As Good as It Gets;23.976;11244;11278;1238;0;0;0.149
+id_108;37;annotator_1;Not Sure;['Body', 'Clothing'];[];180936;185353;tt0119822;As Good as It Gets;23.976;11308;11584;1240;0;0;0.261
+id_109;37;annotator_1;Hard Negative;['Clothing'];[];185354;187581;tt0119822;As Good as It Gets;23.976;11584;11723;1241;0;0;0.165
+id_1;11;annotator_1;Hard Negative;['Body'];['hands only (parts of body)'];1674;1905;tt1454029;The Help;23.976;104;119;4062;0;0;0.008
+id_2;11;annotator_1;Hard Negative;['Type of shot', 'Look'];['No face of questioner, Aibleen looked at'];1906;3112;tt1454029;The Help;23.976;119;194;4063;0;0;0.007
+id_3;11;annotator_1;Hard Negative;['Exp of emotion'];[];3113;3483;tt1454029;The Help;23.976;194;217;4064;1;0;0.006
+id_4;11;annotator_1;Hard Negative;['Speech', 'Exp of emotion'];['speech about baby bodies, acting childish to please baby'];3484;4472;tt1454029;The Help;23.976;217;279;4065;1;0;0.007
+id_5;11;annotator_1;Hard Negative;['Clothing'];['shot on hair pins'];4473;4548;tt1454029;The Help;23.976;279;284;4066;0;0;0.006
+id_6;11;annotator_1;Sure;['Body'];['bath'];4549;4686;tt1454029;The Help;23.976;284;292;4067;0;0;0.01
+id_7;11;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Look'];"[""baby half naked, Elizabeth show off dress, comment on Elizabeth's mothering""]";4687;5990;tt1454029;The Help;23.976;292;374;4068;0;0;0.006
+id_9;11;annotator_1;Sure;['Type of shot', 'Clothing', 'Look'];['Skeeter look at colored queue, all dressed in dresses, shot reverse shot'];6562;6919;tt1454029;The Help;23.976;410;432;4070;0;0;0.008
+id_17;11;annotator_1;Sure;['Type of shot', 'Clothing', 'Posture', 'Speech', 'Exp of emotion'];['shown as irrational, perfect posture, shot showing just arms and hands, talk about babies, order Minnie around'];10433;11185;tt1454029;The Help;23.976;652;699;4078;1;0;0.007
+id_18;11;annotator_1;Sure;['Type of shot', 'Clothing', 'Posture'];[];11186;12623;tt1454029;The Help;23.976;699;788;4079;0;0;0.008
+id_19;11;annotator_1;Hard Negative;['Look'];['Look at Elizabeth running around in dress. Elizabeth look at Aibileen critically'];12624;13134;tt1454029;The Help;23.976;789;820;4080;0;0;0.006
+id_20;11;annotator_1;Sure;['Body', 'Clothing', 'Speech', 'Activities'];[];13135;13918;tt1454029;The Help;23.976;820;869;4081;0;0;0.004
+id_21;11;annotator_1;Sure;['Voice', 'Appearance', 'Clothing', 'Posture'];[];13919;14155;tt1454029;The Help;23.976;869;884;4082;0;0;0.005
+id_24;11;annotator_1;Sure;['Voice', 'Posture', 'Speech', 'Exp of emotion'];"['Stuart held up on rig ""again"" for ""work"", girls screaming']";15936;17242;tt1454029;The Help;23.976;996;1077;4085;1;0;0.006
+id_25;11;annotator_1;Sure;['Speech', 'Look', 'Exp of emotion'];['My aibileen, No look at Aibileen for her agreement'];17243;18882;tt1454029;The Help;23.976;1077;1180;4086;1;0;0.005
+id_26;11;annotator_1;Sure;['Type of shot', 'Body', 'Voice', 'Clothing', 'Posture', 'Activities', 'Look', 'Exp of emotion'];[];18883;20154;tt1454029;The Help;23.976;1180;1259;4087;1;0;0.007
+id_27;11;annotator_1;Hard Negative;['Activities'];['Aibileen just being ordered around'];20155;21465;tt1454029;The Help;23.976;1259;1341;4088;0;0;0.005
+id_28;11;annotator_1;Sure;['Speech', 'Look'];[];21466;21841;tt1454029;The Help;23.976;1341;1365;4089;0;0;0.005
+id_29;11;annotator_1;Sure;['Speech', 'Look'];[];21842;23480;tt1454029;The Help;23.976;1365;1467;4090;0;0;0.005
+id_30;11;annotator_1;Hard Negative;['Type of shot', 'Look'];[];23480;23638;tt1454029;The Help;23.976;1467;1477;4091;0;0;0.005
+id_33;11;annotator_1;Sure;['Appearance', 'Clothing', 'Speech'];[];26898;27220;tt1454029;The Help;23.976;1681;1701;4094;0;0;0.007
+id_34;11;annotator_1;Hard Negative;['Appearance', 'Activities', 'Look'];[];27221;27401;tt1454029;The Help;23.976;1701;1712;4095;0;0;0.003
+id_35;11;annotator_1;Sure;['Body', 'Clothing', 'Speech', 'Activities'];[];27402;29376;tt1454029;The Help;23.976;1712;1835;4096;0;0;0.006
+id_36;11;annotator_1;Sure;['Speech', 'Exp of emotion'];[];29377;30714;tt1454029;The Help;23.976;1836;1919;4097;1;0;0.007
+id_37;11;annotator_1;Sure;['Speech', 'Exp of emotion'];['color thing'];30715;33325;tt1454029;The Help;23.976;1919;2082;4098;1;0;0.005
+id_39;11;annotator_1;Hard Negative;['Clothing'];['Skeeter and her mother both in PJs'];37444;40031;tt1454029;The Help;23.976;2340;2501;4100;0;0;0.006
+id_42;11;annotator_1;Sure;['Speech', 'Activities', 'Exp of emotion'];['ordering Aibileen around, continue about bathroom'];42188;43567;tt1454029;The Help;23.976;2636;2722;4103;1;0;0.005
+id_44;11;annotator_1;Sure;['Speech', 'Activities', 'Look', 'Exp of emotion'];['Hilly not look at Minnie and refuse to acknowledge her needs. Minnie is a human fan.'];43727;45958;tt1454029;The Help;23.976;2732;2872;4105;1;0;0.005
+id_45;11;annotator_1;Sure;['Voice', 'Speech', 'Look', 'Exp of emotion'];[];45959;47463;tt1454029;The Help;23.976;2872;2966;4106;1;0;0.004
+id_48;11;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Activities'];[];48653;49433;tt1454029;The Help;23.976;3040;3089;4109;0;0;0.006
+id_51;11;annotator_1;Sure;['Speech', 'Look'];['Being looked at by women in park, Aibileen missed her bus because of Skeeter. Jim Crow laws'];51813;54673;tt1454029;The Help;23.976;3238;3417;4112;0;0;0.006
+id_55;11;annotator_1;Sure;['Speech', 'Activities', 'Exp of emotion'];['serving Skeeter, nervous, commented on clothing'];59483;60560;tt1454029;The Help;23.976;3717;3784;4116;1;0;0.007
+id_57;11;annotator_1;Sure;['Speech', 'Look', 'Exp of emotion'];[];66316;68916;tt1454029;The Help;23.976;4144;4307;4118;1;0;0.007
+id_59;11;annotator_1;Sure;['Voice', 'Clothing', 'Posture', 'Exp of emotion'];['Objectifying Celia Foote'];70903;76175;tt1454029;The Help;23.976;4431;4760;4120;1;0;0.006
+id_61;11;annotator_1;Sure;['Voice', 'Clothing', 'Speech', 'Look'];[];76354;77967;tt1454029;The Help;23.976;4772;4872;4122;0;0;0.005
+id_62;11;annotator_1;Hard Negative;['Speech', 'Exp of emotion'];[];77968;79837;tt1454029;The Help;23.976;4873;4989;4123;1;0;0.004
+id_63;11;annotator_1;Hard Negative;['Activities'];['chores'];79838;80721;tt1454029;The Help;23.976;4989;5045;4124;0;0;0.007
+id_65;11;annotator_1;Hard Negative;['Speech', 'Exp of emotion'];[];83452;84391;tt1454029;The Help;23.976;5215;5274;4126;1;0;0.006
+id_67;11;annotator_1;Sure;['Appearance', 'Activities'];[];87126;89879;tt1454029;The Help;23.976;5445;5617;4128;0;0;0.005
+id_68;11;annotator_1;Sure;['Look'];['Look and ignore Yule May'];89880;90016;tt1454029;The Help;23.976;5617;5625;4129;0;0;0.006
+id_70;11;annotator_1;Sure;['Speech', 'Exp of emotion'];[];90678;92377;tt1454029;The Help;23.976;5667;5773;4131;1;0;0.006
+id_74;11;annotator_1;Sure;['Appearance', 'Clothing', 'Speech', 'Look'];['mix racism, girls dresses, hilly look at Aibileen shading her eyes'];101321;102876;tt1454029;The Help;23.976;6332;6429;4135;0;0;0.004
+id_76;11;annotator_1;Sure;['Speech', 'Look'];[];103984;104813;tt1454029;The Help;23.976;6499;6550;4137;0;0;0.006
+id_79;11;annotator_1;Sure;['Clothing', 'Posture', 'Speech', 'Exp of emotion'];[];107105;108061;tt1454029;The Help;23.976;6694;6753;4140;1;0;0.008
+id_80;11;annotator_1;Hard Negative;['Clothing', 'Look'];['Mother watching through leaves, both dressed up, Skeeter in low-cut dress'];108062;110485;tt1454029;The Help;23.976;6753;6905;4141;0;0;0.006
+id_82;11;annotator_1;Sure;['Posture', 'Look'];"[""Follow behind her looking at her, kiss on man's initiative""]";112214;112601;tt1454029;The Help;23.976;7013;7037;4143;0;0;0.007
+id_84;11;annotator_1;Sure;['Voice', 'Posture', 'Exp of emotion'];"[""Male photgraphers catching Hilly's embarrasment, Elizabeth beating Mae""]";112963;114182;tt1454029;The Help;23.976;7060;7136;4145;1;0;0.004
+id_85;11;annotator_1;Hard Negative;['Type of shot', 'Look'];[];114183;114934;tt1454029;The Help;23.976;7136;7183;4146;0;0;0.008
+id_90;11;annotator_1;Hard Negative;['Activities'];['domestic chores'];121795;123454;tt1454029;The Help;23.976;7612;7715;4151;0;0;0.008
+id_91;11;annotator_1;Sure;['Voice', 'Clothing', 'Posture', 'Speech', 'Exp of emotion'];['miscarriage scene'];123455;126212;tt1454029;The Help;23.976;7715;7888;4152;1;0;0.006
+id_92;11;annotator_1;Sure;['Voice', 'Posture', 'Speech', 'Activities', 'Look'];['Violence qgqinst Yule May'];126213;127541;tt1454029;The Help;23.976;7888;7971;4153;0;0;0.007
+id_93;11;annotator_1;Hard Negative;['Speech', 'Look'];['perpendicular gaze'];127542;128148;tt1454029;The Help;23.976;7971;8009;4154;0;0;0.007
+id_98;11;annotator_1;Sure;['Posture', 'Look'];[];132926;134138;tt1454029;The Help;23.976;8307;8383;4159;0;0;0.006
+id_101;11;annotator_1;Sure;['Type of shot'];['saying sorry, camera angle top down'];139219;139434;tt1454029;The Help;23.976;8701;8714;4162;0;0;0.003
+id_102;11;annotator_1;Sure;['Voice', 'Speech', 'Look', 'Exp of emotion'];[];139435;143345;tt1454029;The Help;23.976;8714;8959;4163;1;0;0.006
+id_104;11;annotator_1;Sure;['Voice', 'Clothing'];[];145055;145806;tt1454029;The Help;23.976;9065;9112;4165;0;0;0.007
+id_105;11;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Look'];[];145807;146354;tt1454029;The Help;23.976;9112;9147;4166;0;0;0.008
+id_107;11;annotator_1;Hard Negative;['Clothing', 'Activities'];[];146626;147352;tt1454029;The Help;23.976;9164;9209;4168;0;0;0.005
+id_108;11;annotator_1;Sure;['Body', 'Appearance', 'Clothing', 'Look'];[];147352;147781;tt1454029;The Help;23.976;9209;9236;4169;0;0;0.005
+id_109;11;annotator_1;Hard Negative;['Type of shot'];['The help lined up'];147782;148354;tt1454029;The Help;23.976;9236;9272;4170;0;0;0.003
+id_110;11;annotator_1;Sure;['Body', 'Clothing'];[];148356;148689;tt1454029;The Help;23.976;9272;9293;4171;0;0;0.006
+id_112;11;annotator_1;Sure;['Body', 'Voice', 'Appearance', 'Clothing', 'Posture', 'Speech', 'Activities', 'Look', 'Exp of emotion'];[];149861;152166;tt1454029;The Help;23.976;9366;9510;4173;1;0;0.004
+id_117;11;annotator_1;Sure;['Speech', 'Activities', 'Look'];[];157221;158096;tt1454029;The Help;23.976;9826;9880;4178;0;0;0.005
+id_118;11;annotator_1;Sure;['Type of shot', 'Speech'];[];158097;158994;tt1454029;The Help;23.976;9881;9937;4179;0;0;0.003
+id_119;11;annotator_1;Sure;['Type of shot', 'Look', 'Exp of emotion'];[];158995;161684;tt1454029;The Help;23.976;9937;10105;4180;1;0;0.006
+id_123;11;annotator_1;Sure;['Activities', 'Look'];[' shopping, giving way'];168444;168702;tt1454029;The Help;23.976;10527;10543;4184;0;0;0.006
+id_125;11;annotator_1;Sure;['Speech', 'Exp of emotion'];[];169318;170330;tt1454029;The Help;23.976;10582;10645;4186;1;0;0.004
+id_127;11;annotator_1;Sure;['Voice', 'Appearance', 'Clothing', 'Exp of emotion'];[];171780;172079;tt1454029;The Help;23.976;10736;10754;4188;1;0;0.007
+id_131;11;annotator_1;Sure;['Appearance', 'Speech', 'Exp of emotion'];[];176286;177352;tt1454029;The Help;23.976;11017;11084;4192;1;0;0.008
+id_132;11;annotator_1;Hard Negative;['Type of shot', 'Speech'];['look down on Hilly, talk about lips'];177353;177645;tt1454029;The Help;23.976;11084;11102;4193;0;0;0.005
+id_136;11;annotator_1;Hard Negative;['Look', 'Exp of emotion'];[];181048;181887;tt1454029;The Help;23.976;11315;11367;4197;1;0;0.008
+id_138;11;annotator_1;Hard Negative;['Body', 'Clothing'];[];183428;185421;tt1454029;The Help;23.976;11464;11588;4199;0;0;0.007
+id_140;11;annotator_1;Hard Negative;['Speech', 'Exp of emotion'];[];191031;196939;tt1454029;The Help;23.976;11939;12308;4201;1;0;0.006
+id_2;7;annotator_1;Not Sure;['Body', 'Activities'];['Pretty violent motifs with opening credits scene'];1424;4784;tt1568346;The Girl with the Dragon Tattoo;23.976;89;298;4438;0;0;0.038
+id_4;7;annotator_1;Hard Negative;['Clothing', 'Activities'];[];7642;8908;tt1568346;The Girl with the Dragon Tattoo;23.976;477;556;4440;0;0;0.044
+id_5;7;annotator_1;Hard Negative;['Speech', 'Look'];[];8909;12938;tt1568346;The Girl with the Dragon Tattoo;23.976;556;808;4441;0;0;0.038
+id_9;7;annotator_1;Sure;['Body', 'Appearance', 'Posture'];[];18424;19342;tt1568346;The Girl with the Dragon Tattoo;23.976;1151;1208;4445;0;0;0.078
+id_12;7;annotator_1;Sure;['Clothing', 'Posture', 'Look'];[];24281;24437;tt1568346;The Girl with the Dragon Tattoo;23.976;1517;1527;4448;0;0;0.006
+id_14;7;annotator_1;Hard Negative;['Speech', 'Look'];"['talking about beating his wife and son while showing picture of lovley woman; ladies man']";25124;25670;tt1568346;The Girl with the Dragon Tattoo;23.976;1570;1604;4450;0;0;0.002
+id_16;7;annotator_1;Sure;['Speech', 'Look'];['Hariette, smart, beautiful, murdered'];26095;26815;tt1568346;The Girl with the Dragon Tattoo;23.976;1630;1675;4452;0;0;0.003
+id_21;7;annotator_1;Hard Negative;['Speech', 'Activities'];['somewhat demeaning'];34425;35719;tt1568346;The Girl with the Dragon Tattoo;23.976;2151;2232;4457;0;0;0.015
+id_27;7;annotator_1;Sure;['Speech', 'Look'];[];51274;54586;tt1568346;The Girl with the Dragon Tattoo;23.976;3204;3411;4463;0;0;0.049
+id_30;7;annotator_1;Hard Negative;['Voice', 'Clothing', 'Speech'];[];55796;58850;tt1568346;The Girl with the Dragon Tattoo;23.976;3487;3678;4466;0;0;0.049
+id_31;7;annotator_1;Hard Negative;['Activities'];['violent theft'];58851;60826;tt1568346;The Girl with the Dragon Tattoo;23.976;3678;3801;4467;0;0;0.034
+id_32;7;annotator_1;Hard Negative;['Appearance'];['appearance in snow storm'];60827;63612;tt1568346;The Girl with the Dragon Tattoo;23.976;3801;3975;4468;0;0;0.137
+id_34;7;annotator_1;Sure;['Type of shot', 'Posture', 'Speech', 'Activities', 'Look', 'Exp of emotion'];['rape scene'];63905;68707;tt1568346;The Girl with the Dragon Tattoo;23.976;3994;4294;4470;1;0;0.04
+id_37;7;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Speech', 'Activities', 'Look', 'Exp of emotion'];['Rape scene'];74013;79206;tt1568346;The Girl with the Dragon Tattoo;23.976;4625;4950;4473;1;0;0.017
+id_39;7;annotator_1;Sure;['Body', 'Clothing', 'Activities', 'Look'];[];80858;81791;tt1568346;The Girl with the Dragon Tattoo;23.976;5053;5111;4475;0;0;0.049
+id_41;7;annotator_1;Sure;['Body', 'Posture'];[];82398;82740;tt1568346;The Girl with the Dragon Tattoo;23.976;5149;5171;4477;0;0;0.014
+id_44;7;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Activities'];['shot when she gets up. Taking off clothing and going on bed naked'];85588;86121;tt1568346;The Girl with the Dragon Tattoo;23.976;5349;5382;4480;0;0;0.019
+id_47;7;annotator_1;Hard Negative;['Voice', 'Look'];[];91165;91913;tt1568346;The Girl with the Dragon Tattoo;23.976;5697;5744;4483;0;0;0.015
+id_49;7;annotator_1;Sure;['Body', 'Voice', 'Clothing', 'Posture', 'Speech', 'Activities'];['Rape scene'];92642;98091;tt1568346;The Girl with the Dragon Tattoo;23.976;5790;6130;4485;0;0;0.094
+id_50;7;annotator_1;Hard Negative;['Type of shot', 'Look'];[];98092;98973;tt1568346;The Girl with the Dragon Tattoo;23.976;6130;6185;4486;0;0;0.182
+id_52;7;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Look'];[];99117;99793;tt1568346;The Girl with the Dragon Tattoo;23.976;6194;6237;4488;0;0;0.119
+id_56;7;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Activities'];[];108618;109942;tt1568346;The Girl with the Dragon Tattoo;23.976;6788;6871;4492;0;0;0.058
+id_58;7;annotator_1;Hard Negative;['Body'];[];110022;110084;tt1568346;The Girl with the Dragon Tattoo;23.976;6876;6880;4494;0;0;0.135
+id_59;7;annotator_1;Hard Negative;['Speech', 'Look'];[];110085;111353;tt1568346;The Girl with the Dragon Tattoo;23.976;6880;6959;4495;0;0;0.137
+id_60;7;annotator_1;Hard Negative;['Body', 'Clothing', 'Posture'];[];111354;112431;tt1568346;The Girl with the Dragon Tattoo;23.976;6959;7026;4496;0;0;0.052
+id_67;7;annotator_1;Hard Negative;['Speech', 'Look'];['Talking about women of the family, look at Lisbeth'];120595;122776;tt1568346;The Girl with the Dragon Tattoo;23.976;7537;7673;4503;0;0;0.043
+id_69;7;annotator_1;Sure;['Body', 'Posture', 'Speech', 'Narratology'];['Multiple photos'];123270;125686;tt1568346;The Girl with the Dragon Tattoo;23.976;7704;7855;4505;0;0;0.031
+id_71;7;annotator_1;Hard Negative;['Look'];['Lisbeth invading privacy and looking at photos of him and his lover'];127048;127990;tt1568346;The Girl with the Dragon Tattoo;23.976;7940;7999;4507;0;0;0.097
+id_75;7;annotator_1;Sure;['Speech', 'Look', 'Exp of emotion'];['Threatening violence'];134701;135804;tt1568346;The Girl with the Dragon Tattoo;23.976;8418;8487;4511;1;0;0.082
+id_77;7;annotator_1;Hard Negative;['Body'];[];139396;141271;tt1568346;The Girl with the Dragon Tattoo;23.976;8712;8829;4513;0;0;0.227
+id_78;7;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Speech', 'Activities', 'Look'];[];141272;143825;tt1568346;The Girl with the Dragon Tattoo;23.976;8829;8989;4514;0;0;0.19
+id_83;7;annotator_1;Sure;['Posture', 'Speech', 'Activities'];[];171231;174260;tt1568346;The Girl with the Dragon Tattoo;23.976;10701;10891;4519;0;0;0.038
+id_85;7;annotator_1;Sure;['Type of shot', 'Posture', 'Speech', 'Activities', 'Look'];[];174921;178138;tt1568346;The Girl with the Dragon Tattoo;23.976;10932;11133;4521;0;0;0.021
+id_86;7;annotator_1;Sure;['Speech', 'Activities'];['Violence'];178139;182248;tt1568346;The Girl with the Dragon Tattoo;23.976;11133;11390;4522;0;0;0.029
+id_88;7;annotator_1;Sure;['Appearance', 'Activities'];['Violent scene, bloody Martin'];184946;185627;tt1568346;The Girl with the Dragon Tattoo;23.976;11559;11601;4524;0;0;0.13
+id_90;7;annotator_1;Hard Negative;['Posture'];[];186542;188316;tt1568346;The Girl with the Dragon Tattoo;23.976;11658;11769;4526;0;0;0.366
+id_92;7;annotator_1;Sure;['Body', 'Voice', 'Clothing', 'Posture', 'Speech', 'Activities'];[];192483;193791;tt1568346;The Girl with the Dragon Tattoo;23.976;12030;12111;4528;0;0;0.074
+id_94;7;annotator_1;Sure;['Type of shot', 'Clothing', 'Posture', 'Activities', 'Look'];['memories, many violent'];196781;198891;tt1568346;The Girl with the Dragon Tattoo;23.976;12298;12430;4530;0;0;0.263
+id_96;7;annotator_1;Sure;['Type of shot', 'Appearance', 'Activities'];[];207963;208186;tt1568346;The Girl with the Dragon Tattoo;23.976;12997;13011;4532;0;0;0.072
+id_98;7;annotator_1;Hard Negative;['Appearance', 'Clothing'];[];208515;209290;tt1568346;The Girl with the Dragon Tattoo;23.976;13032;13080;4534;0;0;0.071
+id_99;7;annotator_1;Sure;['Type of shot', 'Body', 'Clothing'];[];209291;209862;tt1568346;The Girl with the Dragon Tattoo;23.976;13080;13116;4535;0;0;0.036
+id_101;7;annotator_1;Hard Negative;['Clothing', 'Posture'];[];211059;211380;tt1568346;The Girl with the Dragon Tattoo;23.976;13191;13211;4537;0;0;0.308
+id_102;7;annotator_1;Hard Negative;['Appearance', 'Clothing', 'Look'];[];211381;212250;tt1568346;The Girl with the Dragon Tattoo;23.976;13211;13265;4538;0;0;0.251
+id_104;7;annotator_1;Hard Negative;['Appearance', 'Clothing'];[];212776;213456;tt1568346;The Girl with the Dragon Tattoo;23.976;13298;13340;4540;0;0;0.041
+id_106;7;annotator_1;Hard Negative;['Type of shot', 'Look'];[];214769;215907;tt1568346;The Girl with the Dragon Tattoo;23.976;13423;13494;4542;0;0;0.094
+id_108;7;annotator_1;Hard Negative;['Look'];[];218752;219597;tt1568346;The Girl with the Dragon Tattoo;23.976;13672;13724;4544;0;0;0.322
+id_2;5;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Activities'];[];1193;1690;tt1907668;Flight;23.976;74;105;5473;0;0;0.022
+id_3;5;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Speech', 'Look'];[];1691;5052;tt1907668;Flight;23.976;105;315;5474;0;0;0.055
+id_4;5;annotator_1;Sure;['Body', 'Posture', 'Activities'];[];5053;5516;tt1907668;Flight;23.976;315;344;5475;0;0;0.018
+id_6;5;annotator_1;Hard Negative;['Activities', 'Exp of emotion'];['flight attendants all women greeting captain in seductive? way'];6586;7469;tt1907668;Flight;23.976;411;466;5477;1;0;0.01
+id_8;5;annotator_1;Sure;['Type of shot', 'Body', 'Clothing'];[];9459;9744;tt1907668;Flight;23.976;591;608;5479;0;0;0.002
+id_9;5;annotator_1;Hard Negative;['Clothing'];[];9745;10328;tt1907668;Flight;23.976;609;645;5480;0;0;0.001
+id_10;5;annotator_1;Sure;['Body', 'Voice', 'Clothing', 'Speech', 'Activities', 'Look', 'Exp of emotion'];[];10329;13297;tt1907668;Flight;23.976;645;831;5481;1;0;0.015
+id_11;5;annotator_1;Sure;['Type of shot'];[];13298;13477;tt1907668;Flight;23.976;831;842;5482;0;0;0.005
+id_14;5;annotator_1;Sure;['Body', 'Voice', 'Clothing', 'Speech', 'Look'];[];18836;20717;tt1907668;Flight;23.976;1177;1294;5485;0;0;0.538
+id_17;5;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Posture', 'Speech', 'Activities'];[];22568;24656;tt1907668;Flight;23.976;1410;1540;5488;0;0;0.029
+id_19;5;annotator_1;Sure;['Type of shot', 'Body', 'Voice', 'Posture', 'Exp of emotion'];['multiplr short segments of screaming, flight attendants falling around'];28799;36167;tt1907668;Flight;23.976;1799;2260;5490;1;0;0.053
+id_20;5;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Exp of emotion'];[];36168;36793;tt1907668;Flight;23.976;2260;2299;5491;1;0;0.013
+id_23;5;annotator_1;Sure;['Speech', 'Look'];[];50388;50601;tt1907668;Flight;23.976;3149;3162;5494;0;0;0.655
+id_24;5;annotator_1;Sure;['Body', 'Clothing', 'Speech', 'Look', 'Exp of emotion'];[];50602;51349;tt1907668;Flight;23.976;3162;3209;5495;1;0;0.001
+id_26;5;annotator_1;Hard Negative;['Clothing', 'Speech'];[];55213;64946;tt1907668;Flight;23.976;3450;4059;5497;0;0;0.013
+id_27;5;annotator_1;Hard Negative;['Type of shot'];['typical romeo juliet shot'];64947;65792;tt1907668;Flight;23.976;4059;4111;5498;0;0;0.011
+id_31;5;annotator_1;Sure;['Type of shot', 'Clothing', 'Look'];[];84290;84646;tt1907668;Flight;23.976;5268;5290;5502;0;0;0.02
+id_33;5;annotator_1;Sure;['Type of shot', 'Body', 'Clothing', 'Speech', 'Activities', 'Look'];['violence of landlord, ots of Will looking at Nicole scantily dressed'];85132;87528;tt1907668;Flight;23.976;5320;5470;5504;0;0;0.08
+id_34;5;annotator_1;Hard Negative;['Type of shot', 'Voice'];[];87529;88674;tt1907668;Flight;23.976;5470;5542;5505;0;0;0.711
+id_35;5;annotator_1;Sure;['Type of shot', 'Clothing', 'Posture', 'Activities', 'Look'];[];88675;91385;tt1907668;Flight;23.976;5542;5711;5506;0;0;0.013
+id_36;5;annotator_1;Sure;['Type of shot', 'Body', 'Posture', 'Look'];[];91386;91799;tt1907668;Flight;23.976;5711;5737;5507;0;0;0.003
+id_40;5;annotator_1;Hard Negative;['Type of shot', 'Clothing', 'Look'];[];101459;104427;tt1907668;Flight;23.976;6341;6526;5511;0;0;0.409
+id_42;5;annotator_1;Hard Negative;['Body', 'Clothing', 'Look'];[];104643;108610;tt1907668;Flight;23.976;6540;6788;5513;0;0;0.097
+id_44;5;annotator_1;Sure;['Voice', 'Speech', 'Activities', 'Exp of emotion'];[];110199;114397;tt1907668;Flight;23.976;6887;7149;5515;1;0;0.326
+id_45;5;annotator_1;Hard Negative;['Clothing'];[];114398;116142;tt1907668;Flight;23.976;7149;7258;5516;0;0;0.132
+id_48;5;annotator_1;Sure;['Voice', 'Speech', 'Activities', 'Look'];[];125038;128938;tt1907668;Flight;23.976;7814;8058;5519;0;0;0.074
+id_49;5;annotator_1;Sure;['Body', 'Clothing', 'Activities', 'Exp of emotion'];[];128939;132104;tt1907668;Flight;23.976;8058;8256;5520;1;0;0.018
+id_51;5;annotator_1;Hard Negative;['Activities'];['violence (over Nicole leaving)'];133279;134281;tt1907668;Flight;23.976;8329;8392;5522;0;0;0.003
+id_56;5;annotator_1;Sure;['Speech', 'Activities', 'Exp of emotion'];['violence'];141261;144373;tt1907668;Flight;23.976;8828;9023;5527;1;0;0.013
+id_58;5;annotator_1;Sure;['Body', 'Clothing', 'Posture', 'Speech'];[];157732;159072;tt1907668;Flight;23.976;9858;9941;5529;0;0;0.032
+id_59;5;annotator_1;Sure;['Appearance', 'Clothing', 'Speech', 'Activities'];[];159073;164394;tt1907668;Flight;23.976;9942;10274;5530;0;0;0.015
+id_61;5;annotator_1;Hard Negative;['Look'];['photos of nicole'];186170;187252;tt1907668;Flight;23.976;11635;11703;5532;0;0;0.018
+id_0;37;annotator_1;Easy Negative;[];['Logo'];0;575;tt0119822;As Good as It Gets;23.976;0;35;1132;0;0;0.05
+id_1;37;annotator_1;Easy Negative;[];[];576;1086;tt0119822;As Good as It Gets;23.976;36;67;1133;0;0;0.105
+id_2;37;annotator_1;Easy Negative;[];['Animal abuse'];1087;2783;tt0119822;As Good as It Gets;23.976;67;173;1134;0;0;0.003
+id_3;37;annotator_1;Easy Negative;[];[];2784;6801;tt0119822;As Good as It Gets;23.976;174;425;1135;0;0;0.004
+id_4;37;annotator_1;Easy Negative;[];[];6802;9111;tt0119822;As Good as It Gets;23.976;425;569;1136;0;0;0.035
+id_5;37;annotator_1;Easy Negative;[];[];9112;12275;tt0119822;As Good as It Gets;23.976;569;767;1137;0;0;0.327
+id_6;37;annotator_1;Easy Negative;[];[];12276;14619;tt0119822;As Good as It Gets;23.976;767;913;1138;0;0;0.097
+id_7;37;annotator_1;Easy Negative;[];[];14620;15405;tt0119822;As Good as It Gets;23.976;913;962;1139;0;0;0.004
+id_8;37;annotator_1;Easy Negative;[];[];15406;15805;tt0119822;As Good as It Gets;23.976;962;987;1140;0;0;0.009
+id_9;37;annotator_1;Easy Negative;['Speech'];[];15806;16173;tt0119822;As Good as It Gets;23.976;987;1010;1141;0;0;0.001
+id_12;37;annotator_1;Easy Negative;['Speech'];[];17581;18004;tt0119822;As Good as It Gets;23.976;1098;1125;1144;0;0;0.007
+id_18;37;annotator_1;Easy Negative;['Speech'];['The discourse is about looking at others'];29125;30585;tt0119822;As Good as It Gets;23.976;1820;1911;1150;0;0;0.063
+id_22;37;annotator_1;Easy Negative;[];['Violence but not objectification'];33642;37360;tt0119822;As Good as It Gets;23.976;2102;2334;1154;0;0;0.024
+id_23;37;annotator_1;Easy Negative;[];[];37361;43342;tt0119822;As Good as It Gets;23.976;2335;2708;1155;0;0;0.007
+id_26;37;annotator_1;Easy Negative;[];[];45617;47174;tt0119822;As Good as It Gets;23.976;2851;2948;1158;0;0;0.178
+id_27;37;annotator_1;Easy Negative;[];[];47175;48076;tt0119822;As Good as It Gets;23.976;2948;3004;1159;0;0;0.025
+id_29;37;annotator_1;Easy Negative;[];[];49910;50930;tt0119822;As Good as It Gets;23.976;3119;3183;1161;0;0;0.003
+id_30;37;annotator_1;Easy Negative;['Speech'];['Woman wanting a man to say something like that to her'];50931;51093;tt0119822;As Good as It Gets;23.976;3183;3193;1162;0;0;0.557
+id_31;37;annotator_1;Easy Negative;[];[];51094;51894;tt0119822;As Good as It Gets;23.976;3193;3243;1163;0;0;0.071
+id_32;37;annotator_1;Easy Negative;[];[];51895;58949;tt0119822;As Good as It Gets;23.976;3243;3684;1164;0;0;0.015
+id_33;37;annotator_1;Easy Negative;[];[];58950;60658;tt0119822;As Good as It Gets;23.976;3684;3791;1165;0;0;0.016
+id_37;37;annotator_1;Easy Negative;['Speech'];['Intruding on family / private affairs, asking why the mom is not taking care of the child'];65939;67771;tt0119822;As Good as It Gets;23.976;4121;4235;1169;0;0;0.317
+id_38;37;annotator_1;Easy Negative;[];[];67772;69574;tt0119822;As Good as It Gets;23.976;4235;4348;1170;0;0;0.03
+id_39;37;annotator_1;Easy Negative;['Speech'];[];69575;69820;tt0119822;As Good as It Gets;23.976;4348;4363;1171;0;0;0.001
+id_41;37;annotator_1;Easy Negative;[];[];72250;72936;tt0119822;As Good as It Gets;23.976;4515;4558;1173;0;0;0.016
+id_43;37;annotator_1;Easy Negative;['Speech'];['Directing her to say what he want s to hear'];73085;73391;tt0119822;As Good as It Gets;23.976;4567;4586;1175;0;0;0.128
+id_45;37;annotator_1;Easy Negative;[];[];73473;73677;tt0119822;As Good as It Gets;23.976;4592;4604;1177;0;0;0.03
+id_50;37;annotator_1;Easy Negative;[];[];83114;84221;tt0119822;As Good as It Gets;23.976;5194;5263;1182;0;0;0.107
+id_51;37;annotator_1;Easy Negative;[];[];84222;90014;tt0119822;As Good as It Gets;23.976;5263;5625;1183;0;0;0.037
+id_54;37;annotator_1;Easy Negative;[];[];92108;92293;tt0119822;As Good as It Gets;23.976;5756;5768;1186;0;0;0.035
+id_57;37;annotator_1;Easy Negative;[];[];96494;99481;tt0119822;As Good as It Gets;23.976;6030;6217;1189;0;0;0.023
+id_58;37;annotator_1;Easy Negative;[];[];99482;105736;tt0119822;As Good as It Gets;23.976;6217;6608;1190;0;0;0.848
+id_59;37;annotator_1;Easy Negative;[];[];105737;106229;tt0119822;As Good as It Gets;23.976;6608;6639;1191;0;0;0.022
+id_62;37;annotator_1;Easy Negative;[];[];107265;109089;tt0119822;As Good as It Gets;23.976;6704;6818;1194;0;0;0.371
+id_63;37;annotator_1;Easy Negative;['Speech'];[];109090;109691;tt0119822;As Good as It Gets;23.976;6818;6855;1195;0;0;0.117
+id_64;37;annotator_1;Easy Negative;[];[];109692;110390;tt0119822;As Good as It Gets;23.976;6855;6899;1196;0;0;0.144
+id_66;37;annotator_1;Easy Negative;['Speech'];[];113509;115699;tt0119822;As Good as It Gets;23.976;7094;7231;1198;0;0;0.126
+id_67;37;annotator_1;Easy Negative;[];[];115700;119847;tt0119822;As Good as It Gets;23.976;7231;7490;1199;0;0;0.016
+id_68;37;annotator_1;Easy Negative;[];[];119848;130040;tt0119822;As Good as It Gets;23.976;7490;8127;1200;0;0;0.233
+id_69;37;annotator_1;Easy Negative;['Speech'];[];130041;130557;tt0119822;As Good as It Gets;23.976;8127;8159;1201;0;0;0.053
+id_70;37;annotator_1;Easy Negative;[];[];130558;130644;tt0119822;As Good as It Gets;23.976;8159;8165;1202;0;0;0.02
+id_71;37;annotator_1;Easy Negative;[];[];130645;131865;tt0119822;As Good as It Gets;23.976;8165;8241;1203;0;0;0.117
+id_74;37;annotator_1;Easy Negative;[];[];134339;137533;tt0119822;As Good as It Gets;23.976;8396;8595;1206;0;0;0.026
+id_77;37;annotator_1;Easy Negative;[];[];140239;141977;tt0119822;As Good as It Gets;23.976;8764;8873;1209;0;0;0.196
+id_78;37;annotator_1;Easy Negative;[];[];141978;142930;tt0119822;As Good as It Gets;23.976;8873;8933;1210;0;0;0.235
+id_79;37;annotator_1;Easy Negative;[];[];142931;144091;tt0119822;As Good as It Gets;23.976;8933;9005;1211;0;0;0.29
+id_80;37;annotator_1;Easy Negative;[];[];144092;146362;tt0119822;As Good as It Gets;23.976;9005;9147;1212;0;0;0.518
+id_81;37;annotator_1;Easy Negative;[];[];146363;147717;tt0119822;As Good as It Gets;23.976;9147;9232;1213;0;0;0.553
+id_82;37;annotator_1;Easy Negative;['Speech'];[];147718;147979;tt0119822;As Good as It Gets;23.976;9232;9248;1214;0;0;0.129
+id_83;37;annotator_1;Easy Negative;[];[];147980;148626;tt0119822;As Good as It Gets;23.976;9248;9289;1215;0;0;0.251
+id_84;37;annotator_1;Easy Negative;['Voice', 'Speech'];[];148627;149080;tt0119822;As Good as It Gets;23.976;9289;9317;1216;0;0;0.275
+id_85;37;annotator_1;Easy Negative;['Speech'];[];149081;150009;tt0119822;As Good as It Gets;23.976;9317;9375;1217;0;0;0.232
+id_86;37;annotator_1;Easy Negative;[];[];150010;151354;tt0119822;As Good as It Gets;23.976;9375;9459;1218;0;0;0.001
+id_87;37;annotator_1;Easy Negative;[];[];151356;153643;tt0119822;As Good as It Gets;23.976;9459;9602;1219;0;0;0.022
+id_89;37;annotator_1;Easy Negative;[];[];155942;156960;tt0119822;As Good as It Gets;23.976;9746;9809;1221;0;0;0.005
+id_92;37;annotator_1;Easy Negative;[];[];159030;159771;tt0119822;As Good as It Gets;23.976;9939;9985;1224;0;0;0.036
+id_93;37;annotator_1;Easy Negative;[];[];159772;161075;tt0119822;As Good as It Gets;23.976;9985;10067;1225;0;0;0.01
+id_95;37;annotator_1;Easy Negative;['Speech'];[];161197;162340;tt0119822;As Good as It Gets;23.976;10074;10146;1227;0;0;0.079
+id_96;37;annotator_1;Easy Negative;[];[];162341;163383;tt0119822;As Good as It Gets;23.976;10146;10211;1228;0;0;0.028
+id_98;37;annotator_1;Easy Negative;[];[];163558;166484;tt0119822;As Good as It Gets;23.976;10222;10405;1230;0;0;0.03
+id_99;37;annotator_1;Easy Negative;[];[];166485;169480;tt0119822;As Good as It Gets;23.976;10405;10592;1231;0;0;0.018
+id_100;37;annotator_1;Easy Negative;[];[];169481;171732;tt0119822;As Good as It Gets;23.976;10592;10733;1232;0;0;0.01
+id_104;37;annotator_1;Easy Negative;[];[];173716;179382;tt0119822;As Good as It Gets;23.976;10857;11211;1236;0;0;0.037
+id_105;37;annotator_1;Easy Negative;[];[];179383;179915;tt0119822;As Good as It Gets;23.976;11211;11244;1237;0;0;0.023
+id_107;37;annotator_1;Easy Negative;[];[];180462;180935;tt0119822;As Good as It Gets;23.976;11278;11308;1239;0;0;0.02
+id_110;37;annotator_1;Easy Negative;[];[];187582;189554;tt0119822;As Good as It Gets;23.976;11723;11847;1242;0;0;0.808
+id_111;37;annotator_1;Easy Negative;[];[];189555;192481;tt0119822;As Good as It Gets;23.976;11847;12030;1243;0;0;0.095
+id_112;37;annotator_1;Easy Negative;[];['End credits scne\n'];192482;199284;tt0119822;As Good as It Gets;23.976;12030;12455;1244;0;0;0.02
+id_0;11;annotator_1;Easy Negative;[];['Opening credits'];0;1673;tt1454029;The Help;23.976;0;104;4061;0;0;0.008
+id_8;11;annotator_1;Easy Negative;[];[];5991;6561;tt1454029;The Help;23.976;374;410;4069;0;0;0.008
+id_10;11;annotator_1;Easy Negative;[];[];6920;7644;tt1454029;The Help;23.976;432;477;4071;0;0;0.007
+id_11;11;annotator_1;Easy Negative;['Speech'];['degrading the woman about cigarettes. damn.'];7645;7816;tt1454029;The Help;23.976;477;488;4072;0;0;0.005
+id_12;11;annotator_1;Easy Negative;['Speech'];"[""damn girl, don't you have any fun""]";7817;8420;tt1454029;The Help;23.976;488;526;4073;0;0;0.005
+id_13;11;annotator_1;Easy Negative;[];[];8421;9251;tt1454029;The Help;23.976;526;578;4074;0;0;0.003
+id_14;11;annotator_1;Easy Negative;['Speech'];"[""it's not article, but a cleaning column""]";9252;10064;tt1454029;The Help;23.976;578;628;4075;0;0;0.007
+id_15;11;annotator_1;Easy Negative;['Speech'];['talk to wife, order Skeeter'];10065;10309;tt1454029;The Help;23.976;629;644;4076;0;0;0.009
+id_16;11;annotator_1;Easy Negative;[];[];10310;10432;tt1454029;The Help;23.976;644;651;4077;0;0;0.005
+id_22;11;annotator_1;Easy Negative;['Speech'];['crude jokes about the women they work for'];14156;15528;tt1454029;The Help;23.976;884;970;4083;0;0;0.008
+id_23;11;annotator_1;Easy Negative;[];[];15529;15935;tt1454029;The Help;23.976;970;995;4084;0;0;0.003
+id_31;11;annotator_1;Easy Negative;[];[];23639;25758;tt1454029;The Help;23.976;1477;1609;4092;0;0;0.006
+id_32;11;annotator_1;Easy Negative;[];[];25759;26897;tt1454029;The Help;23.976;1609;1681;4093;0;0;0.007
+id_38;11;annotator_1;Easy Negative;[];['childhood fond memory of Constantine'];33326;37443;tt1454029;The Help;23.976;2082;2340;4099;0;0;0.007
+id_40;11;annotator_1;Easy Negative;[];[];40032;40394;tt1454029;The Help;23.976;2502;2524;4101;0;0;0.004
+id_41;11;annotator_1;Easy Negative;['Speech'];['Hilly and the bathroom, things Skeeter wants Aibileen to talk about.'];40395;42187;tt1454029;The Help;23.976;2524;2636;4102;0;0;0.005
+id_43;11;annotator_1;Easy Negative;[];[];43568;43726;tt1454029;The Help;23.976;2723;2732;4104;0;0;0.002
+id_46;11;annotator_1;Easy Negative;[];[];47464;48536;tt1454029;The Help;23.976;2966;3033;4107;0;0;0.007
+id_47;11;annotator_1;Easy Negative;[];[];48537;48652;tt1454029;The Help;23.976;3033;3040;4108;0;0;0.015
+id_49;11;annotator_1;Easy Negative;['Speech'];[];49434;49797;tt1454029;The Help;23.976;3089;3112;4110;0;0;0.011
+id_50;11;annotator_1;Easy Negative;[];[];49798;51812;tt1454029;The Help;23.976;3112;3238;4111;0;0;0.005
+id_52;11;annotator_1;Easy Negative;['Speech'];[];54674;56750;tt1454029;The Help;23.976;3417;3546;4113;0;0;0.006
+id_53;11;annotator_1;Easy Negative;[];[];56751;59040;tt1454029;The Help;23.976;3546;3689;4114;0;0;0.006
+id_54;11;annotator_1;Easy Negative;[];[];59041;59482;tt1454029;The Help;23.976;3690;3717;4115;0;0;0.009
+id_56;11;annotator_1;Easy Negative;[];[];60561;66315;tt1454029;The Help;23.976;3785;4144;4117;0;0;0.006
+id_58;11;annotator_1;Easy Negative;[];[];68917;70902;tt1454029;The Help;23.976;4307;4431;4119;0;0;0.006
+id_60;11;annotator_1;Easy Negative;[];[];76176;76353;tt1454029;The Help;23.976;4761;4772;4121;0;0;0.004
+id_64;11;annotator_1;Easy Negative;['Speech'];[];80722;83451;tt1454029;The Help;23.976;5045;5215;4125;0;0;0.007
+id_66;11;annotator_1;Easy Negative;[];[];84392;87125;tt1454029;The Help;23.976;5274;5445;4127;0;0;0.006
+id_69;11;annotator_1;Easy Negative;[];[];90017;90677;tt1454029;The Help;23.976;5626;5667;4130;0;0;0.006
+id_71;11;annotator_1;Easy Negative;[];[];92378;96795;tt1454029;The Help;23.976;5773;6049;4132;0;0;0.006
+id_72;11;annotator_1;Easy Negative;['Speech'];[];96796;97983;tt1454029;The Help;23.976;6049;6123;4133;0;0;0.005
+id_73;11;annotator_1;Easy Negative;[];[];97984;101320;tt1454029;The Help;23.976;6124;6332;4134;0;0;0.007
+id_75;11;annotator_1;Easy Negative;[];[];102877;103983;tt1454029;The Help;23.976;6429;6498;4136;0;0;0.007
+id_77;11;annotator_1;Easy Negative;['Speech'];[];104814;105997;tt1454029;The Help;23.976;6550;6624;4138;0;0;0.007
+id_78;11;annotator_1;Easy Negative;[];[];105998;107104;tt1454029;The Help;23.976;6624;6693;4139;0;0;0.006
+id_81;11;annotator_1;Easy Negative;[];[];110486;112213;tt1454029;The Help;23.976;6905;7013;4142;0;0;0.006
+id_83;11;annotator_1;Easy Negative;[];[];112602;112962;tt1454029;The Help;23.976;7037;7060;4144;0;0;0.007
+id_86;11;annotator_1;Easy Negative;[];[];114935;116776;tt1454029;The Help;23.976;7183;7298;4147;0;0;0.007
+id_87;11;annotator_1;Easy Negative;['Speech'];['colored people off, nigger got shot'];116777;117201;tt1454029;The Help;23.976;7298;7325;4148;0;0;0.005
+id_88;11;annotator_1;Easy Negative;[];[];117202;121076;tt1454029;The Help;23.976;7325;7567;4149;0;0;0.007
+id_89;11;annotator_1;Easy Negative;['Speech'];[];121077;121794;tt1454029;The Help;23.976;7567;7612;4150;0;0;0.005
+id_94;11;annotator_1;Easy Negative;[];[];128149;128450;tt1454029;The Help;23.976;8009;8028;4155;0;0;0.004
+id_95;11;annotator_1;Easy Negative;['Speech'];['stories of racism and treating maids like objects'];128451;131266;tt1454029;The Help;23.976;8028;8204;4156;0;0;0.007
+id_96;11;annotator_1;Easy Negative;[];[];131267;131921;tt1454029;The Help;23.976;8204;8245;4157;0;0;0.004
+id_97;11;annotator_1;Easy Negative;[];[];131922;132925;tt1454029;The Help;23.976;8245;8307;4158;0;0;0.008
+id_99;11;annotator_1;Easy Negative;['Speech'];"[""Celia's feelings of being neglected, white trash""]";134139;137472;tt1454029;The Help;23.976;8383;8591;4160;0;0;0.006
+id_100;11;annotator_1;Easy Negative;[];[];137473;139218;tt1454029;The Help;23.976;8592;8701;4161;0;0;0.006
+id_103;11;annotator_1;Easy Negative;['Speech'];[];143346;145054;tt1454029;The Help;23.976;8959;9065;4164;0;0;0.006
+id_106;11;annotator_1;Easy Negative;['Speech'];[];146355;146625;tt1454029;The Help;23.976;9147;9164;4167;0;0;0.007
+id_111;11;annotator_1;Easy Negative;['Narratology'];['Everyone thinking about the pie and Hilly eating it'];148690;149860;tt1454029;The Help;23.976;9293;9366;4172;0;0;0.005
+id_113;11;annotator_1;Easy Negative;['Speech'];[];152167;153332;tt1454029;The Help;23.976;9510;9583;4174;0;0;0.007
+id_114;11;annotator_1;Easy Negative;[];[];153333;155659;tt1454029;The Help;23.976;9583;9728;4175;0;0;0.007
+id_115;11;annotator_1;Easy Negative;[];[];155660;156360;tt1454029;The Help;23.976;9728;9772;4176;0;0;0.007
+id_116;11;annotator_1;Easy Negative;[];[];156361;157220;tt1454029;The Help;23.976;9772;9826;4177;0;0;0.006
+id_120;11;annotator_1;Easy Negative;[];['Emotional part learning truth about what happened to Constantine'];161685;164918;tt1454029;The Help;23.976;10105;10307;4181;0;0;0.006
+id_121;11;annotator_1;Easy Negative;[];[];164919;167295;tt1454029;The Help;23.976;10307;10455;4182;0;0;0.007
+id_122;11;annotator_1;Easy Negative;['Speech', 'Narratology'];[];167296;168443;tt1454029;The Help;23.976;10456;10527;4183;0;0;0.007
+id_124;11;annotator_1;Easy Negative;[];[];168703;169317;tt1454029;The Help;23.976;10543;10582;4185;0;0;0.008
+id_126;11;annotator_1;Easy Negative;[];[];170331;171779;tt1454029;The Help;23.976;10645;10736;4187;0;0;0.006
+id_128;11;annotator_1;Easy Negative;['Voice'];[];172080;172249;tt1454029;The Help;23.976;10755;10765;4189;0;0;0.008
+id_129;11;annotator_1;Easy Negative;['Voice', 'Speech', 'Narratology'];[];172250;173696;tt1454029;The Help;23.976;10765;10855;4190;0;0;0.005
+id_130;11;annotator_1;Easy Negative;[];[];173697;176285;tt1454029;The Help;23.976;10856;11017;4191;0;0;0.006
+id_133;11;annotator_1;Easy Negative;[];[];177646;178583;tt1454029;The Help;23.976;11102;11161;4194;0;0;0.008
+id_134;11;annotator_1;Easy Negative;['Speech'];['shopping, clothes'];178584;178883;tt1454029;The Help;23.976;11161;11180;4195;0;0;0.009
+id_135;11;annotator_1;Easy Negative;[];[];178884;181047;tt1454029;The Help;23.976;11180;11315;4196;0;0;0.006
+id_137;11;annotator_1;Easy Negative;[];[];181888;183427;tt1454029;The Help;23.976;11368;11464;4198;0;0;0.007
+id_139;11;annotator_1;Easy Negative;[];[];185422;191030;tt1454029;The Help;23.976;11588;11939;4200;0;0;0.006
+id_141;11;annotator_1;Easy Negative;[];[];196940;199364;tt1454029;The Help;23.976;12308;12460;4202;0;0;0.007
+id_142;11;annotator_1;Easy Negative;[];['credits scene'];199365;210179;tt1454029;The Help;23.976;12460;13136;4203;0;0;0.009
+id_0;7;annotator_1;Easy Negative;[];['Opening logo'];0;461;tt1568346;The Girl with the Dragon Tattoo;23.976;0;28;4436;0;0;0.004
+id_1;7;annotator_1;Easy Negative;[];[];462;1423;tt1568346;The Girl with the Dragon Tattoo;23.976;28;88;4437;0;0;0.004
+id_3;7;annotator_1;Easy Negative;[];[];4785;7641;tt1568346;The Girl with the Dragon Tattoo;23.976;299;477;4439;0;0;0.008
+id_6;7;annotator_1;Easy Negative;[];[];12939;14253;tt1568346;The Girl with the Dragon Tattoo;23.976;808;890;4442;0;0;0.22
+id_7;7;annotator_1;Easy Negative;[];[];14254;16591;tt1568346;The Girl with the Dragon Tattoo;23.976;890;1036;4443;0;0;0.127
+id_8;7;annotator_1;Easy Negative;[];[];16592;18423;tt1568346;The Girl with the Dragon Tattoo;23.976;1037;1151;4444;0;0;0.05
+id_10;7;annotator_1;Easy Negative;[];[];19343;23527;tt1568346;The Girl with the Dragon Tattoo;23.976;1208;1470;4446;0;0;0.037
+id_11;7;annotator_1;Easy Negative;[];[];23528;24280;tt1568346;The Girl with the Dragon Tattoo;23.976;1470;1517;4447;0;0;0.056
+id_13;7;annotator_1;Easy Negative;[];[];24438;25123;tt1568346;The Girl with the Dragon Tattoo;23.976;1527;1570;4449;0;0;0.006
+id_15;7;annotator_1;Easy Negative;['Speech'];['Isabella useless'];25671;26094;tt1568346;The Girl with the Dragon Tattoo;23.976;1604;1630;4451;0;0;0.002
+id_17;7;annotator_1;Easy Negative;[];[];26816;29722;tt1568346;The Girl with the Dragon Tattoo;23.976;1676;1857;4453;0;0;0.015
+id_18;7;annotator_1;Easy Negative;[];[];29723;31813;tt1568346;The Girl with the Dragon Tattoo;23.976;1857;1988;4454;0;0;0.01
+id_19;7;annotator_1;Easy Negative;[];[];31814;33969;tt1568346;The Girl with the Dragon Tattoo;23.976;1988;2123;4455;0;0;0.076
+id_20;7;annotator_1;Easy Negative;[];[];33970;34424;tt1568346;The Girl with the Dragon Tattoo;23.976;2123;2151;4456;0;0;0.026
+id_22;7;annotator_1;Easy Negative;[];[];35720;36960;tt1568346;The Girl with the Dragon Tattoo;23.976;2232;2309;4458;0;0;0.014
+id_23;7;annotator_1;Easy Negative;[];[];36961;40041;tt1568346;The Girl with the Dragon Tattoo;23.976;2310;2502;4459;0;0;0.049
+id_24;7;annotator_1;Easy Negative;[];[];40042;40839;tt1568346;The Girl with the Dragon Tattoo;23.976;2502;2552;4460;0;0;0.013
+id_25;7;annotator_1;Easy Negative;[];[];40840;45161;tt1568346;The Girl with the Dragon Tattoo;23.976;2552;2822;4461;0;0;0.031
+id_26;7;annotator_1;Easy Negative;[];[];45162;51273;tt1568346;The Girl with the Dragon Tattoo;23.976;2822;3204;4462;0;0;0.024
+id_28;7;annotator_1;Easy Negative;[];[];54587;54984;tt1568346;The Girl with the Dragon Tattoo;23.976;3411;3436;4464;0;0;0.06
+id_29;7;annotator_1;Easy Negative;[];[];54985;55795;tt1568346;The Girl with the Dragon Tattoo;23.976;3436;3487;4465;0;0;0.136
+id_33;7;annotator_1;Easy Negative;[];[];63613;63904;tt1568346;The Girl with the Dragon Tattoo;23.976;3975;3993;4469;0;0;0.052
+id_35;7;annotator_1;Easy Negative;[];[];68708;73186;tt1568346;The Girl with the Dragon Tattoo;23.976;4294;4574;4471;0;0;0.031
+id_36;7;annotator_1;Easy Negative;['Voice', 'Speech', 'Narratology'];['Lisbel (trying to?) be seductive. Lawyer asking her to go to his home.'];73187;74012;tt1568346;The Girl with the Dragon Tattoo;23.976;4574;4625;4472;0;0;0.421
+id_38;7;annotator_1;Easy Negative;[];[];79207;80857;tt1568346;The Girl with the Dragon Tattoo;23.976;4950;5053;4474;0;0;0.007
+id_40;7;annotator_1;Easy Negative;[];[];81792;82397;tt1568346;The Girl with the Dragon Tattoo;23.976;5112;5149;4476;0;0;0.028
+id_42;7;annotator_1;Easy Negative;[];[];82741;84876;tt1568346;The Girl with the Dragon Tattoo;23.976;5171;5304;4478;0;0;0.02
+id_43;7;annotator_1;Easy Negative;[];[];84877;85587;tt1568346;The Girl with the Dragon Tattoo;23.976;5304;5349;4479;0;0;0.004
+id_45;7;annotator_1;Easy Negative;[];[];86122;87241;tt1568346;The Girl with the Dragon Tattoo;23.976;5382;5452;4481;0;0;0.022
+id_46;7;annotator_1;Easy Negative;[];[];87242;91164;tt1568346;The Girl with the Dragon Tattoo;23.976;5452;5697;4482;0;0;0.036
+id_48;7;annotator_1;Easy Negative;[];[];91914;92641;tt1568346;The Girl with the Dragon Tattoo;23.976;5744;5790;4484;0;0;0.134
+id_51;7;annotator_1;Easy Negative;[];[];98974;99116;tt1568346;The Girl with the Dragon Tattoo;23.976;6185;6194;4487;0;0;0.008
+id_53;7;annotator_1;Easy Negative;[];[];99794;102366;tt1568346;The Girl with the Dragon Tattoo;23.976;6237;6397;4489;0;0;0.057
+id_54;7;annotator_1;Easy Negative;['Speech'];['Talking about cases of women abuse and torture with bible quotes on-screen'];102367;104999;tt1568346;The Girl with the Dragon Tattoo;23.976;6397;6562;4490;0;0;0.01
+id_55;7;annotator_1;Easy Negative;[];[];105000;108617;tt1568346;The Girl with the Dragon Tattoo;23.976;6562;6788;4491;0;0;0.054
+id_57;7;annotator_1;Easy Negative;[];[];109943;110021;tt1568346;The Girl with the Dragon Tattoo;23.976;6871;6876;4493;0;0;0.002
+id_61;7;annotator_1;Easy Negative;[];[];112432;115224;tt1568346;The Girl with the Dragon Tattoo;23.976;7027;7201;4497;0;0;0.044
+id_62;7;annotator_1;Easy Negative;[];[];115225;116272;tt1568346;The Girl with the Dragon Tattoo;23.976;7201;7266;4498;0;0;0.013
+id_63;7;annotator_1;Easy Negative;[];[];116273;118299;tt1568346;The Girl with the Dragon Tattoo;23.976;7267;7393;4499;0;0;0.031
+id_64;7;annotator_1;Easy Negative;['Speech'];['Bible passages'];118300;118707;tt1568346;The Girl with the Dragon Tattoo;23.976;7393;7419;4500;0;0;0.036
+id_65;7;annotator_1;Easy Negative;[];['Kind of funny dialogue despite the situation'];118708;120084;tt1568346;The Girl with the Dragon Tattoo;23.976;7419;7505;4501;0;0;0.011
+id_66;7;annotator_1;Easy Negative;['Speech'];['Bible verses again'];120085;120594;tt1568346;The Girl with the Dragon Tattoo;23.976;7505;7537;4502;0;0;0.032
+id_68;7;annotator_1;Easy Negative;[];[];122777;123269;tt1568346;The Girl with the Dragon Tattoo;23.976;7673;7704;4504;0;0;0.01
+id_70;7;annotator_1;Easy Negative;[];[];125687;127047;tt1568346;The Girl with the Dragon Tattoo;23.976;7855;7940;4506;0;0;0.092
+id_72;7;annotator_1;Easy Negative;[];[];127991;129191;tt1568346;The Girl with the Dragon Tattoo;23.976;7999;8074;4508;0;0;0.096
+id_73;7;annotator_1;Easy Negative;[];['mutilated cat'];129192;129946;tt1568346;The Girl with the Dragon Tattoo;23.976;8074;8121;4509;0;0;0.024
+id_74;7;annotator_1;Easy Negative;[];[];129947;134700;tt1568346;The Girl with the Dragon Tattoo;23.976;8121;8418;4510;0;0;0.027
+id_76;7;annotator_1;Easy Negative;[];[];135805;139395;tt1568346;The Girl with the Dragon Tattoo;23.976;8487;8712;4512;0;0;0.067
+id_79;7;annotator_1;Easy Negative;[];[];143826;153943;tt1568346;The Girl with the Dragon Tattoo;23.976;8989;9621;4515;0;0;0.065
+id_80;7;annotator_1;Easy Negative;['Narratology'];['Some photos of the murders'];153944;154414;tt1568346;The Girl with the Dragon Tattoo;23.976;9621;9650;4516;0;0;0.082
+id_81;7;annotator_1;Easy Negative;[];['Investigation scene'];154415;158597;tt1568346;The Girl with the Dragon Tattoo;23.976;9650;9912;4517;0;0;0.053
+id_82;7;annotator_1;Easy Negative;[];[];158598;171230;tt1568346;The Girl with the Dragon Tattoo;23.976;9912;10701;4518;0;0;0.037
+id_84;7;annotator_1;Easy Negative;[];[];174261;174920;tt1568346;The Girl with the Dragon Tattoo;23.976;10891;10932;4520;0;0;0.126
+id_87;7;annotator_1;Easy Negative;[];[];182249;184945;tt1568346;The Girl with the Dragon Tattoo;23.976;11390;11559;4523;0;0;0.113
+id_89;7;annotator_1;Easy Negative;[];[];185628;186541;tt1568346;The Girl with the Dragon Tattoo;23.976;11601;11658;4525;0;0;0.041
+id_91;7;annotator_1;Easy Negative;[];[];188318;192482;tt1568346;The Girl with the Dragon Tattoo;23.976;11769;12030;4527;0;0;0.031
+id_93;7;annotator_1;Easy Negative;[];[];193792;196780;tt1568346;The Girl with the Dragon Tattoo;23.976;12112;12298;4529;0;0;0.117
+id_95;7;annotator_1;Easy Negative;[];[];198892;207962;tt1568346;The Girl with the Dragon Tattoo;23.976;12430;12997;4531;0;0;0.093
+id_97;7;annotator_1;Easy Negative;[];[];208187;208514;tt1568346;The Girl with the Dragon Tattoo;23.976;13011;13032;4533;0;0;0.012
+id_100;7;annotator_1;Easy Negative;[];[];209863;211058;tt1568346;The Girl with the Dragon Tattoo;23.976;13116;13191;4536;0;0;0.132
+id_103;7;annotator_1;Easy Negative;[];[];212251;212775;tt1568346;The Girl with the Dragon Tattoo;23.976;13265;13298;4539;0;0;0.021
+id_105;7;annotator_1;Easy Negative;[];[];213457;214768;tt1568346;The Girl with the Dragon Tattoo;23.976;13341;13422;4541;0;0;0.03
+id_107;7;annotator_1;Easy Negative;[];[];215908;218751;tt1568346;The Girl with the Dragon Tattoo;23.976;13494;13671;4543;0;0;0.046
+id_109;7;annotator_1;Easy Negative;[];[];219598;220044;tt1568346;The Girl with the Dragon Tattoo;23.976;13724;13752;4545;0;0;0.004
+id_110;7;annotator_1;Easy Negative;[];['End credits'];220045;227225;tt1568346;The Girl with the Dragon Tattoo;23.976;13752;14201;4546;0;0;0.016
+id_0;5;annotator_1;Easy Negative;[];['opening credits'];0;736;tt1907668;Flight;23.976;0;45;5471;0;0;0.065
+id_1;5;annotator_1;Easy Negative;[];[];737;1192;tt1907668;Flight;23.976;46;74;5472;0;0;0.011
+id_5;5;annotator_1;Easy Negative;[];[];5517;6585;tt1907668;Flight;23.976;344;411;5476;0;0;0.039
+id_7;5;annotator_1;Easy Negative;[];[];7470;9458;tt1907668;Flight;23.976;466;591;5478;0;0;0.007
+id_12;5;annotator_1;Easy Negative;[];[];13478;13730;tt1907668;Flight;23.976;842;858;5483;0;0;0.002
+id_13;5;annotator_1;Easy Negative;[];[];13731;18835;tt1907668;Flight;23.976;858;1177;5484;0;0;0.012
+id_15;5;annotator_1;Easy Negative;['Speech', 'Narratology'];['rough language, druggy implication'];20718;21368;tt1907668;Flight;23.976;1294;1335;5486;0;0;0.164
+id_16;5;annotator_1;Easy Negative;[];['drunk and high'];21369;22567;tt1907668;Flight;23.976;1335;1410;5487;0;0;0.002
+id_18;5;annotator_1;Easy Negative;[];[];24657;28798;tt1907668;Flight;23.976;1541;1799;5489;0;0;0.018
+id_21;5;annotator_1;Easy Negative;[];[];36794;49347;tt1907668;Flight;23.976;2299;3084;5492;0;0;0.023
+id_22;5;annotator_1;Easy Negative;[];[];49348;50387;tt1907668;Flight;23.976;3084;3149;5493;0;0;0.07
+id_25;5;annotator_1;Easy Negative;['Speech'];['vulgar speech'];51350;55212;tt1907668;Flight;23.976;3209;3450;5496;0;0;0.004
+id_28;5;annotator_1;Easy Negative;[];[];65793;74629;tt1907668;Flight;23.976;4112;4664;5499;0;0;0.018
+id_29;5;annotator_1;Easy Negative;[];[];74630;81975;tt1907668;Flight;23.976;4664;5123;5500;0;0;0.019
+id_30;5;annotator_1;Easy Negative;[];[];81976;84289;tt1907668;Flight;23.976;5123;5268;5501;0;0;0.02
+id_32;5;annotator_1;Easy Negative;[];[];84647;85131;tt1907668;Flight;23.976;5290;5320;5503;0;0;0.012
+id_37;5;annotator_1;Easy Negative;[];[];91800;96116;tt1907668;Flight;23.976;5737;6007;5508;0;0;0.019
+id_38;5;annotator_1;Easy Negative;[];[];96117;100671;tt1907668;Flight;23.976;6007;6291;5509;0;0;0.006
+id_39;5;annotator_1;Easy Negative;[];[];100672;101458;tt1907668;Flight;23.976;6292;6341;5510;0;0;0.019
+id_41;5;annotator_1;Easy Negative;[];[];104428;104642;tt1907668;Flight;23.976;6526;6540;5512;0;0;0.02
+id_43;5;annotator_1;Easy Negative;[];[];108611;110198;tt1907668;Flight;23.976;6788;6887;5514;0;0;0.018
+id_46;5;annotator_1;Easy Negative;[];[];116143;118503;tt1907668;Flight;23.976;7258;7406;5517;0;0;0.001
+id_47;5;annotator_1;Easy Negative;[];['wife depicted as fanatic, and accessory'];118504;125037;tt1907668;Flight;23.976;7406;7814;5518;0;0;0.057
+id_50;5;annotator_1;Easy Negative;[];[];132105;133278;tt1907668;Flight;23.976;8256;8329;5521;0;0;0.011
+id_52;5;annotator_1;Easy Negative;[];[];134282;136280;tt1907668;Flight;23.976;8392;8517;5523;0;0;0.024
+id_53;5;annotator_1;Easy Negative;['Speech', 'Narratology'];['implied they will blame dead flight attendant about bottles'];136281;137523;tt1907668;Flight;23.976;8517;8595;5524;0;0;0.042
+id_54;5;annotator_1;Easy Negative;[];[];137524;139698;tt1907668;Flight;23.976;8595;8731;5525;0;0;0.022
+id_55;5;annotator_1;Easy Negative;[];[];139699;141260;tt1907668;Flight;23.976;8731;8828;5526;0;0;0.08
+id_57;5;annotator_1;Easy Negative;[];[];144374;157731;tt1907668;Flight;23.976;9023;9858;5528;0;0;0.014
+id_60;5;annotator_1;Easy Negative;[];[];164395;186169;tt1907668;Flight;23.976;10274;11635;5531;0;0;0.024
+id_62;5;annotator_1;Easy Negative;[];[];187253;189764;tt1907668;Flight;23.976;11703;11860;5533;0;0;0.004
+id_63;5;annotator_1;Easy Negative;[];['end credits'];189765;199169;tt1907668;Flight;23.976;11860;12448;5534;0;0;0.02

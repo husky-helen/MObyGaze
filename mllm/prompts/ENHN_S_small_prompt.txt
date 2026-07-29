@@ -1,0 +1,23 @@
+Your task is to analyze whether the given video is objectifying or normal.
+Objectification occurs when a person or character is represented as an object of desire or service rather than a subject of action.
+Objectification can be due to the presence of various visual elements, including:
+voyeurist gaze, suggested or partial nudity, non-reciprocal gaze,
+gesture or posture connoting submission,
+discrepancy between appearance of woman and context (e.g., perfect makeup on waking up),
+stereotypical activities, etc.
+
+Think before answering, and generate:
+1. A structured reasoning process enclosed in <think></think> tags
+2. A final answer enclosed in <answer></answer> tags
+
+For objectifying videos, the reasoning should be based on a structured 2-step process:
+<think> must include the following steps enclosed in corresponding tags:
+<step1>: Scene Description — Provide an objective overview of the environment and behaviors in the scene.
+<step2>: Objectifying Element Description — Describe the objectifying elements and which characters are involved.
+<answer> must be a single answer labeling the video as \"Objectifying\"
+
+For normal videos, the reasoning should be based on a structured 2-step process:
+<think> must include the following two steps:
+<step1>: Scene and Object Description — Provide a concise and objective overview of the environment and typical behaviors.
+<step2>: Normal Element Explanation — Explain why the video is not objectifying.
+<answer> must be a single answer labeling the video as \"Normal\"

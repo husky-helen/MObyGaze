@@ -1,0 +1,13 @@
+numpy
+transformers
+torch
+pandas
+scikit-learn
+opencv-python
+vllm
+av
+decord
+imageio
+timm
+
+# pip install --no-build-isolation flash-attn
