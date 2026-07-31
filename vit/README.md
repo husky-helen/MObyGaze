@@ -1,4 +1,4 @@
-# ViT experiments on MObyGaze
+# XCLIP+Transf experiments on MObyGaze
 
 We train models in a two-stage fashion : first training a "representation model"
 (that may simply be the representation component of a standard classification model),
@@ -118,7 +118,7 @@ two_stage_train(
   # Thanks to checkpointing, test can easily be performed in a subsequent script
   gpu_index=3, # we run the model on GPU 3
   # TYPE OF REPRESENTATION TRAINING
-  representation_architecture="vit", # ViT model architecture
+  representation_architecture="vit", # XCLIP+Transf model architecture
   pool="cls-pooling", # CLS-pooling in the Transformers architecture
   representation_loss="CE", # we use cross-entropy loss
   # TYPE OF CLASSIFICATION TRAINING
