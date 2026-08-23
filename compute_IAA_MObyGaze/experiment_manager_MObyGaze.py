@@ -11,13 +11,15 @@ import utils
 import visualizations
 import granularity
 from granularity import SeqRange, VectorRange, TaggedString, cluster_decomp, create_oracle_decomp_fn, vr_from_string
-from eval_functions import eval_f1, iou_score_multi, rmse, oks_score_multi, _oks_score, gleu, gleu2way, bleu, bleu2way, ted_distance
+from eval_functions import eval_f1,  evalSimAtIoU, evalSimAtIoU_binary, iou_score_multi, rmse, oks_score_multi, _oks_score, gleu, gleu2way, bleu, bleu2way, ted_distance
 import merge_functions
 import agreement
 from sim_parser import evalb
 from sim_ranker import kendaltauscore
 from sim_keypoints import KeypointSimulator
 import ner_alignment
+from functools import partial
+import ast
 
 def label2tvr(label, default=None):
     return default if label is None else [SeqRange(l) for l in label]
@@ -262,13 +264,13 @@ class BBExperiment(DecompositionExperiment):
 
 #MObyGaze-modif
 class NERExperiment_MObyGaze(DecompositionExperiment):
-    def __init__(self, eval_fn=None, dist_fn=None, **kwargs):
+    def __init__(self, eval_fn=None, dist_fn=None, D0=0, D1=1, D2=2, IoUthresh=0.5, **kwargs):
         if eval_fn is None:
             eval_fn = lambda x,y: eval_f1(x, y, strict_range=False, strict_tag=False, str_spans=False)
         if dist_fn is None:
             dist_fn = lambda x,y: 1 - eval_f1(x, y, strict_range=False, strict_tag=False, str_spans=False)
         super().__init__(eval_fn, "annotation", "item", "worker", dist_fn)
-        self.data_dir = "/PATH_TO_CSV_FOLDER/" # TO BE SET BY THE USER
+        self.data_dir = "/PATH/TO/mobygaze_dataframe.csv" # TO BE SET BY USER: path to mobygaze_dataframe.csv
         self.common_films_ids = ['tt0097576', 'tt0110912', 'tt0375679', 'tt0970416', 'tt1193138',\
                                   'tt1568346', 'tt1907668', 'tt0108160', 'tt0119822', 'tt0467406', 'tt1045658',\
                                       'tt1285016', 'tt1570728', 'tt2267998', 'tt0109830', 'tt0120338', 'tt0822832', 'tt1142988', 'tt1454029', 'tt1632708']
@@ -277,6 +279,7 @@ class NERExperiment_MObyGaze(DecompositionExperiment):
         self.random_concept_same_cutting = None
         self.n_factor = 1
         #self.gold_dir = "../seqcrowd-acl17/task1/val/ground_truth/"
+        self.D0, self.D1, self.D2, self.IoUthresh = D0, D1, D2, IoUthresh
 
     def setup(self, concept=None, random_concept_same_cutting=None, n_factor=None):
 
@@ -292,14 +295,14 @@ class NERExperiment_MObyGaze(DecompositionExperiment):
             df_annots = pd.read_csv(film_annotfile, sep=";")
             annotators = df_annots['annotator'].unique()
             for ind, ann in enumerate(annotators):
-                if "annotator_2" in ann:
+                if "annotator2" in ann:
                     ind_a2 = ind
-                elif "annotator_1" in ann:
+                elif "annotator1" in ann:
                     ind_a1 = ind
             name_a = annotators[ind_a2]
             name_b = annotators[ind_a1]
             for film_id in common_films_ids:
-                print(film_id)
+                #print(film_id)
                 df_annA = df_annots[(df_annots['imdb_key'] == film_id) & (df_annots['annotator'] == name_a)].reset_index(drop=True)
                 df_annB = df_annots[(df_annots['imdb_key'] == film_id) & (df_annots['annotator'] == name_b)].reset_index(drop=True)
                                 
@@ -342,10 +345,13 @@ class NERExperiment_MObyGaze(DecompositionExperiment):
                         clip_tag = df_ann['label'][clip_ind]
                         if self.concept is not None:
                             list_concepts = df_ann['concepts'][clip_ind]
-                            if self.concept in list_concepts:
-                                clip_tag = self.concept
+                            list_concepts = ast.literal_eval(list_concepts)
+                            if set(self.concept) & set(list_concepts): # check lists overlap
+                                #clip_tag = self.concept
+                                clip_tag = "presence"
                             else:
-                                clip_tag = 'not' + self.concept
+                                #clip_tag = 'not' + self.concept
+                                clip_tag = "absence"
                         if self.loose_tag is not None:
                                 clip_tag = ''
                         newspan = {"range":[df_ann['start_frame'][clip_ind]-offset_scene, df_ann['end_frame'][clip_ind]-offset_scene], "tag": clip_tag}
@@ -380,7 +386,7 @@ class NERExperiment_MObyGaze(DecompositionExperiment):
                         result.append(sr)
                 return result
 
-        self.concept = concept #"Body"
+        self.concept = concept
         self.random_concept_same_cutting = random_concept_same_cutting #1
         self.n_factor = n_factor #5
         #self.loose_tag = 1
@@ -662,31 +668,96 @@ def test_NER(debug=True):
 
     return test_iaa(NERExperiment, dist_fns, n_splits=10, cache_item_errors=False)
 
+"""
 def test_MObyGaze(debug=True):
+    D0, D1, D2, IoUthresh = 0, 1, 10, 0.5
+    
     eval_fns = {}
     dist_fns = {}
-    #eval_fns["strict range strict tag"] = lambda x, y: eval_f1(x, y, strict_range=True, strict_tag=True, str_spans=True)
-    #eval_fns["strict range lenient tag"] = lambda x, y: eval_f1(x, y, strict_range=True, strict_tag=False, str_spans=True)
     eval_fns["lenient range strict tag"] = lambda x, y: eval_f1(x, y, strict_range=False, strict_tag=True, str_spans=True)
-    #eval_fns["lenient range lenient tag"] = lambda x, y: eval_f1(x, y, strict_range=False, strict_tag=False, str_spans=True)
-    #dist_fns["strict range strict tag"] = lambda x, y: 1 - eval_f1(x, y, strict_range=True, strict_tag=True, str_spans=True)
-    #dist_fns["strict range lenient tag"] = lambda x, y: 1 - eval_f1(x, y, strict_range=True, strict_tag=False, str_spans=True)
-    dist_fns["lenient range strict tag"] = lambda x, y: 1 - eval_f1(x, y, strict_range=False, strict_tag=True, str_spans=True)
-    #dist_fns["lenient range lenient tag"] = lambda x, y: 1 - eval_f1(x, y, strict_range=False, strict_tag=False, str_spans=True)
+    ####dist_fns["lenient range strict tag"] = lambda x, y: 1 - eval_f1(x, y, strict_range=False, strict_tag=True, str_spans=True)
+    #####concepts
 
-    ##MObyGaze-modif return test_experiment("NER", NERExperiment, eval_fns, dist_fns, debug=debug)
-    ##MObyGaze-modif: comment below to run IAA on concepts
-    #return test_iaa(NERExperiment_MObyGaze, dist_fns, n_splits=10, cache_item_errors=False)
-
-    # run analysis over all concepts
-    concept_list = ['Type', 'Look', 'Body', 'Pos', 'Cloth', 'App', 'Activ', 'Exp', 'Voi', 'Speech', 'Sound']
-    random_concept_same_cutting = 1
     n_factor = 5
-    for concept in concept_list:
-        print(concept)
-        test_iaa(NERExperiment_MObyGaze, dist_fns, n_splits=10, cache_item_errors=False, concept=concept, random_concept_same_cutting=random_concept_same_cutting, n_factor=n_factor)
+
+    concept_list = None 
+
+    ####concepts
+    #concept_list = ['Type of shot', 'Look']#['Type of shot', 'Look', 'Body', 'Posture', 'Clothing', 'Appearance', 'Activities', 'Exp of emotion', 'Voice', 'Speech', 'Soundtrack']
+    random_concept_same_cutting = None
+
+    if concept_list is None:
+        tag = f"evalSimAtIoU_D{D0}-{D1}-{D2}_IoU{IoUthresh}"
+        dist_fns[tag] = partial(evalSimAtIoU, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+        print(f"\n")
+        print(tag)
+        exp_cls = partial(NERExperiment_MObyGaze, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+        test_iaa(exp_cls, dist_fns, n_splits=10, cache_item_errors=False, concept=concept_list, random_concept_same_cutting=random_concept_same_cutting, n_factor=n_factor)
+    else:
+        tag = f"evalSimAtIoU_binary_D{D0}-{D1}-{D2}_IoU{IoUthresh}"
+        dist_fns["binary IoU"] = partial(evalSimAtIoU_binary, D0=D0, D2=D2, IoUthresh=IoUthresh)
+        print(f"\n")
+        print(tag)
+        print(concept_list)
+        exp_cls = partial(NERExperiment_MObyGaze, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+        test_iaa(exp_cls, dist_fns, n_splits=10, cache_item_errors=False, concept=concept_list, random_concept_same_cutting=random_concept_same_cutting, n_factor=n_factor)
+    return 0
+"""
+def test_MObyGaze(distance_choice="evalSimAtIoU", D0=0, D1=1, D2=10, IoUthresh=0.5, debug=True):
+    '''
+    distance_choice: which distance function to use for the IAA computation:
+      * "evalSimAtIoU" (default): the evolved IoU/label-distance metric. Uses the 3-label
+        (EN/HN/S, D0/D1/D2) variant `evalSimAtIoU` when `concept_list` is None (whole-item
+        objectification labels), or the binary (presence/absence, D0/D2) variant
+        `evalSimAtIoU_binary` when `concept_list` is set (individual concepts).
+      * "eval_f1": the original baseline distance, 1 - eval_f1(lenient range, strict tag).
+        D0/D1/D2/IoUthresh are ignored in this case.
+    '''
+    if distance_choice not in ("evalSimAtIoU", "eval_f1"):
+        raise ValueError(f"Unknown distance_choice {distance_choice!r}: expected 'evalSimAtIoU' or 'eval_f1'")
+
+    eval_fns = {}
+    dist_fns = {}
+    eval_fns["lenient range strict tag"] = lambda x, y: eval_f1(x, y, strict_range=False, strict_tag=True, str_spans=True)
+    #####concepts
+
+    n_factor = 5
+
+    concept_list = None 
+
+    ####concepts
+    #concept_list = ['Type of shot', 'Look']#['Type of shot', 'Look', 'Body', 'Posture', 'Clothing', 'Appearance', 'Activities', 'Exp of emotion', 'Voice', 'Speech', 'Soundtrack']
+    random_concept_same_cutting = None
+    is_binary = concept_list is not None
+
+    if distance_choice == "eval_f1":
+        tag = "1-eval_f1_lenient_range_strict_tag"
+        dist_fns[tag] = lambda x, y: 1 - eval_f1(x, y, strict_range=False, strict_tag=True, str_spans=True)
+        exp_cls = NERExperiment_MObyGaze
+    else:  # distance_choice == "evalSimAtIoU"
+        if is_binary:
+            tag = f"evalSimAtIoU_binary_D{D0}-{D2}_IoU{IoUthresh}"
+            dist_fns[tag] = partial(evalSimAtIoU_binary, D0=D0, D2=D2, IoUthresh=IoUthresh)
+        else:
+            tag = f"evalSimAtIoU_D{D0}-{D1}-{D2}_IoU{IoUthresh}"
+            dist_fns[tag] = partial(evalSimAtIoU, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+        exp_cls = partial(NERExperiment_MObyGaze, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+
+    print(f"\n{tag}")
+    print(concept_list)
+    test_iaa(exp_cls, dist_fns, n_splits=10, cache_item_errors=False, concept=concept_list, random_concept_same_cutting=random_concept_same_cutting, n_factor=n_factor)
     return 0
 
+def test_MObyGaze_sweep(configs, debug=True):
+    # configs = [(D0,D1,D2,IoUthresh), ...]
+    dist_fns = {}
+    for D0, D1, D2, IoUthresh in configs:
+        tag = f"evalSimAtIoU_D{D0}-{D1}-{D2}_IoU{IoUthresh}"
+        dist_fns[tag] = partial(evalSimAtIoU, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+        print(tag)
+        exp_cls = partial(NERExperiment_MObyGaze, D0=D0, D1=D1, D2=D2, IoUthresh=IoUthresh)
+        test_iaa(exp_cls, dist_fns, n_splits=10, cache_item_errors=False, concept=None, random_concept_same_cutting=None, n_factor=5)
+    
 def spam(expmnt, frac_spammers):
     uids = expmnt.annodf.groupby(expmnt.uid_colname)[expmnt.label_colname].count().sort_values(ascending=False).index
     n_skip = np.round(1 / frac_spammers).astype(int)
@@ -772,10 +843,10 @@ def test_iaa(experiment_cls, distance_fns, n_splits=10, cache_item_errors=False,
         print('iaa.get_ks(): ', ks) 
         print('iaa.get_sigma(): ', sig)
         if the_exp.concept is not None:
-            iaa.plot_distance_distributions(title = the_exp.concept + ', krip=' + str(round(krip,2)) + ', ks=' + str(round(ks,2)) + ', sigma=' + str(round(sig,2)))
+            iaa.plot_distance_distributions(title = "IoU_all_films_concept_" + ', krip=' + str(round(krip,2)) + ', ks=' + str(round(ks,2)) + ', sigma=' + str(round(sig,2)))
         else:
             #iaa.plot_distance_distributions(title = "_".join(the_exp.common_films_ids) + ', krip=' + str(round(krip,2)) + ', ks=' + str(round(ks,2)) + ', sigma=' + str(round(sig,2)))
-            iaa.plot_distance_distributions(title = "all_films_" + ', krip=' + str(round(krip,2)) + ', ks=' + str(round(ks,2)) + ', sigma=' + str(round(sig,2)))
+            iaa.plot_distance_distributions(title = "IoU_all_films_obj_" + ', krip=' + str(round(krip,2)) + ', ks=' + str(round(ks,2)) + ', sigma=' + str(round(sig,2)))
         return
         items_to_split = [6] ##########TO REVERSE#########
         mini_iaas = agreement.split_iaa_by_item(iaa, split_items=items_to_split)
@@ -854,4 +925,10 @@ def test_dist_vs_eval(experiment_cls, distance_fns, inv_eval_fns=None, export_de
 
 
 if __name__ == '__main__':
-    test_MObyGaze()
+    # FIRST SET LINE 273: path to mobygaze_dataframe.csv
+    test_MObyGaze(distance_choice="evalSimAtIoU") #"eval_f1"
+
+    ##configs = [(D0,D1,D2,IoUthresh), ...]
+    #configs = [(0,1,4,0.0001), (0,1,4,0.01), (0,1,4,0.1), (0,1,4,0.2), (0,1,4,0.3), (0,1,4,0.4), (0,1,4,0.5), (0,1,4,0.6), (0,1,4,0.7), (0,1,4,0.8), (0,1,4,0.9), (0,1,4,0.95), (0,1,4,0.999)]
+    #configs = [(0,1,4,0.999)]
+    #test_MObyGaze_sweep(configs, debug=True)

@@ -175,7 +175,7 @@ class InterAnnotatorAgreement(DoDa):
         else:
             same_item = np.array([[np.nan if item_a != item_b else 1 for item_a in self.items] for item_b in self.items])
             same_item_ij = halfwhere(np.where(~np.isnan(same_item)))
-            print("Calculating same-item distances")
+            #print("Calculating same-item distances")
             same_item_distM = gdm(self.all_labels, self.distance_fn, label_ij=same_item_ij)
             self.observed_distances = same_item_distM[same_item_ij]
             self.items_of_distances = get_pair_sets(self.items, same_item_ij)
@@ -186,11 +186,11 @@ class InterAnnotatorAgreement(DoDa):
             if subsample_expected_distances:
                 nsample = min(len(same_item_ij[0]), len(different_item_ij[0]))
                 #MObyGaze-modif
-                nsample = 10 * nsample
+                nsample = 20 * nsample
                 ###
                 sample_i = np.random.choice(np.arange(len(different_item_ij[0])), size=nsample)
                 different_item_ij = (different_item_ij[0][sample_i], different_item_ij[1][sample_i])
-                print("Calculating different-item distances")
+                #print("Calculating different-item distances")
                 different_item_distM = gdm(self.all_labels, self.distance_fn, label_ij=different_item_ij)
                 same_item_nonnan = np.where(~np.isnan(same_item_distM))
                 different_item_nonnan = np.where(~np.isnan(different_item_distM))

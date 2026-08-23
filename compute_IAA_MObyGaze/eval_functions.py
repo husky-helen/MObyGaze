@@ -70,6 +70,105 @@ def eval_f1(a_spans, b_spans, strict_range, strict_tag, str_spans):
     denom = (p + r)
     return 2 * p * r / denom if denom > 0 else 0
 
+################## START OF ADDITIONS IoUthresh##############
+
+MOBYGAZE_LABEL_ORDER = ("Easy Negative", "Hard Negative", "Sure")  # Easy Negative, Hard Negative, Sure (ordinal scale)
+MOBYGAZE_NOT_SURE_TAG = "Not Sure"
+
+def _span_iou_1d(span_a, span_b):
+    a_start, a_end = span_a.startend
+    b_start, b_end = span_b.startend
+    inter = max(0.0, min(a_end, b_end) - max(a_start, b_start))
+    union = (a_end - a_start) + (b_end - b_start) - inter
+    #return 0.0 if union <= 0 else inter / union
+    return 0.0 if union <= 0 else inter / min(union, (a_end - a_start))
+
+def _discard_not_sure(spans, label_order):
+    return [s for s in spans if s.tag in label_order]
+
+def _label_ordinal_distance(label_a, label_b, D0, D1, D2, label_order):
+    if label_a not in label_order or label_b not in label_order:
+        raise ValueError(f"Unknown label(s) {label_a!r}/{label_b!r}: expected one of {label_order}")
+    hops = abs(label_order.index(label_a) - label_order.index(label_b))
+    if hops == 0: return D0
+    elif hops == 1: return D1
+    else: return D2
+
+def _closest_span_distance(ref_span, other_spans, D0, D1, D2, IoUthresh, label_order, no_match_distance):
+    candidates = [(o, _span_iou_1d(ref_span, o)) for o in other_spans]
+    candidates = [(o, iou) for o, iou in candidates if iou >= IoUthresh]
+    if not candidates:
+        return no_match_distance
+    dists = [(_label_ordinal_distance(ref_span.tag, o.tag, D0, D1, D2, label_order), iou) for o, iou in candidates]
+    dists.sort(key=lambda du: (du[0], -du[1]))  # lowest label distance, tie -> highest IoU
+    return dists[0][0]
+
+def evalSimAtIoU(a_spans, b_spans, D0, D1, D2, IoUthresh, label_order=MOBYGAZE_LABEL_ORDER, no_match_distance=None):
+    if not (D0 <= D1 <= D2):
+        raise ValueError(f"Distance parameters must satisfy D0 <= D1 <= D2, got D0={D0}, D1={D1}, D2={D2}")
+    if no_match_distance is None:
+        no_match_distance = D2
+
+    a_spans = _discard_not_sure(a_spans, label_order)
+    b_spans = _discard_not_sure(b_spans, label_order)
+
+    def _avg_distance(ref_spans, other_spans):
+        if not ref_spans:
+            return 0.0
+        dists = [_closest_span_distance(s, other_spans, D0, D1, D2, IoUthresh, label_order, no_match_distance)
+                 for s in ref_spans]
+        return float(np.mean(dists))
+
+    avg_a_ref = _avg_distance(a_spans, b_spans)
+    avg_b_ref = _avg_distance(b_spans, a_spans)
+    return (avg_a_ref + avg_b_ref) / 2
+
+########### SAME BUT FOR BINARY CONCEPT (LIST)##############
+
+MOBYGAZE_BINARY_LABEL_ORDER = ("absence", "presence")
+MOBYGAZE_PRESENCE_TAG = "presence"
+MOBYGAZE_ABSENCE_TAG = "absence"
+
+def _keep_only_presence(spans, presence_tag=MOBYGAZE_PRESENCE_TAG):
+    return [s for s in spans if s.tag == presence_tag]
+
+def _binary_label_distance(label_a, label_b, D0, D2, label_order=MOBYGAZE_BINARY_LABEL_ORDER):
+    if label_a not in label_order or label_b not in label_order:
+        raise ValueError(f"Unknown label(s) {label_a!r}/{label_b!r}: expected one of {label_order}")
+    return D0 if label_a == label_b else D2
+
+def _closest_span_distance_binary(ref_span, other_spans, D0, D2, IoUthresh, label_order, no_match_distance):
+    candidates = [(o, _span_iou_1d(ref_span, o)) for o in other_spans]
+    candidates = [(o, iou) for o, iou in candidates if iou >= IoUthresh]
+    if not candidates:
+        return no_match_distance
+    dists = [(_binary_label_distance(ref_span.tag, o.tag, D0, D2, label_order), iou) for o, iou in candidates]
+    dists.sort(key=lambda du: (du[0], -du[1]))
+    return dists[0][0]
+
+def evalSimAtIoU_binary(a_spans, b_spans, D0, D2, IoUthresh, label_order=MOBYGAZE_BINARY_LABEL_ORDER,
+                         presence_tag=MOBYGAZE_PRESENCE_TAG, no_match_distance=None):
+    if not (D0 <= D2):
+        raise ValueError(f"Distance parameters must satisfy D0 <= D2, got D0={D0}, D2={D2}")
+    if no_match_distance is None:
+        no_match_distance = D2
+
+    a_ref_spans = _keep_only_presence(a_spans, presence_tag)
+    b_ref_spans = _keep_only_presence(b_spans, presence_tag)
+
+    def _avg_distance(ref_spans, other_spans):
+        if not ref_spans:
+            return 0.0
+        dists = [_closest_span_distance_binary(s, other_spans, D0, D2, IoUthresh, label_order, no_match_distance)
+                 for s in ref_spans]
+        return float(np.mean(dists))
+
+    avg_a_ref = _avg_distance(a_ref_spans, b_spans)
+    avg_b_ref = _avg_distance(b_ref_spans, a_spans)
+    return (avg_a_ref + avg_b_ref) / 2
+
+################## END OF ADDITIONS IoUthresh##############
+
 def _score_multi(thingsA, thingsB, score_fn, combine_fn=None, **kwargs):
     scoresA = [np.max([score_fn(thingA, thingB, **kwargs) for thingB in thingsB] + [0]) for thingA in thingsA]
     scoresB = [np.max([score_fn(thingA, thingB, **kwargs) for thingA in thingsA] + [0]) for thingB in thingsB]
