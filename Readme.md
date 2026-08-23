@@ -2,6 +2,29 @@
 This repository stores the dataset and code introduced in the submitted article *MObyGaze: a film dataset of multimodal objectification densely annotated by experts*.
 The MObyGaze dataset is described in the Croissant format for machine learning dataset, in the metadata.json file. This file specifies the resource file descriptions and data structure. 
 
+## Installation
+
+To avoid any problem when cloning the repository, we recommend first running :
+```
+git config --global core.longpaths true
+```
+
+Then, you can clone the repository using :
+```
+git clone https://github.com/husky-helen/MObyGaze.git
+```
+
+As this work gathers various approaches, this repository contains several folders. 
+[`mllm/`](mllm/) and [`vit/`](vit/) should be treated as repositories on their own, containing their own README and installation instructions.
+
+## Preliminary feature extraction
+
+[`XCLIP_extract_clip_features.py`](mllm/extract_xclip_features/XCLIP_extract_clip_features.py)
+contains the code for extracting XCLIP features from video files.
+It uses [`xclip-base-patch32-16-frames`](https://huggingface.co/microsoft/xclip-base-patch32-16-frames)
+as feature extractor.
+You can easily adapt this code for it to match with the organization of your video files.
+
 ## Repository Structure
 
 ### Dataset 
