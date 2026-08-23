@@ -23,6 +23,7 @@ The files describing the conda environment used for the various task will be fou
 ### Citations
 If you use this datset, please cite:  
 >Elisa Ancarani, Julie Tores, Lucile Sassatelli, Hui-Yin Wu, Remy Sun, Paul Mouret, Clement Bergman, Lea Andolfi, Victor Ecrement, Thierry Devars, Magali Guaresi, Virginie Julliard, Sarah Lecossais, Frederic Precioso. 2026. MObyGaze: a film dataset of multimodal objectification densely annotated by experts. PMLR Data-centric Machine Learning Research. Available at: https://openreview.net/forum?id=ai2PAWRIVA
+>https://arxiv.org/abs/2505.22084
 
 This dataset has been used in the following articles:  
 - Julie Tores, Elisa Ancarani, Remy Sun, Lucile Sassatelli, Hui-Yin Wu, and Frederic Precioso. Re-examining concept-based explainable models for multimodal interpretative tasks. In Proceedings of the 33rd ACM International Conference on Multimedia (MM ’25), pages 12437–12445, New York, NY, USA, 2025. Association for Computing Machinery. doi : 10.1145/3746027.3758170.
