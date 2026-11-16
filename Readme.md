@@ -2,6 +2,8 @@
 This repository stores the dataset and code introduced in the submitted article *MObyGaze: a film dataset of multimodal objectification densely annotated by experts*.
 The MObyGaze dataset is described in the Croissant format for machine learning dataset, in the metadata.json file. This file specifies the resource file descriptions and data structure. 
 
+Our dataset is now on [HuggingFace](https://huggingface.co/datasets/eliys/MObyGaze)
+
 ## Installation
 
 To avoid any problem when cloning the repository, we recommend first running :
